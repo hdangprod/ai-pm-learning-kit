@@ -1,0 +1,26 @@
+[
+  {
+    "path": "/workspace/scratch/f79bcfc714cb/tmp/audit_inputs/[Dang] - [PM]/Tap_I_Nen_tang.pdf",
+    "name": "Tap_I_Nen_tang.pdf",
+    "sha256": "649b16ee7a598cc0c229267b75a4715f61bbd6ef390fe4920580b8b4b016718a",
+    "pages": 22,
+    "review": "All pages text read; identical text/pixels to previously visually verified originals",
+    "included_original": "originals/Tap_I_Nen_tang.pdf"
+  },
+  {
+    "path": "/workspace/scratch/f79bcfc714cb/tmp/audit_inputs/[Dang] - [PM]/Visual_Atlas_Tap_I_II.pdf",
+    "name": "Visual_Atlas_Tap_I_II.pdf",
+    "sha256": "3b63617fa9d191787b6c7dca1cadd86cecc8d65cf7428fac29a22f09e1df1183",
+    "pages": 11,
+    "review": "All pages text read; identical text/pixels to previously visually verified originals",
+    "included_original": "originals/Visual_Atlas_Tap_I_II.pdf"
+  },
+  {
+    "path": "/workspace/scratch/f79bcfc714cb/tmp/audit_inputs/[Dang] - [PM]/Tap_II_Nghien_cuu.pdf",
+    "name": "Tap_II_Nghien_cuu.pdf",
+    "sha256": "067157b0eb9b75b0414f072bda423629d7e3d1c85d93df211049b8874bf1f695",
+    "pages": 27,
+    "review": "All pages text read; identical text/pixels to previously visually verified originals",
+    "included_original": "originals/Tap_II_Nghien_cuu.pdf"
+  }
+]

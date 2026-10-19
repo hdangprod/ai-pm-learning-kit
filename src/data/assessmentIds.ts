@@ -1,0 +1,8 @@
+// Stable authored meanings, independent of presentation order. Never reuse an ID for another meaning.
+export const assessmentIds:Record<number,Record<'primary'|'transfer',string[][]>>={
+ 1:{primary:[['assessed-scope','eligible-generalization','causal-attribution']],transfer:[['unknown-outcomes','missing-failure','remove-eligible']]},
+ 2:{primary:[['ordered-users','event-row-unit','ignore-order-window','activity-learning-effect']],transfer:[['eligible-overall','step-denominator','immature-failure']]},
+ 3:{primary:[['descriptive-cohorts','activity-learning','onboarding-cause','any-time-activity'],['audit-composition','returner-selection','feature-from-rate']],transfer:[['right-censored','immature-zero','funnel-as-retention'],['pool-counts','mean-percentages','event-over-returner']]},
+ 4:{primary:[['weighted-reversal','pooled-universal','subgroup-universal','equal-weight'],['descriptive-assignment','segment-randomization','reversal-confounding'],['audit-and-compare','subgroup-rollout','pooled-rollout'],['points-vs-relative','points-as-percent']],transfer:[['subgroup-scope','product-denominator','individual-effect'],['illustrative-reweight','fixed-pooled','reweight-causal']]},
+ 5:{primary:[['activity-not-learning','activity-causal','later-randomized'],['composition-observed','acquisition-confirmed','stable-no-effect'],['designed-followup','before-after-random','proposal-as-result','nonsignificant-no-effect'],['relative-reference','individual-points','separate-as-baseline']],transfer:[['unknown-followup','missing-failure','complete-case-population','segment-treatment'],['audit-and-followup','success-selection','activity-imputation']]}
+};

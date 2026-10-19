@@ -1,0 +1,75 @@
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_data.py
+PASS M1: original CSV counts, bounds inputs and independent arithmetic
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_funnel.py
+PASS M2: 12 users / 28 rows / 27 IDs; mature8→6→4, novice4→4→4, experienced4→2→0, immature0→0→0; step66.6667%, overall50%.
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_retention.py
+PASS M3: Oct1 2/4=50%, Oct8 1/4=25%, Oct15 unavailable, pooled3/8=37.5%; mature zero, D7/D8 edges, duplicate feedback without funnel; original fixture unchanged and declared fork verified.
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_simpson.py
+PASS M4: subgroup20/80 vs30/90%; pooled74% vs36%; B-A +10pp in both groups, -38pp pooled, -51.35135% relative; common50/50 ->50%/60%, all101 common weights ->+10pp; original weekly example is not strict reversal.
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_causal.py
+PASS M5 original CSV: rows80/240/64/48,20/80/10/4,40/160/32/24,60/300/15/6; weekly100/320/74/52 and100/460/47/30; sessions+43.75%, coverage74%->47%=-27pp; assessed pass70.27%->63.83%; W2 novice15/60=25%,45 unknown; reverse relative=-30.43478%; source, public and typed copies agree.
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_decision.py
+PASS M6 scenario: capacities12/8/4h; listed totals12/6/8/6h, reduced4/3/4/2h; capacity2h excludes listed A but permits reduced A and all reduced plans; coverage4/8=50%,4 unknown; 3 variants, 6 evidence origins, separate incumbent-success transfer; rubric5×0–2=0–10 (243 combinations); source/download hashes match.
+$ /usr/local/opt/python@3.11/bin/python3.11 materials/AI_PM_Audit_Upgrade_I_II/instructor/verify_learning.py
+{
+  "cohort_week_1": {
+    "eligible": 100,
+    "sessions": 320,
+    "assessed": 74,
+    "passed": 52,
+    "sessions_per_eligible": 3.2,
+    "coverage": 0.74,
+    "observed_pass": 0.7027027027027027,
+    "lower_bound": 0.52,
+    "upper_bound": 0.78
+  },
+  "cohort_week_2": {
+    "eligible": 100,
+    "sessions": 460,
+    "assessed": 47,
+    "passed": 30,
+    "sessions_per_eligible": 4.6,
+    "coverage": 0.47,
+    "observed_pass": 0.6382978723404256,
+    "lower_bound": 0.3,
+    "upper_bound": 0.83
+  },
+  "payback_vnd": {
+    "5": 491412.0,
+    "6": 562270.8,
+    "7": 626043.7200000001
+  },
+  "limitation": "Synthetic arithmetic checks, not causal or market validation"
+}
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_assessment_workflow.py
+Created one assigned form. Deliver only the learner directory; retain session.json, worksheet and sealed card with the moderator.
+Initial memo archived and hashed. Assigned change card released; original memo remains separate from revision.
+Created one assigned form. Deliver only the learner directory; retain session.json, worksheet and sealed card with the moderator.
+Initial memo archived and hashed. Assigned change card released; original memo remains separate from revision.
+Created one assigned form. Deliver only the learner directory; retain session.json, worksheet and sealed card with the moderator.
+Initial memo archived and hashed. Assigned change card released; original memo remains separate from revision.
+{"authored_test_records_not_learner_data": true, "workflow_checks": 43, "all_pass": true}
+$ /usr/local/opt/python@3.11/bin/python3.11 scripts/verify_remediation_preservation.py
+PASS unchanged docs/STUDY_PLAN_MAPPING.md 9147d97f2d6e8addde31223d49cd7552c3da089b6832ca29712ff431162a3882
+PASS unchanged package.json 86c69842a148a6053a24f1776d63308889fc5b4f72d21a5d61570c5b5246d5e5
+PASS unchanged package-lock.json 0677cf4316a4770e4b4c7e31d67aae41f29f0742b298a41852a6eda9bf7a36a1
+PASS unchanged LEARNING_EXPERIENCE_SPEC.md af53dfc512758a380190a50cf6dbd493ae73ff9391808a400a8adb95dc7c14d5
+PASS unchanged INTERACTIVE_EXERCISE_SPEC.md 26d0d08b0823447c79528724c68713a7b248b57a6129444acd98272b019fee59
+PASS unchanged UI_UX_SPEC.md 4eb4136069124d25ca4b9774b1179d2a8b6f9512e97873f9ddaf00e8dbbbe027
+PASS unchanged TECHNICAL_ACCEPTANCE_CRITERIA.md 4462bee79b0225ffb95cc602f22b2207abc5c182034b92ce65eb40c9440e3bc8
+Traceback (most recent call last):
+  File "/Users/dangnguyen/Desktop/AI PM Learning Kit/scripts/verify_remediation_preservation.py", line 9, in <module>
+    assert hashlib.sha256(archive.read_bytes()).hexdigest()=='6043e555ce111e6d8e795115da1c936361231e94db00a7b50e62188e7a6f7acd'
+                          ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 1050, in read_bytes
+    with self.open(mode='rb') as f:
+         ^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/Cellar/python@3.11/3.11.2/Frameworks/Python.framework/Versions/3.11/lib/python3.11/pathlib.py", line 1044, in open
+    return io.open(self, mode, buffering, encoding, errors, newline)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: '/Users/dangnguyen/Desktop/AI PM Learning Kit/docs/AI_PM_EDUCATIONAL_AUDIT_20261019.zip'
+Traceback (most recent call last):
+  File "<stdin>", line 4, in <module>
+  File "/usr/local/Cellar/python@3.11/3.11.2/Frameworks/Python.framework/Versions/3.11/lib/python3.11/subprocess.py", line 571, in run
+    raise CalledProcessError(retcode, process.args,
+subprocess.CalledProcessError: Command '['/usr/local/opt/python@3.11/bin/python3.11', 'scripts/verify_remediation_preservation.py']' returned non-zero exit status 1.

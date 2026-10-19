@@ -1,0 +1,131 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:52148) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:52168) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 32 tests using 6 workers
+
+  ✓   5 [desktop] › tests/browser/consistency.spec.cjs:9:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (4.0s)
+  ✓   6 [desktop] › tests/browser/segmentation.spec.cjs:10:1 › M4 observed rates, source separation and keyboard reweighting (5.0s)
+  ✓   2 [desktop] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (5.3s)
+  ✓   3 [desktop] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (6.5s)
+  ✓   4 [desktop] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (7.0s)
+  ✓   9 [desktop] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (3.0s)
+  ✓   7 [desktop] › tests/browser/consistency.spec.cjs:14:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (4.7s)
+  ✓  11 [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (2.5s)
+  ✓  12 [desktop] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.4s)
+  ✓   8 [desktop] › tests/browser/segmentation.spec.cjs:26:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (5.7s)
+  ✓  10 [desktop] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (4.9s)
+  ✓  13 [desktop] › tests/browser/segmentation.spec.cjs:40:1 › M4 unavailable storage reports unsaved work and keeps session reflection (1.5s)
+  ✓  14 [desktop] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (1.2s)
+  ✓  16 [mobile] › tests/browser/consistency.spec.cjs:9:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (2.5s)
+  ✓  19 [mobile] › tests/browser/consistency.spec.cjs:14:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (3.8s)
+  ✓  18 [mobile] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (6.2s)
+  ✓  21 [mobile] › tests/browser/segmentation.spec.cjs:10:1 › M4 observed rates, source separation and keyboard reweighting (4.8s)
+  ✓  22 [mobile] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (2.5s)
+  ✓  17 [mobile] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (9.8s)
+  ✓  20 [mobile] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (7.1s)
+  ✓  24 [mobile] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.3s)
+  ✓  25 [mobile] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (2.1s)
+  ✓  23 [mobile] › tests/browser/segmentation.spec.cjs:26:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (5.1s)
+  ✓  26 [mobile] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (5.0s)
+  ✓  27 [mobile] › tests/browser/segmentation.spec.cjs:40:1 › M4 unavailable storage reports unsaved work and keeps session reflection (1.3s)
+  ✓  28 [mobile] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (1.1s)
+  ✘   1 [desktop] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (30.2s)
+  ✘  15 [mobile] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (30.1s)
+  ✘  29 [desktop] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (30.1s)
+  ✓  31 [desktop] › tests/browser/causal.spec.cjs:31:1 › M5 unavailable storage warns and preserves session notes (804ms)
+  ✘  30 [mobile] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (30.1s)
+  ✓  32 [mobile] › tests/browser/causal.spec.cjs:31:1 › M5 unavailable storage warns and preserves session notes (781ms)
+
+
+  1) [desktop] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Compare learner segment', { exact: true })
+
+
+      10 | test('M5 observed arithmetic, explanatory controls, study design and keyboard access',async({page,request},testInfo)=>{
+      11 |  const errors=[];page.on('pageerror',e=>errors.push(e.message));await open(page);const region=page.getByRole('region',{name:'Causal reasoning workbench'});await expect(region.getByText('+43.75%',{exact:true})).toBeVisible();await expect(region.getByText('-27.00 pp',{exact:true})).toBeVisible();await expect(region.getByText('-6.44 pp',{exact:true})).toBeVisible();await page.screenshot({path:`docs/verification/module-five-${testInfo.project.name}-viewport.png`});
+    > 12 |  await page.getByLabel('Compare learner segment',{exact:true}).selectOption('novice');await expect(page.getByRole('img',{name:'Week 2: 25.00% assessed; 45 outcomes unknown'})).toBeVisible();await expect(region.getByText('+275.00%',{exact:true})).toBeVisible();await page.getByLabel('Observed rate',{exact:true}).selectOption('passRate');await expect(page.getByRole('button',{name:'Week 2 40.00%'})).toBeVisible();await page.getByLabel('Reference → comparison',{exact:true}).selectOption('reverse');await expect(region.getByText('-73.33%',{exact:true})).toBeVisible();await page.getByLabel('Compare learner segment',{exact:true}).selectOption('experienced');await expect(region.getByText('+50.00%',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Reset observed comparison'}).click();
+         |                                                                ^
+      13 |  await page.getByRole('button',{name:'Week 1 74.00%'}).focus();await page.keyboard.press('Enter');await expect(page.getByText(/74\/100 assessed \/ eligible = 74.00%/)).toBeVisible();
+      14 |  const table=page.getByRole('region',{name:'Original weekly evidence table'});await table.focus();await expect(table).toBeFocused();if(await table.evaluate(el=>el.scrollWidth>el.clientWidth)){await page.keyboard.press('ArrowRight');await expect.poll(()=>table.evaluate(el=>el.scrollLeft)).toBeGreaterThan(0);}await table.evaluate(el=>el.scrollLeft=0);
+      15 |  await page.getByRole('region',{name:'Missing assessment follow-up'}).screenshot({path:`docs/verification/module-five-${testInfo.project.name}-workbench.png`});
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/causal.spec.cjs:12:64
+
+    Error Context: test-results/causal-M5-observed-arithme-f4404--design-and-keyboard-access-desktop/error-context.md
+
+  2) [desktop] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Compare learner segment', { exact: true })
+
+
+      22 | test('M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset',async({page},testInfo)=>{
+      23 |  await open(page);const errors=[];page.on('pageerror',e=>errors.push(e.message));const exercise=page.getByRole('region',{name:'Practice exercise'}),reveal=page.getByRole('button',{name:'Reveal solution after an attempt'});
+    > 24 |  await page.getByLabel('What do you expect to find?').fill('More sessions might reflect mix rather than learning.');await page.getByRole('combobox',{name:'Compare learner segment',exact:true}).selectOption('novice');await page.getByRole('combobox',{name:'Reference → comparison',exact:true}).selectOption('reverse');await expect(reveal).toBeDisabled();await page.getByLabel('Primary calculation').fill('43.75');await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(page.getByRole('button',{name:'Try a different question'})).toHaveCount(0);await expect(reveal).toBeDisabled();
+         |                                                                                                                                                                                   ^
+      25 |  await page.getByLabel(reflection).fill('Compare delayed unaided skill and audit missing follow-up before rollout.');await page.getByLabel(interpretation,{exact:true}).check();await page.getByLabel(alternatives,{exact:true}).check();await page.getByLabel(study,{exact:true}).check();await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(reveal).toBeDisabled();await page.getByLabel('A 43.75 percentage-point gain in English learning for each individual.',{exact:true}).check();await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(exercise.getByRole('status')).toContainText('Weekly aggregates do not show individual learning change');await reveal.click();await expect(page.getByText('Instructor explanation',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Hide solution'}).click();await page.getByLabel(scope,{exact:true}).check();await page.getByLabel('Primary calculation').fill('140');await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(exercise.getByRole('status')).toContainText('140 is the extra session count');await page.getByLabel('Primary calculation').fill('43.75');await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(page.getByText('Instructor explanation',{exact:true})).toHaveCount(0);
+      26 |  await page.getByRole('button',{name:'Try a different question'}).click();await page.getByLabel('Transfer calculation').fill('25');await page.getByLabel('Treat all 45 missing assessments as failed learning.',{exact:true}).check();await page.getByLabel(followup,{exact:true}).check();await page.getByRole('button',{name:'Check transfer answer'}).click();await expect(page.getByText(/Practice verified/)).toHaveCount(0);await page.getByLabel(transfer,{exact:true}).check();await page.getByRole('button',{name:'Check transfer answer'}).click();await expect(page.getByText(/Practice verified/)).toBeVisible();await exercise.screenshot({path:`docs/verification/module-five-${testInfo.project.name}-feedback.png`});
+      27 |  await page.getByLabel('Record your decision, source, uncertainty, next check (owner + date), and what would change your mind.').fill('Source CSV is simulated. Ask research owner to audit missingness by Friday; revise after delayed unaided comparator evidence.');await page.reload();await page.getByRole('button',{name:/Correlation & causation/}).click();await expect(page.getByLabel(reflection)).toHaveValue('Compare delayed unaided skill and audit missing follow-up before rollout.');await expect(page.getByText(/Practice verified/)).toBeVisible();await expect(page.getByLabel('What do you expect to find?')).toHaveValue('More sessions might reflect mix rather than learning.');await expect(page.getByText('Instructor explanation',{exact:true})).toHaveCount(0);
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/causal.spec.cjs:24:179
+
+    Error Context: test-results/causal-M5-fixed-scope-prac-c752c--snapshots-and-scoped-reset-desktop/error-context.md
+
+  3) [mobile] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Compare learner segment', { exact: true })
+
+
+      10 | test('M5 observed arithmetic, explanatory controls, study design and keyboard access',async({page,request},testInfo)=>{
+      11 |  const errors=[];page.on('pageerror',e=>errors.push(e.message));await open(page);const region=page.getByRole('region',{name:'Causal reasoning workbench'});await expect(region.getByText('+43.75%',{exact:true})).toBeVisible();await expect(region.getByText('-27.00 pp',{exact:true})).toBeVisible();await expect(region.getByText('-6.44 pp',{exact:true})).toBeVisible();await page.screenshot({path:`docs/verification/module-five-${testInfo.project.name}-viewport.png`});
+    > 12 |  await page.getByLabel('Compare learner segment',{exact:true}).selectOption('novice');await expect(page.getByRole('img',{name:'Week 2: 25.00% assessed; 45 outcomes unknown'})).toBeVisible();await expect(region.getByText('+275.00%',{exact:true})).toBeVisible();await page.getByLabel('Observed rate',{exact:true}).selectOption('passRate');await expect(page.getByRole('button',{name:'Week 2 40.00%'})).toBeVisible();await page.getByLabel('Reference → comparison',{exact:true}).selectOption('reverse');await expect(region.getByText('-73.33%',{exact:true})).toBeVisible();await page.getByLabel('Compare learner segment',{exact:true}).selectOption('experienced');await expect(region.getByText('+50.00%',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Reset observed comparison'}).click();
+         |                                                                ^
+      13 |  await page.getByRole('button',{name:'Week 1 74.00%'}).focus();await page.keyboard.press('Enter');await expect(page.getByText(/74\/100 assessed \/ eligible = 74.00%/)).toBeVisible();
+      14 |  const table=page.getByRole('region',{name:'Original weekly evidence table'});await table.focus();await expect(table).toBeFocused();if(await table.evaluate(el=>el.scrollWidth>el.clientWidth)){await page.keyboard.press('ArrowRight');await expect.poll(()=>table.evaluate(el=>el.scrollLeft)).toBeGreaterThan(0);}await table.evaluate(el=>el.scrollLeft=0);
+      15 |  await page.getByRole('region',{name:'Missing assessment follow-up'}).screenshot({path:`docs/verification/module-five-${testInfo.project.name}-workbench.png`});
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/causal.spec.cjs:12:64
+
+    Error Context: test-results/causal-M5-observed-arithme-f4404--design-and-keyboard-access-mobile/error-context.md
+
+  4) [mobile] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.selectOption: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByLabel('Compare learner segment', { exact: true })
+
+
+      22 | test('M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset',async({page},testInfo)=>{
+      23 |  await open(page);const errors=[];page.on('pageerror',e=>errors.push(e.message));const exercise=page.getByRole('region',{name:'Practice exercise'}),reveal=page.getByRole('button',{name:'Reveal solution after an attempt'});
+    > 24 |  await page.getByLabel('What do you expect to find?').fill('More sessions might reflect mix rather than learning.');await page.getByRole('combobox',{name:'Compare learner segment',exact:true}).selectOption('novice');await page.getByRole('combobox',{name:'Reference → comparison',exact:true}).selectOption('reverse');await expect(reveal).toBeDisabled();await page.getByLabel('Primary calculation').fill('43.75');await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(page.getByRole('button',{name:'Try a different question'})).toHaveCount(0);await expect(reveal).toBeDisabled();
+         |                                                                                                                                                                                   ^
+      25 |  await page.getByLabel(reflection).fill('Compare delayed unaided skill and audit missing follow-up before rollout.');await page.getByLabel(interpretation,{exact:true}).check();await page.getByLabel(alternatives,{exact:true}).check();await page.getByLabel(study,{exact:true}).check();await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(reveal).toBeDisabled();await page.getByLabel('A 43.75 percentage-point gain in English learning for each individual.',{exact:true}).check();await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(exercise.getByRole('status')).toContainText('Weekly aggregates do not show individual learning change');await reveal.click();await expect(page.getByText('Instructor explanation',{exact:true})).toBeVisible();await page.getByRole('button',{name:'Hide solution'}).click();await page.getByLabel(scope,{exact:true}).check();await page.getByLabel('Primary calculation').fill('140');await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(exercise.getByRole('status')).toContainText('140 is the extra session count');await page.getByLabel('Primary calculation').fill('43.75');await page.getByRole('button',{name:'Check my reasoning'}).click();await expect(page.getByText('Instructor explanation',{exact:true})).toHaveCount(0);
+      26 |  await page.getByRole('button',{name:'Try a different question'}).click();await page.getByLabel('Transfer calculation').fill('25');await page.getByLabel('Treat all 45 missing assessments as failed learning.',{exact:true}).check();await page.getByLabel(followup,{exact:true}).check();await page.getByRole('button',{name:'Check transfer answer'}).click();await expect(page.getByText(/Practice verified/)).toHaveCount(0);await page.getByLabel(transfer,{exact:true}).check();await page.getByRole('button',{name:'Check transfer answer'}).click();await expect(page.getByText(/Practice verified/)).toBeVisible();await exercise.screenshot({path:`docs/verification/module-five-${testInfo.project.name}-feedback.png`});
+      27 |  await page.getByLabel('Record your decision, source, uncertainty, next check (owner + date), and what would change your mind.').fill('Source CSV is simulated. Ask research owner to audit missingness by Friday; revise after delayed unaided comparator evidence.');await page.reload();await page.getByRole('button',{name:/Correlation & causation/}).click();await expect(page.getByLabel(reflection)).toHaveValue('Compare delayed unaided skill and audit missing follow-up before rollout.');await expect(page.getByText(/Practice verified/)).toBeVisible();await expect(page.getByLabel('What do you expect to find?')).toHaveValue('More sessions might reflect mix rather than learning.');await expect(page.getByText('Instructor explanation',{exact:true})).toHaveCount(0);
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/causal.spec.cjs:24:179
+
+    Error Context: test-results/causal-M5-fixed-scope-prac-c752c--snapshots-and-scoped-reset-mobile/error-context.md
+
+  4 failed
+    [desktop] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access 
+    [desktop] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset 
+    [mobile] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access 
+    [mobile] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset 
+  28 passed (1.4m)

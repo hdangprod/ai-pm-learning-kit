@@ -1,0 +1,44 @@
+{
+  "provenance": "Authored software/calibration examples only, not participant work or completed human reviews. Full nine-field memo variants are in the referenced unit fixture.",
+  "review_status": "Pending independent review",
+  "cases": [
+    {
+      "id": "strong",
+      "source": "tests/remediation.test.tsx:baseMemo",
+      "purpose": "Trace the bounded incumbent rehearsal, actual source limits, two feasible options, same-job comparison and stop gate. Independently assess each dimension; no human score has been assigned."
+    },
+    {
+      "id": "contradictory",
+      "decision": "Launch globally because increased sessions prove AI caused English gains.",
+      "evidence": "The synthetic data validates real customer demand and unique unmet need.",
+      "reviewer_attention": "Authored critical-error calibration target: causal overclaim, synthetic-as-market validation and unsupported unique need. Structured10/10 must remain separate. No completed reviewer result is claimed."
+    },
+    {
+      "id": "plausible but weak",
+      "nextStep": "Research it more.",
+      "stopRule": "Stop if it is bad.",
+      "reviewer_attention": "Relevant direction can still lack discriminating evidence or measurable stop conditions; do not infer memo quality from selected statements."
+    },
+    {
+      "id": "placeholder",
+      "content": "All memo fields x except a valid fictional date.",
+      "reviewer_attention": "Presence checks are deliberately not a semantic grade. Evaluate actual claims; do not award independent pass for filled fields."
+    },
+    {
+      "id": "unusual defensible",
+      "strategy": "D",
+      "plan": "reduced",
+      "decision": "Defer prototype work; first audit the unknown task definition and source rights.",
+      "nextStep": "Within 0E/2R, compare task-definition audit against 2E/4R incumbent rehearsal. Preserve unknowns and request authorization before fieldwork.",
+      "reviewer_attention": "An unusual choice is not automatically wrong; judge task scope, uncertainty, feasible alternatives and actual next evidence."
+    },
+    {
+      "id": "justified unchanged",
+      "strategy": "B",
+      "response": "keep",
+      "changed": "Engineering capacity is2h.",
+      "relevance": "Listed incumbent rehearsal requires2E and still fits; keep direction and compare same-job outcome.",
+      "reviewer_attention": "Do not reward letter changes or punish a justified kept direction. Evaluate actual changed facts, resource plan and reaffirmed gate."
+    }
+  ]
+}

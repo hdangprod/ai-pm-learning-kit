@@ -1,0 +1,18 @@
+
+> ai-pm-learning-lab@1.0.0 dev
+> vite --host 127.0.0.1 --host 127.0.0.1 --port 4174
+
+
+  VITE v5.4.21  ready in 642 ms
+
+  ➜  Local:   http://127.0.0.1:4174/
+The request url "/Users/dangnguyen/Desktop/AI PM Learning Kit/docs/educational-audit/UNSEEN_TRANSFER_ANSWER_KEYS.md" is outside of Vite serving allow list.
+
+- /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+Refer to docs https://vite.dev/config/server-options.html#server-fs-allow for configurations and more details.
+
+The request url "/Users/dangnguyen/Desktop/AI PM Learning Kit/assessment/reviewer-only/form-A-keys.md" is outside of Vite serving allow list.
+The request url "/Users/dangnguyen/Desktop/AI PM Learning Kit/docs/post-remediation-audit/ASSESSMENT_FORM_VALIDATION.md" is outside of Vite serving allow list.
+The request url "/Users/dangnguyen/Desktop/AI PM Learning Kit/docs/POST_REMEDIATION_AUDIT_PACK_20261019.zip" is outside of Vite serving allow list.
+The request url "/Users/dangnguyen/Desktop/AI PM Learning Kit/scripts/assessment_session.py" is outside of Vite serving allow list.

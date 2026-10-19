@@ -1,0 +1,334 @@
+{
+  "scope": "New auditor-authored tasks, not learner data or application execution",
+  "checks": [
+    {
+      "task": "M1A",
+      "metric": "account positive %",
+      "value": 75.0,
+      "expected": 75,
+      "status": "PASS"
+    },
+    {
+      "task": "M1A",
+      "metric": "ticket resolved among known %",
+      "value": 66.66666666666667,
+      "expected": 66.66666666666667,
+      "status": "PASS"
+    },
+    {
+      "task": "M2A",
+      "metric": "search count",
+      "value": 4.0,
+      "expected": 4,
+      "status": "PASS"
+    },
+    {
+      "task": "M2A",
+      "metric": "ordered purchase count",
+      "value": 2.0,
+      "expected": 2,
+      "status": "PASS"
+    },
+    {
+      "task": "M2A",
+      "metric": "step %",
+      "value": 50.0,
+      "expected": 50,
+      "status": "PASS"
+    },
+    {
+      "task": "M2A",
+      "metric": "overall %",
+      "value": 40.0,
+      "expected": 40,
+      "status": "PASS"
+    },
+    {
+      "task": "M3A",
+      "metric": "D7 %",
+      "value": 33.333333333333336,
+      "expected": 33.33333333333333,
+      "status": "PASS"
+    },
+    {
+      "task": "M4A",
+      "metric": "A pooled %",
+      "value": 65.0,
+      "expected": 65,
+      "status": "PASS"
+    },
+    {
+      "task": "M4A",
+      "metric": "B pooled %",
+      "value": 75.0,
+      "expected": 75,
+      "status": "PASS"
+    },
+    {
+      "task": "M4A",
+      "metric": "A target mix %",
+      "value": 40.0,
+      "expected": 40,
+      "status": "PASS"
+    },
+    {
+      "task": "M4A",
+      "metric": "B target mix %",
+      "value": 50.0,
+      "expected": 50,
+      "status": "PASS"
+    },
+    {
+      "task": "M5A",
+      "metric": "post mean contrast points",
+      "value": 1.0,
+      "expected": 1,
+      "status": "PASS"
+    },
+    {
+      "task": "M5A",
+      "metric": "difference in changes points",
+      "value": 1.0,
+      "expected": 1,
+      "status": "PASS"
+    },
+    {
+      "task": "M1B",
+      "metric": "X coverage %",
+      "value": 40.0,
+      "expected": 40,
+      "status": "PASS"
+    },
+    {
+      "task": "M1B",
+      "metric": "X observed pass %",
+      "value": 62.5,
+      "expected": 62.5,
+      "status": "PASS"
+    },
+    {
+      "task": "M1B",
+      "metric": "X lower %",
+      "value": 25.0,
+      "expected": 25,
+      "status": "PASS"
+    },
+    {
+      "task": "M1B",
+      "metric": "X upper %",
+      "value": 85.0,
+      "expected": 85,
+      "status": "PASS"
+    },
+    {
+      "task": "M1B",
+      "metric": "Y observed pass %",
+      "value": 60.0,
+      "expected": 60,
+      "status": "PASS"
+    },
+    {
+      "task": "M1B",
+      "metric": "Y lower %",
+      "value": 48.0,
+      "expected": 48,
+      "status": "PASS"
+    },
+    {
+      "task": "M1B",
+      "metric": "Y upper %",
+      "value": 68.0,
+      "expected": 68,
+      "status": "PASS"
+    },
+    {
+      "task": "M2B",
+      "metric": "eligible conversion lower %",
+      "value": 40.0,
+      "expected": 40,
+      "status": "PASS"
+    },
+    {
+      "task": "M2B",
+      "metric": "eligible conversion upper %",
+      "value": 60.0,
+      "expected": 60,
+      "status": "PASS"
+    },
+    {
+      "task": "M2B",
+      "metric": "invited conversion lower %",
+      "value": 50.0,
+      "expected": 50,
+      "status": "PASS"
+    },
+    {
+      "task": "M2B",
+      "metric": "invited conversion upper %",
+      "value": 75.0,
+      "expected": 75,
+      "status": "PASS"
+    },
+    {
+      "task": "M3B",
+      "metric": "covered subset %",
+      "value": 50.0,
+      "expected": 50,
+      "status": "PASS"
+    },
+    {
+      "task": "M3B",
+      "metric": "cohort lower %",
+      "value": 25.0,
+      "expected": 25,
+      "status": "PASS"
+    },
+    {
+      "task": "M3B",
+      "metric": "cohort upper %",
+      "value": 75.0,
+      "expected": 75,
+      "status": "PASS"
+    },
+    {
+      "task": "M4B",
+      "metric": "A all assigned %",
+      "value": 45.0,
+      "expected": 45,
+      "status": "PASS"
+    },
+    {
+      "task": "M4B",
+      "metric": "B all assigned %",
+      "value": 42.5,
+      "expected": 42.5,
+      "status": "PASS"
+    },
+    {
+      "task": "M4B",
+      "metric": "B minus A pp",
+      "value": -2.5,
+      "expected": -2.5,
+      "status": "PASS"
+    },
+    {
+      "task": "M5B",
+      "metric": "complete cases A minus B pp",
+      "value": 20.0,
+      "expected": 20,
+      "status": "PASS"
+    },
+    {
+      "task": "M5B",
+      "metric": "lower difference pp",
+      "value": -27.0,
+      "expected": -27,
+      "status": "PASS"
+    },
+    {
+      "task": "M5B",
+      "metric": "upper difference pp",
+      "value": 43.0,
+      "expected": 43,
+      "status": "PASS"
+    },
+    {
+      "task": "M1C",
+      "metric": "coverage %",
+      "value": 40.0,
+      "expected": 40,
+      "status": "PASS"
+    },
+    {
+      "task": "M1C",
+      "metric": "assessed pass %",
+      "value": 60.0,
+      "expected": 60,
+      "status": "PASS"
+    },
+    {
+      "task": "M1C",
+      "metric": "lower %",
+      "value": 24.0,
+      "expected": 24,
+      "status": "PASS"
+    },
+    {
+      "task": "M1C",
+      "metric": "upper %",
+      "value": 84.0,
+      "expected": 84,
+      "status": "PASS"
+    },
+    {
+      "task": "M2C",
+      "metric": "step %",
+      "value": 33.333333333333336,
+      "expected": 33.33333333333333,
+      "status": "PASS"
+    },
+    {
+      "task": "M2C",
+      "metric": "overall %",
+      "value": 25.0,
+      "expected": 25,
+      "status": "PASS"
+    },
+    {
+      "task": "M3C",
+      "metric": "pooled D7 %",
+      "value": 20.0,
+      "expected": 20,
+      "status": "PASS"
+    },
+    {
+      "task": "M3C",
+      "metric": "unweighted mean mature cohorts %",
+      "value": 31.25,
+      "expected": 31.25,
+      "status": "PASS"
+    },
+    {
+      "task": "M4C",
+      "metric": "A pooled observed %",
+      "value": 73.33333333333333,
+      "expected": 73.33333333333333,
+      "status": "PASS"
+    },
+    {
+      "task": "M4C",
+      "metric": "A common mix %",
+      "value": 65.0,
+      "expected": 65,
+      "status": "PASS"
+    },
+    {
+      "task": "M5C",
+      "metric": "sessions change %",
+      "value": 50.0,
+      "expected": 50,
+      "status": "PASS"
+    },
+    {
+      "task": "M5C",
+      "metric": "week1 observed pass %",
+      "value": 70.0,
+      "expected": 70,
+      "status": "PASS"
+    },
+    {
+      "task": "M5C",
+      "metric": "week2 observed pass %",
+      "value": 80.0,
+      "expected": 80,
+      "status": "PASS"
+    },
+    {
+      "task": "M5C",
+      "metric": "coverage change pp",
+      "value": -40.0,
+      "expected": -40,
+      "status": "PASS"
+    }
+  ]
+}

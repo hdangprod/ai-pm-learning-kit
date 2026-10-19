@@ -1,0 +1,39 @@
+$ python3 scripts/verify_data.py
+PASS M1: original CSV counts, bounds inputs and independent arithmetic
+$ python3 scripts/verify_funnel.py
+PASS M2: 12 users / 28 rows / 27 IDs; mature8→6→4, novice4→4→4, experienced4→2→0, immature0→0→0; step66.6667%, overall50%.
+$ python3 scripts/verify_retention.py
+PASS M3: Oct1 2/4=50%, Oct8 1/4=25%, Oct15 unavailable, pooled3/8=37.5%; mature zero, D7/D8 edges, duplicate feedback without funnel; original fixture unchanged and declared fork verified.
+$ python3 scripts/verify_simpson.py
+PASS M4: subgroup20/80 vs30/90%; pooled74% vs36%; B-A +10pp in both groups, -38pp pooled, -51.35135% relative; common50/50 ->50%/60%, all101 common weights ->+10pp; original weekly example is not strict reversal.
+$ python3 materials/AI_PM_Audit_Upgrade_I_II/instructor/verify_learning.py
+{
+  "cohort_week_1": {
+    "eligible": 100,
+    "sessions": 320,
+    "assessed": 74,
+    "passed": 52,
+    "sessions_per_eligible": 3.2,
+    "coverage": 0.74,
+    "observed_pass": 0.7027027027027027,
+    "lower_bound": 0.52,
+    "upper_bound": 0.78
+  },
+  "cohort_week_2": {
+    "eligible": 100,
+    "sessions": 460,
+    "assessed": 47,
+    "passed": 30,
+    "sessions_per_eligible": 4.6,
+    "coverage": 0.47,
+    "observed_pass": 0.6382978723404256,
+    "lower_bound": 0.3,
+    "upper_bound": 0.83
+  },
+  "payback_vnd": {
+    "5": 491412.0,
+    "6": 562270.8,
+    "7": 626043.7200000001
+  },
+  "limitation": "Synthetic arithmetic checks, not causal or market validation"
+}

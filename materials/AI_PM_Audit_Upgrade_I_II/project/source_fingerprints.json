@@ -1,0 +1,86 @@
+[
+  {
+    "code": "B1",
+    "name": "The Mom Test by @robfitz(1).pdf",
+    "library_file_id": "libfile_3d418347666c81918dad52e32c1a8706",
+    "sha256": "147df8bf432f4bd1ba9071957a670ab5bd901b6baf42a33c326191263688fb37",
+    "pages": 120
+  },
+  {
+    "code": "B2",
+    "name": "Cracking the PM Interview(1).pdf",
+    "library_file_id": "libfile_85c70871d4cc8191a7eadd156e96b5d9",
+    "sha256": "56a02169d38a80c70e7dbe9a9587fc0dff8cc7e61ea25297346f82574c827695",
+    "pages": 437
+  },
+  {
+    "code": "P1",
+    "name": "English_Learning_AI_Secondary_Research_2026.md",
+    "library_file_id": "libfile_780a445493548191b46653c7b3dec9bd",
+    "sha256": "ebbfac907d4cd1a187346c5919d7f743e8200a2dd02637faafbc623975074fa6",
+    "status": "130 units, historical"
+  },
+  {
+    "code": "P2",
+    "name": "English_Learning_Product_Discovery_Decision_Brief.md",
+    "library_file_id": "libfile_3a33201e5e3481918a2cfbba4415b214",
+    "sha256": "7e0ddd51750960ea3b4dc44145d3ce98414257bb39df4f2f7767586a3bcf40d6",
+    "status": "Original brief, historical"
+  },
+  {
+    "code": "P3",
+    "name": "English_Learning_Evidence_Database_V2.xlsx",
+    "library_file_id": "libfile_8d82521678bc81919e423384848be4a9",
+    "sha256": "586d5fc7bed1673bc82b4534dc80f3c701bcc41c19f60ea7ae6dc9bd7a4c2f3c",
+    "status": "Current V2.1 in file named V2; 200 units"
+  },
+  {
+    "code": "P4",
+    "name": "Secondary_Research_Continuation_Delta_20261017.md",
+    "library_file_id": "libfile_2604b46a5dec819189de956d1874534e",
+    "sha256": "ced4bf158ff1b1545ed61bf151991e59c4f9df9998dbe93ec770c8bd22f67e9e",
+    "status": "Current delta V2.1"
+  },
+  {
+    "code": "P5",
+    "name": "H1_H6_Evidence_Falsification_Matrix_V2.md",
+    "library_file_id": "libfile_742ff9cfeae08191b027062f4ac83de5",
+    "sha256": "3ff6f7c579e3ccb87ff10ddd92474f2084b3195a08565f8cf74b8f2612779352",
+    "status": "V2.1 update plus historical snapshot"
+  },
+  {
+    "code": "P6",
+    "name": "English_Learning_User_Evidence_2026_Batch4.xlsx",
+    "library_file_id": "libfile_33bcb8f162508191b26bdd533f08eb6d",
+    "sha256": "8602b533551d61c5634be1b015ee2bcb69c86c16a72bb1ba4e493bd398526cc3",
+    "status": "190 units, overlapping historical snapshot"
+  },
+  {
+    "code": "P7",
+    "name": "Current_Solution_Benchmark_V2.md",
+    "library_file_id": "libfile_43abcf111de481919822cb6980873961",
+    "sha256": "78ea81cb383d6c74b598cca837e41d30e887beaee0e5be23cbf91ba958edc581",
+    "status": "V2.1 docs update plus two legacy observed tasks"
+  },
+  {
+    "code": "P8",
+    "name": "English_Learning_User_Evidence_2026.xlsx",
+    "library_file_id": "libfile_f329adc288fc8191a7be8538735fd875",
+    "sha256": "5cccf3f41f60ff5cc91fed05ca9d9d44c4c2e6b3a01347006a7519d1a6b8e21e",
+    "status": "130 units, original workbook"
+  },
+  {
+    "code": "P9",
+    "name": "Primary_Research_Validation_Plan.md",
+    "library_file_id": "libfile_9a6cc8810af08191bea97e69a4b0ac4c",
+    "sha256": "f7b8954ce227500c2091f955467cc5972527258e34dd40aa3253a2c153476981",
+    "status": "Original O1-O3 protocol; superseded for current research direction"
+  },
+  {
+    "code": "P10",
+    "name": "Primary_Research_Plan_V2.md",
+    "library_file_id": "libfile_4c321772a224819189a857e2a873edcd",
+    "sha256": "dbd038a74b8275b8e6ed03135e303cc29a246d89445935955029a32cdbe6e843",
+    "status": "Current P1/P2 protocol referenced by delta"
+  }
+]

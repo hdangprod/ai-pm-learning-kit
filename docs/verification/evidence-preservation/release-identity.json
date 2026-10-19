@@ -1,0 +1,28 @@
+{
+  "release_id": "ai-pm-lab-evidence-20261020-b1eb2391cc57",
+  "dist_manifest_sha256": "b1eb2391cc57c51b9d1a404dc704a936173a341be1b8ffeb796e4afcafdbd5a4",
+  "archive": "docs/verification/evidence-preservation/ai-pm-lab-evidence-release.zip",
+  "archive_sha256": "9921563634cfb0ad2378fad30e96ff3b43342afce7b8cf81759de70938a90a23",
+  "files": {
+    "assets/index-BEIvHWjR.css": "2f46488551d457d1cf7ac3b7ac2f2f929cee5c6d0e92fcc64211eb88a241dadd",
+    "assets/index-CWLhjl01.js": "4f6700bc62b114bcb8bd18a17334b5b5d04ac75d6ec6525318a7bd1b7a485b41",
+    "data/case_b_weekly.csv": "ef1c902fddb834c87c4ed1ba04f384700524062a54bab6319083c489607709c6",
+    "data/decision-scenario-v1.json": "e98677ebe68d32b9dea27f68e20f88a41f8e3429fb5113a9ea824ac6d15b0204",
+    "data/events-v1.json": "20d3ac213f5ca3a7f550df691ea40a6aaa20f2a8f35d97d08a8db4bc741a215d",
+    "data/retention-events-v1.json": "27d25fbfbe58e7d64ff8e9aa6860c7cfa0610cd80f9e1953801fb843bbf339af",
+    "data/strict-simpson-v1.json": "667a632332cb6c9cfc7826cc98b7329dbbbc140adfc7328ebaa54ce3a4290f7c",
+    "index.html": "72d9b9c918abf377b75b3230ac30cbcc9405c5e0b9bfa36d72b96ea27a6420d1",
+    "sources/English_AI_Case_Study.md": "697e6a4ce8a11c2dc547eb1853ff3a9f2204ee56579ac9e8418e39c848c0ea65",
+    "sources/Tap_II_Revised.md": "556c606ad7da0c3e8866b44f8a5bddb05d17d5f15d661e3018771202b37a33a0",
+    "sources/Tap_I_Revised.md": "99c0a225ba2dc36272db73342b73a9f839ae9a46e2036edda17296f27fafaa59"
+  },
+  "runtime": {
+    "os": "macOS15.8.1 (24H32), Darwin x86_64",
+    "node": "20.5.0",
+    "npm": "9.8.0",
+    "python": "3.11.2",
+    "chrome": "155.0.8059.80",
+    "browser_mode": "Playwright headless installed Chrome; desktop and iPhone13 Chromium emulation, not physical iOS"
+  },
+  "claim": "Pinned technical release, not an evaluation GO or educational-effectiveness result."
+}

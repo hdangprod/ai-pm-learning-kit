@@ -1,0 +1,128 @@
+[
+  {
+    "mode": "development",
+    "path": "/",
+    "status": 200,
+    "bytes": 698,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/docs/educational-audit/UNSEEN_TRANSFER_ANSWER_KEYS.md",
+    "status": 403,
+    "bytes": 461,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/docs/AI_PM_EDUCATIONAL_AUDIT_20261019.zip",
+    "status": 403,
+    "bytes": 449,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/assessment/reviewer-only/form-A-keys.md",
+    "status": 403,
+    "bytes": 447,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/assessment/reviewer-only/form-B-keys.md",
+    "status": 403,
+    "bytes": 447,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/assessment/reviewer-only/form-C-keys.md",
+    "status": 403,
+    "bytes": 447,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/materials/educational-audit-20261019/UNSEEN_TRANSFER_EXERCISES.md",
+    "status": 403,
+    "bytes": 473,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/scripts/assessment_session.py",
+    "status": 403,
+    "bytes": 437,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "development",
+    "path": "/@fs/tmp/posteq-002c35cc1b3f/run/assessment/reviewer-only/form-A-keys.md",
+    "status": 403,
+    "bytes": 447,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/docs/educational-audit/UNSEEN_TRANSFER_ANSWER_KEYS.md",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/docs/AI_PM_EDUCATIONAL_AUDIT_20261019.zip",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/assessment/reviewer-only/form-A-keys.md",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/assessment/reviewer-only/form-B-keys.md",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/assessment/reviewer-only/form-C-keys.md",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/materials/educational-audit-20261019/UNSEEN_TRANSFER_EXERCISES.md",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/scripts/assessment_session.py",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  },
+  {
+    "mode": "production_preview",
+    "path": "/@fs/tmp/posteq-002c35cc1b3f/run/assessment/reviewer-only/form-A-keys.md",
+    "status": 200,
+    "bytes": 546,
+    "leaked_canaries": []
+  }
+]

@@ -1,0 +1,31 @@
+[
+  {
+    "name": "strict",
+    "command": [
+      "./node_modules/.bin/tsc",
+      "--noEmit",
+      "--strict"
+    ],
+    "exit_code": 0,
+    "tail": ""
+  },
+  {
+    "name": "build",
+    "command": [
+      "npm",
+      "run",
+      "build"
+    ],
+    "exit_code": 0,
+    "tail": "\n> ai-pm-learning-lab@1.0.0 build\n> tsc -b && vite build\n\nvite v5.4.21 building for production...\ntransforming...\n\u2713 1618 modules transformed.\nrendering chunks...\ncomputing gzip size...\ndist/index.html                   0.55 kB \u2502 gzip:   0.36 kB\ndist/assets/index-yKHJMDQc.css   25.55 kB \u2502 gzip:   6.41 kB\ndist/assets/index-DsmcB5NY.js   343.02 kB \u2502 gzip: 103.39 kB\n\u2713 built in 1.93s\nnpm warn Unknown env config \"http-proxy\". This will stop working in the next major version of npm.\n"
+  },
+  {
+    "name": "remediation_preservation",
+    "command": [
+      "python",
+      "scripts/verify_remediation_preservation.py"
+    ],
+    "exit_code": 0,
+    "tail": "PASS unchanged docs/STUDY_PLAN_MAPPING.md 9147d97f2d6e8addde31223d49cd7552c3da089b6832ca29712ff431162a3882\nPASS unchanged package.json 86c69842a148a6053a24f1776d63308889fc5b4f72d21a5d61570c5b5246d5e5\nPASS unchanged package-lock.json 0677cf4316a4770e4b4c7e31d67aae41f29f0742b298a41852a6eda9bf7a36a1\nPASS unchanged LEARNING_EXPERIENCE_SPEC.md af53dfc512758a380190a50cf6dbd493ae73ff9391808a400a8adb95dc7c14d5\nPASS unchanged INTERACTIVE_EXERCISE_SPEC.md 26d0d08b0823447c79528724c68713a7b248b57a6129444acd98272b019fee59\nPASS unchanged UI_UX_SPEC.md 4eb4136069124d25ca4b9774b1179d2a8b6f9512e97873f9ddaf00e8dbbbe027\nPASS unchanged TECHNICAL_ACCEPTANCE_CRITERIA.md 4462bee79b0225ffb95cc602f22b2207abc5c182034b92ce65eb40c9440e3bc8\nPASS all18 original audit entries and ZIP byte-identical.\nPASS independent form/key canaries and private directories absent from built assets and learner source downloads.\n"
+  }
+]

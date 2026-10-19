@@ -1,0 +1,424 @@
+{
+  "version": "2.0",
+  "date": "2026-10-17",
+  "scope": "Staged delivery: audit, framework, revised I–II, instructor and foundational practice",
+  "chapters": {
+    "1": "revised_complete",
+    "2": "revised_complete",
+    "3": "revised_complete",
+    "4": "revised_complete",
+    "5": "revised_complete",
+    "6": "revised_complete",
+    "7": "revised_complete",
+    "8": "revised_complete",
+    "9": "architecture_only_not_written",
+    "10": "architecture_only_not_written",
+    "11": "architecture_only_not_written",
+    "12": "architecture_only_not_written",
+    "13": "architecture_only_not_written",
+    "14": "architecture_only_not_written",
+    "15": "architecture_only_not_written",
+    "16": "architecture_only_not_written",
+    "17": "architecture_only_not_written",
+    "18": "architecture_only_not_written",
+    "19": "architecture_only_not_written",
+    "20": "architecture_only_not_written",
+    "21": "architecture_only_not_written",
+    "22": "architecture_only_not_written",
+    "23": "architecture_only_not_written",
+    "24": "architecture_only_not_written",
+    "25": "architecture_only_not_written",
+    "26": "architecture_only_not_written",
+    "27": "architecture_only_not_written",
+    "28": "architecture_only_not_written",
+    "29": "architecture_only_not_written",
+    "30": "architecture_only_not_written",
+    "31": "architecture_only_not_written",
+    "32": "architecture_only_not_written",
+    "33": "architecture_only_not_written",
+    "34": "architecture_only_not_written",
+    "35": "architecture_only_not_written",
+    "36": "architecture_only_not_written"
+  },
+  "pending": [
+    "Volumes III–V teaching",
+    "Product event analytics labs",
+    "AI eval set >=30 cases",
+    "Full five-volume Atlas",
+    "Eight-week capstone teaching and completed artifacts"
+  ],
+  "validation": "Validation_Report.json",
+  "limitations": [
+    "No new primary research",
+    "No measured learning effectiveness",
+    "No independent human grading",
+    "Not a job-readiness certification"
+  ],
+  "files": [
+    {
+      "path": "AI_PM_Competency_Framework.xlsx",
+      "bytes": 22530,
+      "sha256": "5d697bd8eff6eec6c02825f1bfe2ad4594d67e417f96c1ed449e94110cd6334c"
+    },
+    {
+      "path": "AI_PM_Curriculum_Audit_Report.md",
+      "bytes": 21787,
+      "sha256": "310f47d18b23839fe67977ca225e7b26d116c717b1550de3cc5b7f06eb156647"
+    },
+    {
+      "path": "AI_PM_Job_Readiness_Rubric.md",
+      "bytes": 4887,
+      "sha256": "488d5152c44275ac93b6e5ef34129823556987a2e7b775142eaf35b2e201f234"
+    },
+    {
+      "path": "Instructor_Guide_I_II.pdf",
+      "bytes": 179136,
+      "sha256": "2922d86b068cb11ba3a9223c0b9c1e19d3576ab80786831e50017c1d31451e31"
+    },
+    {
+      "path": "README.md",
+      "bytes": 4895,
+      "sha256": "878cb9e7b628f7ed77617b3a3e5683b0e06ceabbfde5c62dd5cd45a98a7a9722"
+    },
+    {
+      "path": "Research_Sources.md",
+      "bytes": 5742,
+      "sha256": "cfefdb53307815b1fd7550d2b63dd9a5876a30a637bc889ed480a9b6b1782607"
+    },
+    {
+      "path": "Revised_Curriculum_Architecture.md",
+      "bytes": 11893,
+      "sha256": "f23a69c29cc7b497baaf58dd1a66e0835da7bebacf5c218112b680080014e5dc"
+    },
+    {
+      "path": "Revision_Log.md",
+      "bytes": 3849,
+      "sha256": "4f4234c969352f822369a71d779ac336809705cf126c398ab8f8153ecea88dfb"
+    },
+    {
+      "path": "Source_Inventory.json",
+      "bytes": 1223,
+      "sha256": "bdb02076fd0b002b8a25aaef62181ee810bd99b3cb6c1a13531367b4fa47577d"
+    },
+    {
+      "path": "Tap_II_Revised.pdf",
+      "bytes": 475000,
+      "sha256": "618db7c23ea059b8f7aea2be07951e2cf1dc2f04ff5ee1c4b70d55ab687c67f1"
+    },
+    {
+      "path": "Tap_I_Revised.pdf",
+      "bytes": 571125,
+      "sha256": "a7ae633e605c7ef3697beade94e205f94c91d653f12592ef2a219dcf27c56041"
+    },
+    {
+      "path": "Validation_Report.json",
+      "bytes": 995,
+      "sha256": "440bae99d36f8759a5dfb92d1cbe5097b4dd73361047826aafe0df4b40508893"
+    },
+    {
+      "path": "figures/fig01.png",
+      "bytes": 110547,
+      "sha256": "4bf088616dbf2858edac0bd34f0fc6ee81434c3d11e3700c6089f8dd2fb698ed"
+    },
+    {
+      "path": "figures/fig01.svg",
+      "bytes": 68847,
+      "sha256": "39ec37b9c1ee394ec88d61b9db6c32bfdfb967e8051b2b95f89db9b8ae7097ea"
+    },
+    {
+      "path": "figures/fig02.png",
+      "bytes": 107898,
+      "sha256": "7a5cdd853de39907e0adfae9f5bcf17a1d840bee3834d195845a10a7962893c2"
+    },
+    {
+      "path": "figures/fig02.svg",
+      "bytes": 74043,
+      "sha256": "9b76a4a09b67d774a26145e745c1ab5421b738bf015790162048f53eb94dda38"
+    },
+    {
+      "path": "figures/fig03.png",
+      "bytes": 75078,
+      "sha256": "564f1f38714afb718cb3c7a8252035569a5862c28bfcbb85ad000c5bb5980243"
+    },
+    {
+      "path": "figures/fig03.svg",
+      "bytes": 56687,
+      "sha256": "546a92ae3509f3b7b08cf7819a6a9565d39bf649ca001b29efdc4cbd410e8854"
+    },
+    {
+      "path": "figures/fig04.png",
+      "bytes": 103365,
+      "sha256": "011f7477a173abd52d2fc2c3a8295f46f599e1d557652d29259b170b9c1716d7"
+    },
+    {
+      "path": "figures/fig04.svg",
+      "bytes": 71685,
+      "sha256": "4d09abc3ca5c76a6e5bc029792abc3ab470d725ad56af0510c304dc4546a6569"
+    },
+    {
+      "path": "figures/fig05.png",
+      "bytes": 94561,
+      "sha256": "54814adf6e601a025eb75efb3d3a05082fb097d04c4c73bc2cb01451478e2f31"
+    },
+    {
+      "path": "figures/fig05.svg",
+      "bytes": 71324,
+      "sha256": "942d6ae535b18159524776541c99a436baa03b944e7ac5277de19a6d8122b5b8"
+    },
+    {
+      "path": "figures/fig06.png",
+      "bytes": 97129,
+      "sha256": "2a85d3962319a7c8152a0aff63159e5c47d1195d5a102252b60575f24be6385e"
+    },
+    {
+      "path": "figures/fig06.svg",
+      "bytes": 74464,
+      "sha256": "146342c4be44521cc0a9ff12e6fa344ba03374c25c138c2f8ada7e4cdb133258"
+    },
+    {
+      "path": "figures/fig07.png",
+      "bytes": 93394,
+      "sha256": "3a68cb1fe792d895edb1b47fe00591547b2a1a3e4115dfd4ee61336c2061a20b"
+    },
+    {
+      "path": "figures/fig07.svg",
+      "bytes": 79156,
+      "sha256": "e79316cd613b38299176503a3e70784779b758a41313d79bb478eae673b28781"
+    },
+    {
+      "path": "figures/fig08.png",
+      "bytes": 119144,
+      "sha256": "f4f2e513aaddd86acd948a934ddd895658202690cbd0c46d41d57e4838cb6b0f"
+    },
+    {
+      "path": "figures/fig08.svg",
+      "bytes": 83649,
+      "sha256": "3139a36ce6a4687e5589edb39da1a32f6224f32748ae5a37dede39c7747f5b1a"
+    },
+    {
+      "path": "figures/fig09.png",
+      "bytes": 106543,
+      "sha256": "0a44b3ddab725ffc251df9ea5732241c17090ce413792f34187027d425bbfdd5"
+    },
+    {
+      "path": "figures/fig09.svg",
+      "bytes": 84043,
+      "sha256": "abca228c34b0658c163dfae1a8d640aa4ae26826dd8127582921096bfa929a6b"
+    },
+    {
+      "path": "figures/fig10.png",
+      "bytes": 83529,
+      "sha256": "af53be20e39f12c8b8b340c9471d8cdfadead358786fabf7be17e104c5841fbd"
+    },
+    {
+      "path": "figures/fig10.svg",
+      "bytes": 73584,
+      "sha256": "985689f4864cc14b83d07ee6fe1ef85473d05ded2753f5cd1cc6555a888a2458"
+    },
+    {
+      "path": "figures/fig11.png",
+      "bytes": 111005,
+      "sha256": "aa285afb33a1c30f3c74093de5c1ee1a3d34bfa993a9ab3477156f01d37069a0"
+    },
+    {
+      "path": "figures/fig11.svg",
+      "bytes": 80187,
+      "sha256": "7fb742eadef71666caa45ffe087299aeff2d0a75b2bfcf73c00f13f881253b55"
+    },
+    {
+      "path": "figures/fig12.png",
+      "bytes": 93899,
+      "sha256": "3a7b1078b26356383f4e2e52089197970380c5558b965b34a318165da930bbba"
+    },
+    {
+      "path": "figures/fig12.svg",
+      "bytes": 80653,
+      "sha256": "bcbb7d11f7e9ddb2b45e31ed5a61c5354a82eeae6fbdcda108659dcc0830a5d7"
+    },
+    {
+      "path": "figures/figure_catalog.json",
+      "bytes": 6326,
+      "sha256": "96cd57f226b027e32a9d02e2e4adbaeebce7165d5c14c36a699a5dcc03718090"
+    },
+    {
+      "path": "instructor/Bo_sung_dap_an.md",
+      "bytes": 12177,
+      "sha256": "075c30c65ea7fdf10dc81cf6adec67550b1cbaf1aa68d89f7fccc15db2c393d9"
+    },
+    {
+      "path": "instructor/audit_evidence.py",
+      "bytes": 4528,
+      "sha256": "df35ce89fbd58970ae65de7a0abf1ea82bbe70e0a64b61423cd393514c116561"
+    },
+    {
+      "path": "instructor/audit_results.json",
+      "bytes": 1542,
+      "sha256": "1bc388be9fbc543a3418b8461750055fc962df4701a7395779c94394ebd39dde"
+    },
+    {
+      "path": "instructor/verify_learning.py",
+      "bytes": 2107,
+      "sha256": "d2c837165b9923292bd385b3799e2b6e00b06df6aae27ba981d4ad2177892488"
+    },
+    {
+      "path": "originals/Tap_II_Nghien_cuu.pdf",
+      "bytes": 725415,
+      "sha256": "067157b0eb9b75b0414f072bda423629d7e3d1c85d93df211049b8874bf1f695"
+    },
+    {
+      "path": "originals/Tap_I_Nen_tang.pdf",
+      "bytes": 640877,
+      "sha256": "649b16ee7a598cc0c229267b75a4715f61bbd6ef390fe4920580b8b4b016718a"
+    },
+    {
+      "path": "originals/Visual_Atlas_Tap_I_II.pdf",
+      "bytes": 977293,
+      "sha256": "3b63617fa9d191787b6c7dca1cadd86cecc8d65cf7428fac29a22f09e1df1183"
+    },
+    {
+      "path": "practice/README.md",
+      "bytes": 2464,
+      "sha256": "980a6168b35f2cf08cb2db05c33a45f460e2755ed0fb9f76c103101e654d83cc"
+    },
+    {
+      "path": "practice/case_b_weekly.csv",
+      "bytes": 248,
+      "sha256": "ef1c902fddb834c87c4ed1ba04f384700524062a54bab6319083c489607709c6"
+    },
+    {
+      "path": "practice/evidence_audit_extract.csv",
+      "bytes": 12090,
+      "sha256": "172ff1595b5d39143e12b30fc8a348412169a16c4080e7f032bf857d640a098e"
+    },
+    {
+      "path": "practice/independence_simulated.csv",
+      "bytes": 385,
+      "sha256": "a6887ebda505d6889ef75eda097dee228004d04a7a9e2abdbd631c15940f2f17"
+    },
+    {
+      "path": "practice/ltv_simulated.csv",
+      "bytes": 558,
+      "sha256": "cd244802dad62da5895134e54b6d0dc7f07f0bfe046e64babad087aeb6609027"
+    },
+    {
+      "path": "practice/payback_inputs.csv",
+      "bytes": 130,
+      "sha256": "b889cbe6ac297a094ef7441e33adcf24dbb3bc981341f109699969926f226ef3"
+    },
+    {
+      "path": "practice/support_episodes_simulated.csv",
+      "bytes": 1684,
+      "sha256": "381a65f815551ba346973f6d7a9b78a55bcb8fc8401aabb0b48202a34f690e4f"
+    },
+    {
+      "path": "project/Annotated_Bibliography.md",
+      "bytes": 14860,
+      "sha256": "b0e394d69fc6f0f2378cc9f1eb305d777f5277380a79bd01590405faf8aadb43"
+    },
+    {
+      "path": "project/English_AI_Case_Study.md",
+      "bytes": 8076,
+      "sha256": "697e6a4ce8a11c2dc547eb1853ff3a9f2204ee56579ac9e8418e39c848c0ea65"
+    },
+    {
+      "path": "project/Learning_Roadmap.md",
+      "bytes": 8039,
+      "sha256": "b77fa92954983d34ab37f35ca5adbef4befebc29a10967326ab04ad401f7ca59"
+    },
+    {
+      "path": "project/PM_Decision_Playbook.md",
+      "bytes": 10781,
+      "sha256": "5ddca55a8447a259379f5063ecbbcf47122ae89a35f0f548be5785d22baf3458"
+    },
+    {
+      "path": "project/Project_Index.md",
+      "bytes": 7684,
+      "sha256": "467180a56cd51271456dee8a60e5a54994437cb4dc669af81e7a2a63f0d13c37"
+    },
+    {
+      "path": "project/Quality_Review.md",
+      "bytes": 2362,
+      "sha256": "7c0444fb53ccc4f3e607a4f9f4eef4341ddc963f17e393d077930a592c23bc88"
+    },
+    {
+      "path": "project/Remaining_Work.md",
+      "bytes": 4222,
+      "sha256": "04fe9ad9f8c1c762a90fe8c6467f1cb8496aabceadb53ddb1ad7a6c89b1ad20f"
+    },
+    {
+      "path": "project/Source_Inventory.md",
+      "bytes": 4381,
+      "sha256": "a604f94b0b9870a080145ebbc3ac2155db260228bb35e8a8e54daa968cf7039a"
+    },
+    {
+      "path": "project/source_fingerprints.json",
+      "bytes": 3351,
+      "sha256": "fdd9c35ca6e7a02ac86e4bac2bbb2e3500111acf25ae8cb9dfece2f1678f025c"
+    },
+    {
+      "path": "source/Bo_sung_Tap_I.md",
+      "bytes": 13000,
+      "sha256": "6b0495c579498d89bb563aa641c76e64f86a6dc4bc6e1d5cddd454cd3be08382"
+    },
+    {
+      "path": "source/Bo_sung_Tap_II.md",
+      "bytes": 8217,
+      "sha256": "38a351d6702c6ed7f15d8491030e6f89df1125f3f75e0cb8e8ca5e814ef781e6"
+    },
+    {
+      "path": "source/Instructor_Guide_I_II.md",
+      "bytes": 35408,
+      "sha256": "39b01d75e9e99831937799f73c50fb50e56d1c91a294b868cd52e61e029c70d5"
+    },
+    {
+      "path": "source/Tap_II_Revised.md",
+      "bytes": 66416,
+      "sha256": "556c606ad7da0c3e8866b44f8a5bddb05d17d5f15d661e3018771202b37a33a0"
+    },
+    {
+      "path": "source/Tap_I_Revised.md",
+      "bytes": 65798,
+      "sha256": "99c0a225ba2dc36272db73342b73a9f839ae9a46e2036edda17296f27fafaa59"
+    },
+    {
+      "path": "source/baseline/Tap_II_Nghien_cuu.md",
+      "bytes": 71788,
+      "sha256": "c291b8643daf0dc2859897203a7381d0ae251c16bd186a6f080f316d6b7f43c0"
+    },
+    {
+      "path": "source/baseline/Tap_I_Nen_tang.md",
+      "bytes": 62122,
+      "sha256": "c76df8bb7a7a9f7634e75217023b58cc04b9e0e3ff7036adb328bf1971d1bea8"
+    },
+    {
+      "path": "source/build_additional_figures.py",
+      "bytes": 2683,
+      "sha256": "a793453685c513377e81350b5ac140fe71e072dc98131c64e79876a7a2e9ae50"
+    },
+    {
+      "path": "source/build_framework.mjs",
+      "bytes": 6703,
+      "sha256": "f09c742b4727299a6e3c1ae194c402d79d728de087fc35cbe0a3de5bcfab5868"
+    },
+    {
+      "path": "source/build_original_figures.py",
+      "bytes": 9298,
+      "sha256": "cecbcae50317859a1087e3bdb3d8848a1fb41bbbd6ec2b3534c6b569f2e0e4b4"
+    },
+    {
+      "path": "source/build_pdfs.py",
+      "bytes": 5135,
+      "sha256": "598242c673eef93ab724940cfa8755daf95f00ba1797dc544fcf35ee4775004e"
+    },
+    {
+      "path": "source/competencies.json",
+      "bytes": 19281,
+      "sha256": "bb65b396e34206d8ed6af7238163da873ce1297a95775a6767386d8041200f07"
+    },
+    {
+      "path": "source/prepare_revision.py",
+      "bytes": 6865,
+      "sha256": "84565edd4ada24ba13f30ae8e4a419effdcabb540a171f0a930fbe944471425d"
+    }
+  ]
+}

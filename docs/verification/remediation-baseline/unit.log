@@ -1,0 +1,41 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/funnel.test.ts (17 tests) 27ms
+ ✓ tests/segmentation.test.ts (27 tests) 34ms
+ ✓ tests/retention.test.ts (25 tests) 51ms
+ ✓ tests/causal.test.ts (39 tests) 41ms
+ ✓ tests/decision.test.ts (67 tests) 107ms
+ ✓ tests/decision-consistency.test.ts (9 tests) 43ms
+ ✓ tests/consistency.test.ts (9 tests) 61ms
+ ✓ tests/storage.test.ts (3 tests) 30ms
+ ✓ tests/metrics.test.ts (4 tests) 47ms
+ ✓ tests/app.test.tsx (2 tests) 1562ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1265ms
+ ✓ tests/retention-app.test.tsx (2 tests) 5434ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 5186ms
+ ✓ tests/funnel-app.test.tsx (1 test) 2782ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 2781ms
+ ✓ tests/segmentation-app.test.tsx (2 tests) 6101ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 2147ms
+   ✓ M4 requires all reasoning, gates solutions, persists legacy histories and resets 3952ms
+ ✓ tests/causal-app.test.tsx (3 tests) 7809ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 2302ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 3351ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 2154ms
+ ✓ tests/decision-app.test.tsx (5 tests) 22902ms
+   ✓ M6 evidence classifications, source labels and what-if matrix are interactive and saved 4407ms
+   ✓ M6 preserves partial reasoning chosen out of order after reload without corrupting old work 782ms
+   ✓ M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists 11135ms
+   ✓ M6 reveals rights and rejects its critical misconception before a justified revision 3304ms
+   ✓ M6 reveals coverage and rejects its critical misconception before a justified revision 3272ms
+
+ Test Files  15 passed (15)
+      Tests  215 passed (215)
+   Start at  22:56:41
+   Duration  27.17s (transform 2.29s, setup 8.22s, collect 7.44s, tests 47.03s, environment 27.08s, prepare 3.29s)
+

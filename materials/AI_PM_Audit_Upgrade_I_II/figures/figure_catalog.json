@@ -1,0 +1,110 @@
+[
+  {
+    "figure": 1,
+    "title": "Khám phá và triển khai",
+    "chapter": 1,
+    "question": "Đội đang giảm loại bất định nào?",
+    "interpretation": "Hai dòng công việc nối với kết quả và bằng chứng mới. Discovery không chỉ diễn ra trước khi viết code; vận hành tạo thêm câu hỏi.",
+    "limitation": "Không đọc như quy trình một chiều hoặc chứng minh sản phẩm sẽ tăng trưởng.",
+    "source": "Sơ đồ giảng dạy gốc; tham khảo khái niệm S1/S2."
+  },
+  {
+    "figure": 2,
+    "title": "Các cách giải thích cạnh tranh",
+    "chapter": 2,
+    "question": "Vì sao tự dùng lại chưa tốt?",
+    "interpretation": "Feedback sai, thiếu luyện phù hợp, khác nhiệm vụ và áp lực đều có thể tạo biểu hiện tương tự. Cần quan sát giúp phân biệt.",
+    "limitation": "Mũi tên là giả thuyết; không là quan hệ causal đã đo.",
+    "source": "Sơ đồ giả thuyết gốc."
+  },
+  {
+    "figure": 3,
+    "title": "Độ nhạy kinh tế",
+    "chapter": 3,
+    "question": "Churn giả định làm thay đổi LTV thế nào?",
+    "interpretation": "Với đóng góp 120.000 đồng/tháng, LTV mô hình giảm từ 6 triệu ở churn 2% xuống 0,8 triệu ở 15%. Cùng một công thức có kết quả rất khác khi giả định đổi.",
+    "limitation": "Không có dữ liệu churn thật. Mô hình không chiết khấu, đóng góp và churn cố định.",
+    "source": "MÔ PHỎNG; practice/ltv_simulated.csv và source/build_original_figures.py."
+  },
+  {
+    "figure": 4,
+    "title": "Cửa quyết định",
+    "chapter": 4,
+    "question": "Cần kiểm gì trước khi xây?",
+    "interpretation": "Xác nhận job và consequence, rồi so incumbent đúng điều kiện. Nếu hiện có đủ tốt, hướng dẫn hoặc dừng gap claim có thể hợp lý.",
+    "limitation": "Gate dạy học không là bằng chứng thị trường; residual gap chưa tự là business go.",
+    "source": "ĐỀ XUẤT giảng dạy gốc."
+  },
+  {
+    "figure": 5,
+    "title": "Các lớp chọn mẫu",
+    "chapter": 5,
+    "question": "Ai có thể bị bỏ ngoài corpus?",
+    "interpretation": "Từ tổng thể đến nền tảng, đăng bài, tìm thấy và giữ record là nhiều lớp lựa chọn. Mỗi lớp có thể thay đổi điều được nhìn thấy.",
+    "limitation": "Không có counts sàng lọc; không phải sơ đồ PRISMA đã chạy.",
+    "source": "Sơ đồ khái niệm gốc; đọc thêm S5/S6."
+  },
+  {
+    "figure": 6,
+    "title": "Chuỗi episode",
+    "chapter": 6,
+    "question": "Thiếu mắt xích nào trong lời kể?",
+    "interpretation": "Dựng trigger, workflow, hành động tiếp, consequence và workaround; hỏi cả counterepisode. Mỗi nút có nhãn loại evidence riêng.",
+    "limitation": "Một artifact chỉ hỗ trợ phần được quan sát, không biến cả câu chuyện thành observed.",
+    "source": "ĐỀ XUẤT guide gốc, gợi ý bởi The Mom Test B1."
+  },
+  {
+    "figure": 7,
+    "title": "Hành trình công việc",
+    "chapter": 7,
+    "question": "Bước nào cần quan sát để hiểu giá trị?",
+    "interpretation": "Từ chuẩn bị email đến dùng lại, mỗi bước có câu hỏi khác. Người chỉ muốn gửi ngay có thể không có job học dài hạn trong episode ấy.",
+    "limitation": "Journey mô phỏng, chưa được tổng hợp từ quan sát của người tham gia.",
+    "source": "MÔ PHỎNG giảng dạy gốc."
+  },
+  {
+    "figure": 8,
+    "title": "Cây cơ hội và lời giải",
+    "chapter": 8,
+    "question": "Một cơ hội có những lời giải nào?",
+    "interpretation": "Outcome ở trên, cơ hội giả định ở giữa và các lời giải để đối chiếu ở dưới. Chốt các giả định có thể kiểm trước khi chọn app mới.",
+    "limitation": "Cây chưa có đầu vào primary research, không gọi là validated OST.",
+    "source": "Cây giả thuyết gốc, gợi ý bởi OST S8."
+  },
+  {
+    "figure": 9,
+    "title": "Thông tin thiếu trong raw",
+    "chapter": 8,
+    "question": "Missingness đang chặn quyết định gì?",
+    "interpretation": "Trong 107 English active AI records, thiếu segment 68, proficiency 88 và original quote 98 theo rule raw. Phân nhóm hoặc đánh giá provenance cần lưu giới hạn.",
+    "limitation": "Đây là ô thiếu trong corpus, không là người học thiếu năng lực. Lớp review có mẫu số và mục đích khác.",
+    "source": "DỮ LIỆU HỒ SƠ P3; audit_evidence.py, audit_results.json; kiểm 17/10/2026."
+  },
+  {
+    "figure": 10,
+    "title": "Tập trung nền tảng",
+    "chapter": 5,
+    "question": "Corpus phụ thuộc nguồn nào?",
+    "interpretation": "Reddit 67 và Trustpilot 68 tạo 135/200 record. Nguồn khác bổ sung bối cảnh nhưng chưa làm corpus đại diện.",
+    "limitation": "Số record không là số người, tỷ trọng nền tảng không là thị phần hoặc prevalence.",
+    "source": "DỮ LIỆU HỒ SƠ P3; audit_evidence.py; kiểm 17/10/2026."
+  },
+  {
+    "figure": 11,
+    "title": "Mỗi giải thích cần một phép kiểm phân biệt",
+    "chapter": 2,
+    "question": "Quan sát nào phân biệt model, task mix và instrumentation?",
+    "interpretation": "Mỗi giả thuyết nối tới một phép kiểm có thể làm nó yếu đi.",
+    "limitation": "Sơ đồ mô phỏng, không chứng minh nguyên nhân.",
+    "source": "source/build_additional_figures.py; Bo_sung_Tap_I.md"
+  },
+  {
+    "figure": 12,
+    "title": "Tổng thay đổi khi cơ cấu và độ phủ thay đổi",
+    "chapter": 1,
+    "question": "Vì sao tổng pass rate đổi trong khi tỷ lệ từng segment giữ nguyên?",
+    "interpretation": "Coverage giảm 74% xuống 47%; rates từng segment không đổi. Đọc cùng đáp án 1D/5D.",
+    "limitation": "Hai cohort khác người; không suy causal hoặc strict Simpson reversal.",
+    "source": "MÔ PHỎNG practice/case_b_weekly.csv; source/build_additional_figures.py; chỉ dành cho Instructor"
+  }
+]

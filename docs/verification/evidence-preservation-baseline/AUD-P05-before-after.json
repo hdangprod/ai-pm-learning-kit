@@ -1,0 +1,74 @@
+{
+  "before": {
+    "version": 1,
+    "modules": {
+      "1": {
+        "hypothesis": "",
+        "journal": "",
+        "attempts": [
+          {
+            "id": "c7ce321f-7037-4989-8650-6cddbaf9afa2",
+            "assessmentVersion": 2,
+            "at": "2026-10-19T17:09:11.155Z",
+            "stage": "primary",
+            "input": "52",
+            "choice": -1,
+            "responseIds": [],
+            "presentation": [
+              [
+                "m1.primary.assessed-scope",
+                "m1.primary.eligible-generalization",
+                "m1.primary.causal-attribution"
+              ]
+            ],
+            "assistance": {
+              "kind": "initial_unaided",
+              "feedbackAvailable": false,
+              "solutionConsulted": false,
+              "reasoningChange": "",
+              "scope": "same_case_practice",
+              "note": "Recorded in-app exposure only; unaided does not verify absence of external help. Text presence is not semantic grading."
+            },
+            "result": {
+              "passed": false,
+              "numeric": false,
+              "reasoning": false,
+              "feedback": "52/100 measures observed passes among all eligible learners. This question asks about the 74 who were assessed. Choose an interpretation so we can check your reasoning."
+            }
+          }
+        ],
+        "revealed": false,
+        "primaryPassed": false,
+        "complete": false,
+        "practiceDrafts": {
+          "primary": {
+            "id": "c7ce321f-7037-4989-8650-6cddbaf9afa2",
+            "input": "52",
+            "answers": [],
+            "order": [
+              [
+                "m1.primary.assessed-scope",
+                "m1.primary.eligible-generalization",
+                "m1.primary.causal-attribution"
+              ]
+            ],
+            "reasoningChange": ""
+          }
+        }
+      }
+    }
+  },
+  "after": {
+    "version": 1,
+    "modules": {
+      "2": {
+        "hypothesis": "AUTHORED stale second-instance note",
+        "journal": "",
+        "attempts": [],
+        "revealed": false,
+        "primaryPassed": false,
+        "complete": false
+      }
+    }
+  }
+}

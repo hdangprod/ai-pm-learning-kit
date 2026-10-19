@@ -1,0 +1,42 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/funnel.test.ts (17 tests) 32ms
+ ✓ tests/retention.test.ts (25 tests) 47ms
+ ✓ tests/segmentation.test.ts (27 tests) 43ms
+ ✓ tests/causal.test.ts (39 tests) 50ms
+ ✓ tests/decision.test.ts (67 tests) 111ms
+ ✓ tests/decision-consistency.test.ts (9 tests) 52ms
+ ✓ tests/consistency.test.ts (9 tests) 64ms
+ ✓ tests/storage.test.ts (3 tests) 13ms
+ ✓ tests/metrics.test.ts (4 tests) 13ms
+ ✓ tests/app.test.tsx (2 tests) 1580ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1123ms
+   ✓ reset clears exercise feedback, answers and revealed solution without deleting unrelated storage 455ms
+ ✓ tests/retention-app.test.tsx (2 tests) 5336ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 5043ms
+ ✓ tests/funnel-app.test.tsx (1 test) 3144ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 3142ms
+ ✓ tests/segmentation-app.test.tsx (2 tests) 6414ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 2158ms
+   ✓ M4 requires all reasoning, gates solutions, persists legacy histories and resets 4254ms
+ ✓ tests/causal-app.test.tsx (3 tests) 8208ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 2200ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 3431ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 2574ms
+ ✓ tests/decision-app.test.tsx (5 tests) 24798ms
+   ✓ M6 evidence classifications, source labels and what-if matrix are interactive and saved 3920ms
+   ✓ M6 preserves partial reasoning chosen out of order after reload without corrupting old work 1165ms
+   ✓ M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists 11955ms
+   ✓ M6 reveals rights and rejects its critical misconception before a justified revision 4085ms
+   ✓ M6 reveals coverage and rejects its critical misconception before a justified revision 3672ms
+
+ Test Files  15 passed (15)
+      Tests  215 passed (215)
+   Start at  18:21:08
+   Duration  29.40s (transform 2.56s, setup 7.86s, collect 7.71s, tests 49.90s, environment 27.87s, prepare 3.97s)
+

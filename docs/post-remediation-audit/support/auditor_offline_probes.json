@@ -1,0 +1,26 @@
+[
+  {
+    "form": "A",
+    "onlyAssignedFormDelivered": true,
+    "keysCopiedToLearner": false,
+    "lockedSnapshotPreserved": true,
+    "initialEligibilityFlagAfterHintRecorded": true,
+    "interpretation": "Eligibility field is creation-time preflight only; final independence requires moderator adjudication."
+  },
+  {
+    "form": "B",
+    "onlyAssignedFormDelivered": true,
+    "keysCopiedToLearner": false,
+    "lockedSnapshotPreserved": true,
+    "initialEligibilityFlagAfterHintRecorded": true,
+    "interpretation": "Eligibility field is creation-time preflight only; final independence requires moderator adjudication."
+  },
+  {
+    "form": "C",
+    "onlyAssignedFormDelivered": true,
+    "keysCopiedToLearner": false,
+    "lockedSnapshotPreserved": true,
+    "initialEligibilityFlagAfterHintRecorded": true,
+    "interpretation": "Eligibility field is creation-time preflight only; final independence requires moderator adjudication."
+  }
+]

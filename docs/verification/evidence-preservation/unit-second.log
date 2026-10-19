@@ -1,0 +1,67 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/funnel.test.ts (17 tests) 16ms
+ ✓ tests/segmentation.test.ts (27 tests) 29ms
+ ✓ tests/retention.test.ts (25 tests) 32ms
+ ✓ tests/causal.test.ts (39 tests) 43ms
+ ✓ tests/decision.test.ts (67 tests) 79ms
+ ❯ tests/consistency.test.ts (9 tests | 5 failed) 54ms
+   × reset activity 1 preserves every other legacy history and unrelated storage 11ms
+     → STORAGE_KEY is not defined
+   × reset activity 2 preserves every other legacy history and unrelated storage 1ms
+     → STORAGE_KEY is not defined
+   × reset activity 3 preserves every other legacy history and unrelated storage 1ms
+     → STORAGE_KEY is not defined
+   × reset activity 4 preserves every other legacy history and unrelated storage 1ms
+     → STORAGE_KEY is not defined
+   × reset activity 5 preserves every other legacy history and unrelated storage 1ms
+     → STORAGE_KEY is not defined
+ ✓ tests/decision-consistency.test.ts (9 tests) 60ms
+ ✓ tests/metrics.test.ts (4 tests) 13ms
+ ✓ tests/storage.test.ts (3 tests) 13ms
+ ✓ tests/remediation.test.tsx (16 tests) 2690ms
+   ✓ draft ordering and selected semantic IDs survive reload; assisted retry requires a new reflection and never overwrites first evidence 1432ms
+   ✓ all-module legacy reset remains scoped and pending review is visible without completing Module6 914ms
+ ✓ tests/app.test.tsx (2 tests) 1313ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1061ms
+ ✓ tests/retention-app.test.tsx (2 tests) 4392ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 4173ms
+ ✓ tests/funnel-app.test.tsx (1 test) 2304ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 2302ms
+ ✓ tests/segmentation-app.test.tsx (2 tests) 4987ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 1740ms
+   ✓ M4 requires all reasoning, gates solutions, persists legacy histories and resets 3245ms
+ ✓ tests/causal-app.test.tsx (3 tests) 6220ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 1783ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 2535ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 1900ms
+ ✓ tests/decision-app.test.tsx (5 tests) 24389ms
+   ✓ M6 evidence classifications, source labels and what-if matrix are interactive and saved 3333ms
+   ✓ M6 preserves partial reasoning chosen out of order after reload without corrupting old work 589ms
+   ✓ M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists 12794ms
+   ✓ M6 reveals rights and rejects its critical misconception before a justified revision 3838ms
+   ✓ M6 reveals coverage and rejects its critical misconception before a justified revision 3833ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 5 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/consistency.test.ts > reset activity 1 preserves every other legacy history and unrelated storage
+ FAIL  tests/consistency.test.ts > reset activity 2 preserves every other legacy history and unrelated storage
+ FAIL  tests/consistency.test.ts > reset activity 3 preserves every other legacy history and unrelated storage
+ FAIL  tests/consistency.test.ts > reset activity 4 preserves every other legacy history and unrelated storage
+ FAIL  tests/consistency.test.ts > reset activity 5 preserves every other legacy history and unrelated storage
+ReferenceError: STORAGE_KEY is not defined
+ ❯ tests/consistency.test.ts:10:486
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/5]⎯
+
+ Test Files  1 failed | 15 passed (16)
+      Tests  5 failed | 226 passed (231)
+   Start at  00:13:29
+   Duration  27.62s (transform 1.96s, setup 5.50s, collect 6.58s, tests 46.63s, environment 20.90s, prepare 2.65s)
+

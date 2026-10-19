@@ -1,0 +1,3 @@
+PASS 128 protected datasets/answer IDs/legacy-label catalogs/forms/keys/materials/specs/mapping/dependency files match pre-change hashes.
+PASS all40 post-remediation audit entries unchanged; original archive SHA256 verified.
+PASS missing/not-supplied originals report UNVERIFIED with exit2, without a fabricated fallback or path traceback.

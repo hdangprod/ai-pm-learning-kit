@@ -1,0 +1,63 @@
+# Thư mục nguồn có chú giải
+
+Kiểm nguồn ngày 17/10/2026. Trạng thái đọc được ghi rõ: hai PDF do người học cung cấp; tài liệu dự án đọc từ file hiện hành; nguồn web có thể là bài toàn văn, trang giới thiệu hoặc documentation. Không tuyên bố đã đọc toàn bộ các sách bổ trợ chỉ vì mở trang nhà xuất bản. Nguồn đã kiểm để dùng về sau chưa đồng nghĩa chương tương ứng đã viết. Các ví dụ và hình trong giáo trình là nội dung gốc.
+
+## Hai sách được cung cấp
+
+**B1 Rob Fitzpatrick — The Mom Test.** PDF 120 trang người học gửi; năm/edition không chốt từ bản PDF này, không lấy tên file làm metadata xuất bản. Loại: sách thực hành discovery. Đã đối chiếu nội dung liên quan câu hỏi, dữ liệu kém, mức quan trọng, commitment, segmentation và process. Các locator dùng trang in 8–22, 23–40, 41–55, 62–73, 89–98, 99–113. Điểm mạnh: cách nhận diện câu hỏi tạo false positives. Giới hạn: hướng dẫn practitioner không phải chứng minh prevalence hoặc causal efficacy; các lời khuyên mạnh về opinions/future cần đọc trong bối cảnh khám phá nhu cầu. Dùng chương 4, 5–8 và playbook; dự kiến 22, 24. Định danh là file trong Source_Inventory.md, không bịa URL của chính bản upload.
+
+**B2 Gayle Laakmann McDowell và Jackie Bavaro — Cracking the PM Interview: How to Land a Product Manager Job in Technology.** CareerCup, 2014, ISBN 9780984782819; PDF được gửi có 437 trang. Loại: sách nghề nghiệp và case reasoning. Dùng mục vai trò, chuyển từ kỹ sư, estimation, product questions và case/metrics ở chương 2, 4, 13–15; locator theo tên chương vì pagination ebook không nên suy từ một edition khác. Điểm mạnh: làm rõ phối hợp và cấu trúc giải case. Giới hạn: phần công ty, hiring, quy mô và thực hành năm 2014 là lịch sử, không dựa vào để khuyên tuyển dụng năm 2026. Dùng chương giáo trình 1–3, dự kiến 18–19, 24. Không thay kiến thức thống kê, causal hoặc AI evaluation bằng sách phỏng vấn.
+
+## Nguồn đã dùng trực tiếp trong Tập I và II
+
+**S1 Teresa Torres — Continuous Discovery Habits (the Book) is Finally Here!** Product Talk, 19/05/2021. https://www.producttalk.org/continuous-discovery-habits/ . Loại: bài giới thiệu của tác giả, không phải toàn văn sách. Xác minh sách và ý tưởng structured continuous discovery. Mạnh: nguồn gốc practitioner; giới hạn: có mục tiêu giới thiệu sản phẩm và không chứng minh định lượng mọi khuyến nghị. Áp dụng chương 1 và kiến trúc 4, 8, 18, 22.
+
+**S2 Melissa Perri — Escaping the Build Trap: How Effective Product Management Creates Real Value.** O’Reilly, 2018; trang official guide tại Product Institute: https://productinstitute.com/resources/books/escaping-the-build-trap . Loại: hướng dẫn của tổ chức tác giả và mục lục sách, không toàn văn. Dùng phân biệt value/outcome với output. Mạnh: rõ nguồn gốc khái niệm và phạm vi sách; giới hạn: case/practitioner guidance không bảo đảm cùng mô hình tổ chức phù hợp mọi nơi. Dùng chương 1, 3; dự kiến 18–19.
+
+**S3 Alistair Croll và Benjamin Yoskovitz — Lean Analytics: Use Data to Build a Better Startup Faster.** O’Reilly, 2013. https://www.oreilly.com/library/view/lean-analytics/9781449335687/index.html . Loại: trang nhà xuất bản và nội dung truy cập được. Khái niệm liên quan chọn metric theo giai đoạn và business model. Mạnh: khung thực hành; giới hạn: không lấy benchmark hay công thức từ phần chưa đọc; số trong chương 3 là mô hình gốc có assumptions. Dùng chương 3, dự kiến 13–16, 23.
+
+**S4 Clayton Christensen Institute — Jobs to Be Done.** Trang tổ chức, không gán năm gốc cho trang sống. https://www.christenseninstitute.org/theory/jobs-to-be-done/ . Loại: giải thích theory/practitioner framework. Mạnh: nguồn trực tiếp về progress và circumstances; giới hạn: job statement chưa đo market size hoặc superiority. Dùng chương 4, 7; dự kiến 22.
+
+**S5 Christian Rohrer — When to Use Which User-Experience Research Methods.** Nielsen Norman Group, 17/07/2022; trang ghi reviewed 15/07/2026 tại lúc kiểm. https://www.nngroup.com/articles/which-ux-research-methods/ . Loại: hướng dẫn phương pháp UX của tác giả. Mạnh: phân loại câu hỏi/phương pháp; giới hạn: bản đồ giản lược không thay sample design hoặc phân tích thống kê. Dùng chương 5–6.
+
+**S6 Pew Research Center — Evaluating Online Nonprobability Surveys.** 02/05/2016. https://www.pewresearch.org/methods/2016/05/02/evaluating-online-nonprobability-surveys/ . Loại: nghiên cứu phương pháp gốc của tổ chức thực hiện. Mạnh: đánh giá bias bằng benchmarks; giới hạn: nghiên cứu survey, không trực tiếp là app reviews và không cung cấp hệ số sửa corpus hiện tại. Dùng chương 5, Lab 3; dự kiến 9–10.
+
+**S7 Virginia Braun và Victoria Clarke — Thematic Analysis và Doing Reflexive TA.** Trang tác giả tại https://www.thematicanalysis.net/ và https://www.thematicanalysis.net/doing-reflexive-ta/ . Loại: hướng dẫn phương pháp của tác giả; không gán một năm xuất bản duy nhất cho website. Mạnh: làm rõ các họ TA và tính phản tư; giới hạn: codebook audit trong nghiên cứu PM không tự là reflexive TA. Dùng chương 8; phân biệt không bắt inter-rater coefficient cho mọi cách TA.
+
+**S8 Teresa Torres — Opportunity Solution Trees.** Product Talk, trang hướng dẫn đang cập nhật; không chốt năm cho toàn trang. https://www.producttalk.org/opportunity-solution-trees/ . Loại: hướng dẫn tác giả framework. Mạnh: làm rõ outcome/opportunity/solution/tests và yêu cầu đầu vào câu chuyện; giới hạn: sơ đồ không xác minh giả định, số phỏng vấn để bắt đầu cây không là market validation. Dùng chương 8; dự kiến 16, 18, 22.
+
+**S9 John Dunlosky, Katherine A. Rawson, Elizabeth J. Marsh, Mitchell J. Nathan và Daniel T. Willingham — Improving Students’ Learning With Effective Learning Techniques: Promising Directions From Cognitive and Educational Psychology.** Psychological Science in the Public Interest 14(1), 2013; online 08/01/2013. DOI https://doi.org/10.1177/1529100612453266 . Loại: tổng quan học thuật, đọc nội dung trên trang nhà xuất bản. Mạnh: xem mức tổng quát của các kỹ thuật học; giới hạn: không tự chứng minh lịch 1/3/7 ngày hoặc một app cụ thể tối ưu. Dùng thiết kế roadmap, retrieval và spaced practice; dự kiến 21–23 khi phân biệt nguyên tắc học với efficacy sản phẩm.
+
+## Nguồn bổ trợ đã kiểm để biên soạn các tập tiếp
+
+**S10 OpenIntro — OpenIntro Statistics.** Trang chính thức https://www.openintro.org/book/os/ . Loại: textbook/resources giáo dục mở; chưa chốt metadata edition/năm cụ thể của một PDF tải về trong lượt này. Mạnh: nền tảng xác suất và suy luận cho người mới; giới hạn: cần chọn edition cố định trước khi trích chương/trang hoặc dùng bài tập cụ thể. Dự kiến chương 9–10, 15, 17; hiện dùng như nguồn đọc trong roadmap, không nói đã giảng đủ thống kê.
+
+**S11 SQLite Project — SELECT.** Documentation sống https://www.sqlite.org/lang_select.html . Loại: tài liệu chính thức, kiểm trang cú pháp SELECT. Mạnh: chuẩn để validate queries SQLite; giới hạn: dialect và date semantics khác PostgreSQL/BigQuery, không suy syntax đa hệ. Dự kiến chương 12 và 23; phần SQL đầy đủ chưa giao.
+
+**S12 Kerry Rodden, Hilary Hutchinson và Xin Fu — Measuring the User Experience on a Large Scale: User-Centered Metrics for Web Applications.** Proceedings of CHI 2010, ACM Press. https://research.google/pubs/measuring-the-user-experience-on-a-large-scale-user-centered-metrics-for-web-applications/ . Loại: publication page/abstract chính thức. Mạnh: nguồn gốc HEART và mapping goals to metrics; giới hạn: abstract không thay full paper và HEART chưa tự đo educational transfer. Dự kiến chương 13, 19. Chưa tái tạo hình từ bài.
+
+**S13 Amplitude — About the North Star Framework.** https://www.amplitude.com/books/north-star/about-north-star-framework . Loại: practitioner framework của vendor; trang sống, không gán năm một edition chưa chốt. Mạnh: vocabulary và hướng chọn metric; giới hạn: có góc nhìn thương mại, một metric không thay guardrails và nhiều stakeholder outcomes. Dự kiến chương 13, 18.
+
+**S14 Google — Set up events.** Google Analytics developer documentation. https://developers.google.com/analytics/devguides/collection/ga4/events . Loại: tài liệu kỹ thuật chính thức sống. Mạnh: event instrumentation; giới hạn: ghi được event chưa bảo đảm đúng measurement construct hay dữ liệu không mất. Dự kiến chương 9, 13, 23; schema tự tạo sẽ cần quy tắc riêng.
+
+**S15 NIST — AI Risk Management Framework 1.0.** Phát hành 26/01/2023; trang chính thức https://www.nist.gov/itl/ai-risk-management-framework . Trang cũng nêu Generative AI Profile ngày 26/07/2024 và RMF 1.0 đang được sửa ở thời điểm kiểm. Loại: framework tự nguyện của cơ quan tiêu chuẩn. Mạnh: tổ chức quản trị rủi ro và trustworthiness; giới hạn: không chứng nhận một app an toàn và không thay kiểm outcome giáo dục. Dự kiến chương 20–21, không áp dụng checklist hình thức vào người học.
+
+**S16 Anthropic — Define success criteria and build evaluations.** Claude Platform documentation, https://platform.claude.com/docs/en/test-and-evaluate/develop-tests . Loại: tài liệu chính thức sống, mở từ đường dẫn docs cũ được chuyển hướng. Mạnh: bắt đầu bằng success criteria và thiết kế eval; giới hạn: hướng dẫn provider, cần dataset đại diện, human review và outcome của ứng dụng; không coi model judge là gold standard. Dự kiến chương 20–21; hiện dùng như đọc trước trong roadmap.
+
+**S17 Ron Kohavi, Diane Tang và Ya Xu — Trustworthy Online Controlled Experiments: A Practical Guide to A/B Testing.** Cambridge University Press, 2020. DOI https://doi.org/10.1017/9781108653985 . Loại: sách phương pháp; kiểm metadata qua trang Cambridge https://www.cambridge.org/core/books/abs/trustworthy-online-controlled-experiments/trustworthy-online-controlled-experiments/BFFD7CC0B7325B5DCEEFFB1DD9401F7E . Chưa đọc toàn bộ sách trong lượt này. Mạnh: thiết kế và trustworthiness thực nghiệm online; giới hạn: không dùng ví dụ/số/kết luận của phần chưa truy cập, không áp một cỡ mẫu cố định cho giáo dục. Dự kiến chương 10, 17; playbook chỉ là template tổng hợp có giới hạn.
+
+**S18 Cole Nussbaumer Knaflic — Storytelling with Data.** Trang sách của tác giả https://www.storytellingwithdata.com/books . Loại: catalog sách chính thức; chưa dùng full text hay page citation. Mạnh: định hướng chọn biểu đồ theo thông điệp; giới hạn: narrative không được làm uncertainty nhỏ đi hoặc biến correlation thành cause. Dự kiến chương 14, 19; các hình hiện tại tự thiết kế theo dữ liệu, không chép hình sách.
+
+**S19 pandas development team — 10 minutes to pandas.** https://pandas.pydata.org/docs/user_guide/10min.html . Loại: docs chính thức sống; trang tại lúc đọc hiển thị nhánh 3.0.6. Mạnh: syntax và data structures; giới hạn: môi trường học có thể khác version, cần khóa môi trường thực hành khi tạo capstone. Dự kiến chương 14, 23. Chưa giao pandas notebook hoặc tuyên bố tương thích đa version.
+
+**S20 Yeonsun Yang, Sang Won Lee, Jean Y. Song, Sangdoo Yun và Young-Ho Kim — LingoQ: Bridging the Gap between EFL Learning and Work through AI-Generated Work-Related Quizzes.** arXiv:2509.17477v2, 27/01/2026; HTML ghi CHI 2026 và DOI https://doi.org/10.1145/3772318.3791342 . Full HTML đã mở: https://arxiv.org/html/2509.17477v2 . Loại: bài nghiên cứu gốc bản tác giả, không gán kết quả causal từ tên hội nghị. Mạnh: comparator nghiên cứu gần work-related review, triển khai ba tuần với 28 EFL workers. Giới hạn: chưa tự xác minh bán thương mại; không suy speaking/delayed workplace transfer hoặc Việt Nam từ design của bài. Dự kiến chương 20–23; không thêm 28 người thành 28 raw user records của corpus. Tập I–II chủ yếu dùng benchmark dự án, không tái trình bày kết quả paper thành claim thị trường.
+
+## Cách đọc bổ trợ hiệu quả
+
+Đọc B1 cùng chương 6, mỗi lần sửa một câu hỏi của chính mình. Đọc B2 phần vai trò và case để so lập luận, không học thuộc mô tả công ty cũ. Dùng S5 trước khi chọn phương pháp, S7 khi quyết định cách coding, S8 sau khi có đầu vào phù hợp. Với thống kê/SQL, chốt edition và engine trước khi làm bài. Với AI, tách model quality, task success và learning; documentation chỉ là điểm khởi đầu thiết kế eval.
+
+Khi nguồn khác nhau, giữ mục đích: bài practitioner giúp tổ chức hành động, tài liệu kỹ thuật chốt cú pháp, paper kiểm câu hỏi trong một thiết kế và phạm vi cụ thể. Không xếp tất cả vào một thang uy tín duy nhất hoặc lấy tên tác giả nổi tiếng thay bằng chứng.
+
+## Tài liệu dự án
+
+P1–P10 trong Source_Inventory.md là corpus và các lớp phân tích nội bộ hiện hành. Chúng được dùng làm dữ liệu trường hợp và đối tượng kiểm phản biện, không là nguồn học thuật đã chứng minh mọi giả thuyết. Các URL, ID và phản chứng giữ theo file; các nguồn người dùng chưa được tái mở toàn bộ trong lượt viết này. Bản PDF Nguyên Lý Product Management Thực Chiến chưa tìm thấy sau hai lượt tìm tên, nên không được viện dẫn nội dung trực tiếp.

@@ -1,0 +1,31 @@
+{
+  "Tap_I_Revised": {
+    "pages": 23,
+    "bookmarks": 6,
+    "layout": "All pages rendered and contact sheets visually reviewed; no clipping observed"
+  },
+  "Tap_II_Revised": {
+    "pages": 24,
+    "bookmarks": 9,
+    "layout": "All pages rendered and contact sheets visually reviewed; no clipping observed"
+  },
+  "Instructor_Guide_I_II": {
+    "pages": 14,
+    "bookmarks": 4,
+    "layout": "All pages rendered and contact sheets visually reviewed; no clipping observed"
+  },
+  "workbook": {
+    "sheets": 5,
+    "competencies": 16,
+    "self_ratings": "All 16 blank",
+    "formula_errors": [],
+    "behavior_checks": "Missing evidence and reviewer state tested before export; inputs restored"
+  },
+  "practice": {
+    "audit_evidence": "passed; 200/149/107 and nine missingness counts",
+    "verify_learning": "passed; rates, bounds and survival payback",
+    "image_links": "all resolved",
+    "exercises": "32 A–D present",
+    "originals": "three original PDF hashes unchanged"
+  }
+}

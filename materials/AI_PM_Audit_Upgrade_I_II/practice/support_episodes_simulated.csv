@@ -1,0 +1,7 @@
+﻿data_type,episode_id,role,context,utterance,artifact_available,observed_note
+SIMULATED,S01,support drafter,Hoàn tiền có ngoại lệ,Hôm qua AI soạn trong một phút nhưng tôi vẫn chờ trưởng nhóm 40 phút. Chị ấy hỏi điều khoản nào cho phép hoàn. Tôi nghĩ AI nhanh hơn.,no,Không có quan sát trực tiếp trong kịch bản.
+SIMULATED,S02,support agent,Hỏi policy tiêu chuẩn,"Tôi dùng ô tìm kiếm của kho policy, mở bản còn hiệu lực rồi dán link. Lần gần nhất mất khoảng hai phút, tôi không cần AI cho câu đó.",yes,Chưa cung cấp artifact trong packet.
+SIMULATED,S03,support lead,Dữ liệu nhiều khách doanh nghiệp,Tôi không được đưa ticket của tenant A cho tenant B. Tôi lo trợ lý tự lấy nhầm dữ liệu; chưa thấy một vụ như vậy trong đội tôi.,no,Không có leak được quan sát trong kịch bản.
+SIMULATED,S04,support agent,Chưa rõ,"Tôi thấy AI đỡ nhiều, dùng khá thích.",no,"Chưa hỏi episode, task hoặc outcome."
+SIMULATED,S05,support drafter,Kiểm phản hồi trước gửi,"Bản nháp dẫn quy tắc 30 ngày, nhưng hôm đó policy mới chỉ cho 14 ngày. Tôi giữ lại để hỏi quản lý.",yes,"Trong kịch bản, reviewer so bản nháp với policy có hiệu lực và xác nhận 30 khác 14; không có trace retrieval."
+SIMULATED,S06,support agent,Hỏi giờ mở cửa lặp lại,Tôi đã dùng template cố định cho câu giờ mở cửa. Tuần trước không phải sửa gì ngoài tên chi nhánh. Chưa thử AI.,yes,Không có log thời gian hay kiểm hiệu quả độc lập.

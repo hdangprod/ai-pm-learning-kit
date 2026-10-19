@@ -1,0 +1,34 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/metrics.test.ts (4 tests) 13ms
+ ✓ tests/funnel.test.ts (17 tests) 32ms
+ ✓ tests/segmentation.test.ts (27 tests) 40ms
+ ✓ tests/retention.test.ts (25 tests) 48ms
+ ✓ tests/causal.test.ts (39 tests) 53ms
+ ✓ tests/consistency.test.ts (9 tests) 84ms
+ ✓ tests/app.test.tsx (2 tests) 1903ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1471ms
+   ✓ reset clears exercise feedback, answers and revealed solution without deleting unrelated storage 430ms
+ ✓ tests/storage.test.ts (3 tests) 12ms
+ ✓ tests/funnel-app.test.tsx (1 test) 3280ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 3278ms
+ ✓ tests/retention-app.test.tsx (2 tests) 4249ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 3987ms
+ ✓ tests/segmentation-app.test.tsx (2 tests) 5094ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 2016ms
+   ✓ M4 requires all reasoning, gates solutions, persists legacy histories and resets 3076ms
+ ✓ tests/causal-app.test.tsx (3 tests) 6683ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 2079ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 2495ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 2106ms
+
+ Test Files  12 passed (12)
+      Tests  134 passed (134)
+   Start at  17:38:08
+   Duration  10.93s (transform 2.22s, setup 5.64s, collect 6.32s, tests 21.49s, environment 22.50s, prepare 2.67s)
+

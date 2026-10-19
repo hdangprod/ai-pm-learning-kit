@@ -1,0 +1,13 @@
+
+> ai-pm-learning-lab@1.0.0 build
+> tsc -b && vite build
+
+vite v5.4.21 building for production...
+transforming...
+✓ 1600 modules transformed.
+rendering chunks...
+computing gzip size...
+dist/index.html                   0.55 kB │ gzip:  0.36 kB
+dist/assets/index-D84otna2.css   19.15 kB │ gzip:  5.08 kB
+dist/assets/index-CzOh1pRT.js   230.67 kB │ gzip: 70.51 kB
+✓ built in 2.33s

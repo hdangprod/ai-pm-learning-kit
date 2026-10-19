@@ -1,0 +1,47 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/funnel.test.ts (17 tests) 16ms
+ ✓ tests/segmentation.test.ts (27 tests) 30ms
+ ✓ tests/retention.test.ts (25 tests) 34ms
+ ✓ tests/causal.test.ts (39 tests) 37ms
+ ✓ tests/decision.test.ts (67 tests) 73ms
+ ✓ tests/consistency.test.ts (9 tests) 50ms
+ ✓ tests/metrics.test.ts (4 tests) 21ms
+ ✓ tests/decision-consistency.test.ts (9 tests) 76ms
+ ✓ tests/storage.test.ts (3 tests) 13ms
+ ✓ tests/evidence-preservation.test.tsx (37 tests) 2228ms
+   ✓ AUD-P05 component: stale M2 edit cannot overwrite first M1 attempt; visible conflict and explicit reload 1387ms
+   ✓ AUD-P06 component: invalid M6 draft preserves all six histories and raw store during M1 edits 424ms
+ ✓ tests/remediation.test.tsx (16 tests) 2811ms
+   ✓ draft ordering and selected semantic IDs survive reload; assisted retry requires a new reflection and never overwrites first evidence 1456ms
+   ✓ all-module legacy reset remains scoped and pending review is visible without completing Module6 1004ms
+ ✓ tests/app.test.tsx (2 tests) 1394ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1138ms
+ ✓ tests/funnel-app.test.tsx (1 test) 2377ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 2375ms
+ ✓ tests/segmentation-app.test.tsx (2 tests) 5231ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 1816ms
+   ✓ M4 requires all reasoning, gates solutions, persists legacy histories and resets 3413ms
+ ✓ tests/retention-app.test.tsx (2 tests) 3308ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 3148ms
+ ✓ tests/causal-app.test.tsx (3 tests) 6405ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 1844ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 2562ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 1996ms
+ ✓ tests/decision-app.test.tsx (5 tests) 28484ms
+   ✓ M6 evidence classifications, source labels and what-if matrix are interactive and saved 3471ms
+   ✓ M6 preserves partial reasoning chosen out of order after reload without corrupting old work 591ms
+   ✓ M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists 15682ms
+   ✓ M6 reveals rights and rejects its critical misconception before a justified revision 4205ms
+   ✓ M6 reveals coverage and rejects its critical misconception before a justified revision 4533ms
+
+ Test Files  17 passed (17)
+      Tests  268 passed (268)
+   Start at  00:18:53
+   Duration  31.68s (transform 1.86s, setup 6.74s, collect 6.77s, tests 52.59s, environment 23.08s, prepare 2.80s)
+

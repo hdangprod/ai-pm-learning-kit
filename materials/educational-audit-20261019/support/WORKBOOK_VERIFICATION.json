@@ -1,0 +1,90 @@
+{
+  "summary": [
+    [
+      "M1 Data Literacy",
+      4,
+      2,
+      1.5,
+      3.5,
+      4,
+      3,
+      4,
+      61.00000000000001
+    ],
+    [
+      "M2 Funnel Analysis",
+      4,
+      2,
+      1.5,
+      3.5,
+      4,
+      3,
+      3.5,
+      60.00000000000001
+    ],
+    [
+      "M3 Cohort & Retention",
+      4,
+      2,
+      1.5,
+      3.5,
+      4,
+      3,
+      3.5,
+      60.00000000000001
+    ],
+    [
+      "M4 Segmentation & Simpson's Paradox",
+      4,
+      2,
+      1.5,
+      3.5,
+      4.5,
+      3,
+      3.5,
+      61.00000000000001
+    ],
+    [
+      "M5 Correlation & Causation",
+      4,
+      2,
+      2,
+      3,
+      4.5,
+      3,
+      4,
+      62
+    ],
+    [
+      "M6 Evidence-Based Product Decisions",
+      4,
+      1.5,
+      2.5,
+      3,
+      4,
+      2.5,
+      4,
+      59.5
+    ],
+    [
+      "Overall, equal module weights",
+      4,
+      1.9166666666666667,
+      1.75,
+      3.3333333333333335,
+      4.166666666666667,
+      2.9166666666666665,
+      3.75,
+      60.583333333333336
+    ]
+  ],
+  "ratingCount": 42,
+  "matrixCount": 24,
+  "perturbation": {
+    "before": 60.583333333333336,
+    "changed": 60.25,
+    "restored": 60.583333333333336
+  },
+  "blankPropagation": "NE",
+  "engine": "Artifact Tool; Excel/LibreOffice not executed"
+}

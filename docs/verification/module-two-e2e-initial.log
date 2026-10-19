@@ -1,0 +1,47 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:42388) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:42409) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 4 workers
+
+  ✓   1 [desktop] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (4.6s)
+  ✓   2 [desktop] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (5.7s)
+  ✓   5 [desktop] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (2.2s)
+  ✓   3 [mobile] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (7.1s)
+  ✓   7 [desktop] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.4s)
+  ✓   8 [mobile] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (2.0s)
+  ✓   9 [mobile] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.3s)
+  ✓   4 [mobile] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (11.6s)
+  ✘   6 [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (5.6s)
+  ✓  10 [mobile] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (1.3s)
+
+
+  1) [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance 
+
+    Error: expect(received).toBeGreaterThan(expected)
+
+    Expected: > 0
+    Received:   0
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      21 | });
+      22 | test('M2 event audit and downloadable fixture preserve provenance',async({page,request})=>{
+    > 23 |  await openFunnel(page);const audit=page.getByRole('region',{name:'Event audit table, horizontally scrollable'});await audit.focus();await page.keyboard.press('ArrowRight');await expect.poll(()=>audit.evaluate(el=>el.scrollLeft)).toBeGreaterThan(0);await audit.evaluate(el=>el.scrollLeft=0);const response=await request.get('/data/events-v1.json');expect(response.ok()).toBe(true);const f=await response.json();expect(f.data_type).toBe('SYNTHETIC_AUTHORED');expect(f.users).toHaveLength(12);expect(f.events).toHaveLength(28);
+         |                                                                                                                                                                                                                                       ^
+      24 |  const boundary=page.getByRole('row').filter({has:page.getByRole('rowheader',{name:'UPPER_BOUNDARY',exact:true})});await expect(boundary).toContainText('Outside half-open window');
+      25 |  const tied=page.getByRole('row').filter({has:page.getByRole('rowheader',{name:'TIED_FEEDBACK',exact:true})});await expect(tied).toContainText('No earlier practice');await expect(page.getByText('Duplicate ID · ignored',{exact:true})).toBeVisible();
+      26 |  await page.getByLabel('Signup cohort',{exact:true}).selectOption('2026-10-08');expect(await page.locator('.metric-card strong').allTextContents()).toEqual(['4','3','2']);await expect(page.getByText('UPPER_BOUNDARY',{exact:true})).toHaveCount(0);
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/funnel.spec.cjs:23:231
+
+    Error Context: test-results/funnel-M2-event-audit-and--6072e-fixture-preserve-provenance-desktop/error-context.md
+
+  1 failed
+    [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance 
+  9 passed (19.1s)

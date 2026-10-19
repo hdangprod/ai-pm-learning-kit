@@ -1,0 +1,23 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:42730) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:42750) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 10 tests using 4 workers
+
+  ✓   1 [desktop] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (4.8s)
+  ✓   5 [desktop] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (1.7s)
+  ✓   2 [mobile] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (6.6s)
+  ✓   6 [desktop] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.6s)
+  ✓   7 [mobile] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (2.4s)
+  ✓   4 [mobile] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (10.0s)
+  ✓   8 [mobile] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.2s)
+  ✓   3 [desktop] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (12.0s)
+  ✓   9 [mobile] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (2.0s)
+  ✓  10 [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (1.8s)
+
+  10 passed (18.6s)

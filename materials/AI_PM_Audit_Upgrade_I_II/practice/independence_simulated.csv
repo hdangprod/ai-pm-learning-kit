@@ -1,0 +1,13 @@
+record_id,account_id,thread_id,quote_id,episode_id,data_type
+R01,A,T1,Q01,EP1,simulated
+R02,A,T1,Q02,EP1,simulated
+R03,A,T2,Q03,EP2,simulated
+R04,B,T1,Q04,EP3,simulated
+R05,B,T3,Q05,EP4,simulated
+R06,B,T3,Q05,EP4,simulated
+R07,C,T2,Q06,EP5,simulated
+R08,C,T4,Q07,EP5,simulated
+R09,D,T4,Q08,EP6,simulated
+R10,E,T5,Q09,EP7,simulated
+R11,E,T5,Q10,EP7,simulated
+R12,F,T5,Q11,EP8,simulated

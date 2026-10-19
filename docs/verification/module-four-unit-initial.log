@@ -1,0 +1,668 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/storage.test.ts (3 tests) 10ms
+ ✓ tests/metrics.test.ts (4 tests) 13ms
+ ✓ tests/funnel.test.ts (17 tests) 32ms
+ ✓ tests/segmentation.test.ts (27 tests) 39ms
+ ✓ tests/retention.test.ts (25 tests) 44ms
+ ✓ tests/app.test.tsx (2 tests) 927ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 742ms
+ ❯ tests/segmentation-app.test.tsx (2 tests | 2 failed) 1663ms
+   × M4 filters and reweights the explorer without altering locked assessments 791ms
+     → Unable to find an accessible element with the role "button" and name "Product A 20.00%"
+
+Here are the accessible roles:
+
+  button:
+
+  Name "Product A 50.00%":
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------button:
+
+  Name "Product B 60.00%":
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mclass[39m=[32m"chart-detail"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33maria-label[39m=[32m"Hypothetical weighted pass rates"[39m
+  [33mclass[39m=[32m"chart"[39m
+  [33mrole[39m=[32m"group"[39m
+[36m>[39m
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m>[39m
+    [36m<span>[39m
+      [0mProduct A[0m
+    [36m</span>[39m
+    [36m<span[39m
+      [33mclass[39m=[32m"bar-track"[39m
+    [36m>[39m
+      [36m<span[39m
+        [33mclass[39m=[32m"bar-fill bar-0"[39m
+        [33mstyle[39m=[32m"width: 50%;"[39m
+      [36m/>[39m
+    [36m</span>[39m
+    [36m<strong>[39m
+      [0m50.00%[0m
+    [36m</strong>[39m
+  [36m</button>[39m
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m>[39m
+    [36m<span>[39m
+      [0mProduct B[0m
+    [36m</span>[39m
+    [36m<span[39m
+      [33mclass[39m=[32m"bar-track"[39m
+    [36m>[39m
+      [36m<span[39m
+        [33mclass[39m=[32m"bar-fill bar-1"[39m
+        [33mstyle[39m=[32m"width: 60%;"[39m
+      [36m/>[39m
+    [36m</span>[39m
+    [36m<strong>[39m
+      [0m60.00%[0m
+    [36m</strong>[39m
+  [36m</button>[39m
+  [36m<p[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mclass[39m=[32m"chart-detail"[39m
+  [36m>[39m
+    [0mSelect a bar to inspect its calculation.[0m
+  [36m</p>[39m
+[36m</div>[39m
+   × M4 requires all reasoning, gates solutions, persists legacy histories and resets 870ms
+     → Found multiple elements with the role "status"
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<output[39m
+  [33mfor[39m=[32m"weight-A"[39m
+[36m>[39m
+  [0m50[0m
+  [0m% novice · [0m
+  [0m50[0m
+  [0m% experienced[0m
+[36m</output>[39m
+
+Ignored nodes: comments, script, style
+[36m<output[39m
+  [33mfor[39m=[32m"weight-B"[39m
+[36m>[39m
+  [0m50[0m
+  [0m% novice · [0m
+  [0m50[0m
+  [0m% experienced[0m
+[36m</output>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"feedback retry"[39m
+  [33mrole[39m=[32m"status"[39m
+[36m>[39m
+  [36m<strong>[39m
+    [0mLet’s revisit the evidence[0m
+  [36m</strong>[39m
+  [36m<p>[39m
+    [0mCalculation checked. Yes. B leads by 10 points in both strata, but B has more novice assessed users. The differently weighted totals reverse the ranking. Correct. Pre-use segment membership is not treatment assignment. The reversal alone identifies neither a causal effect nor a proven causal confounder. This can distinguish measurement and composition explanations before testing a product effect. No such audit or experiment has occurred in this fixture. −38 is the percentage-point difference. Relative change divides by A’s 74% and is about −51.35%; they are not interchangeable.[0m
+  [36m</p>[39m
+[36m</div>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"app-shell"[39m
+    [36m>[39m
+      [36m<aside[39m
+        [33mclass[39m=[32m"sidebar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#main"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"lucide lucide-flask-conical"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"23"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"23"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M6.453 15h11.094"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M8.5 2h7"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mAI PM[0m
+            [36m<span[39m
+              [33mclass[39m=[32m"brand-sub"[39m
+            [36m>[39m
+              [0mLEARNING LAB[0m
+            [36m</span>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace-label"[39m
+        [36m>[39m
+          [0mYOUR LEARNING WORKSPACE[0m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"path-title"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"lucide lucide-book-open"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"17"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"17"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M12 7v14"[39m
+            [36m/>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0m Product Analytics[0m
+        [36m</div>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"sidebar-description"[39m
+        [36m>[39m
+          [0mFrom numbers to better decisions.[0m
+        [36m</p>[39m
+        [36m<nav[39m
+          [33maria-label[39m=[32m"Learning modules"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"nav-item "[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [0m01[0m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mData literacy[0m
+            [36m</span>[39m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"nav-item "[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mclass[39m=[32m"lucide lucide-check"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"14"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"14"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M20 6 9 17l-5-5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mFunnel analysis[0m
+            [36m</span>[39m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"nav-item "[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mclass[39m=[32m"lucide lucide-check"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"14"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"14"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M20 6 9 17l-5-5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mCohorts & retention[0m
+            [36m</span>[39m
+          [36m</button>[39m
+          [36m<button[39m
+            [33maria-current[39m=[32m"step"[39m
+            [33mclass[39m=[32m"nav-item active"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [0m04[0m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mSegmentation[0m
+            [36m</span>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"lucide lucide-chevron-right"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"15"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"15"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+     ...
+ ✓ tests/funnel-app.test.tsx (1 test) 1711ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 1709ms
+ ✓ tests/retention-app.test.tsx (2 tests) 2243ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 2115ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 2 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/segmentation-app.test.tsx > M4 filters and reweights the explorer without altering locked assessments
+TestingLibraryElementError: Unable to find an accessible element with the role "button" and name "Product A 20.00%"
+
+Here are the accessible roles:
+
+  button:
+
+  Name "Product A 50.00%":
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------button:
+
+  Name "Product B 60.00%":
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+  strong:
+
+  Name "":
+  [36m<strong />[39m
+
+  --------------------------------------------------paragraph:
+
+  Name "":
+  [36m<p[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mclass[39m=[32m"chart-detail"[39m
+  [36m/>[39m
+
+  --------------------------------------------------
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33maria-label[39m=[32m"Hypothetical weighted pass rates"[39m
+  [33mclass[39m=[32m"chart"[39m
+  [33mrole[39m=[32m"group"[39m
+[36m>[39m
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m>[39m
+    [36m<span>[39m
+      [0mProduct A[0m
+    [36m</span>[39m
+    [36m<span[39m
+      [33mclass[39m=[32m"bar-track"[39m
+    [36m>[39m
+      [36m<span[39m
+        [33mclass[39m=[32m"bar-fill bar-0"[39m
+        [33mstyle[39m=[32m"width: 50%;"[39m
+      [36m/>[39m
+    [36m</span>[39m
+    [36m<strong>[39m
+      [0m50.00%[0m
+    [36m</strong>[39m
+  [36m</button>[39m
+  [36m<button[39m
+    [33maria-pressed[39m=[32m"false"[39m
+    [33mclass[39m=[32m"bar-row"[39m
+  [36m>[39m
+    [36m<span>[39m
+      [0mProduct B[0m
+    [36m</span>[39m
+    [36m<span[39m
+      [33mclass[39m=[32m"bar-track"[39m
+    [36m>[39m
+      [36m<span[39m
+        [33mclass[39m=[32m"bar-fill bar-1"[39m
+        [33mstyle[39m=[32m"width: 60%;"[39m
+      [36m/>[39m
+    [36m</span>[39m
+    [36m<strong>[39m
+      [0m60.00%[0m
+    [36m</strong>[39m
+  [36m</button>[39m
+  [36m<p[39m
+    [33maria-live[39m=[32m"polite"[39m
+    [33mclass[39m=[32m"chart-detail"[39m
+  [36m>[39m
+    [0mSelect a bar to inspect its calculation.[0m
+  [36m</p>[39m
+[36m</div>[39m
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:76:38
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ tests/segmentation-app.test.tsx:7:133
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/2]⎯
+
+ FAIL  tests/segmentation-app.test.tsx > M4 requires all reasoning, gates solutions, persists legacy histories and resets
+TestingLibraryElementError: Found multiple elements with the role "status"
+
+Here are the matching elements:
+
+Ignored nodes: comments, script, style
+[36m<output[39m
+  [33mfor[39m=[32m"weight-A"[39m
+[36m>[39m
+  [0m50[0m
+  [0m% novice · [0m
+  [0m50[0m
+  [0m% experienced[0m
+[36m</output>[39m
+
+Ignored nodes: comments, script, style
+[36m<output[39m
+  [33mfor[39m=[32m"weight-B"[39m
+[36m>[39m
+  [0m50[0m
+  [0m% novice · [0m
+  [0m50[0m
+  [0m% experienced[0m
+[36m</output>[39m
+
+Ignored nodes: comments, script, style
+[36m<div[39m
+  [33mclass[39m=[32m"feedback retry"[39m
+  [33mrole[39m=[32m"status"[39m
+[36m>[39m
+  [36m<strong>[39m
+    [0mLet’s revisit the evidence[0m
+  [36m</strong>[39m
+  [36m<p>[39m
+    [0mCalculation checked. Yes. B leads by 10 points in both strata, but B has more novice assessed users. The differently weighted totals reverse the ranking. Correct. Pre-use segment membership is not treatment assignment. The reversal alone identifies neither a causal effect nor a proven causal confounder. This can distinguish measurement and composition explanations before testing a product effect. No such audit or experiment has occurred in this fixture. −38 is the percentage-point difference. Relative change divides by A’s 74% and is about −51.35%; they are not interchangeable.[0m
+  [36m</p>[39m
+[36m</div>[39m
+
+(If this is intentional, then use the `*AllBy*` variant of the query (like `queryAllByText`, `getAllByText`, or `findAllByText`)).
+
+Ignored nodes: comments, script, style
+[36m<body>[39m
+  [36m<div>[39m
+    [36m<div[39m
+      [33mclass[39m=[32m"app-shell"[39m
+    [36m>[39m
+      [36m<aside[39m
+        [33mclass[39m=[32m"sidebar"[39m
+      [36m>[39m
+        [36m<a[39m
+          [33mclass[39m=[32m"brand"[39m
+          [33mhref[39m=[32m"#main"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-mark"[39m
+          [36m>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"lucide lucide-flask-conical"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"23"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"23"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M6.453 15h11.094"[39m
+              [36m/>[39m
+              [36m<path[39m
+                [33md[39m=[32m"M8.5 2h7"[39m
+              [36m/>[39m
+            [36m</svg>[39m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mAI PM[0m
+            [36m<span[39m
+              [33mclass[39m=[32m"brand-sub"[39m
+            [36m>[39m
+              [0mLEARNING LAB[0m
+            [36m</span>[39m
+          [36m</span>[39m
+        [36m</a>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"workspace-label"[39m
+        [36m>[39m
+          [0mYOUR LEARNING WORKSPACE[0m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"path-title"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"lucide lucide-book-open"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"17"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"17"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M12 7v14"[39m
+            [36m/>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+          [0m Product Analytics[0m
+        [36m</div>[39m
+        [36m<p[39m
+          [33mclass[39m=[32m"sidebar-description"[39m
+        [36m>[39m
+          [0mFrom numbers to better decisions.[0m
+        [36m</p>[39m
+        [36m<nav[39m
+          [33maria-label[39m=[32m"Learning modules"[39m
+        [36m>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"nav-item "[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [0m01[0m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mData literacy[0m
+            [36m</span>[39m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"nav-item "[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mclass[39m=[32m"lucide lucide-check"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"14"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"14"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M20 6 9 17l-5-5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mFunnel analysis[0m
+            [36m</span>[39m
+          [36m</button>[39m
+          [36m<button[39m
+            [33mclass[39m=[32m"nav-item "[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [36m<svg[39m
+                [33mclass[39m=[32m"lucide lucide-check"[39m
+                [33mfill[39m=[32m"none"[39m
+                [33mheight[39m=[32m"14"[39m
+                [33mstroke[39m=[32m"currentColor"[39m
+                [33mstroke-linecap[39m=[32m"round"[39m
+                [33mstroke-linejoin[39m=[32m"round"[39m
+                [33mstroke-width[39m=[32m"2"[39m
+                [33mviewBox[39m=[32m"0 0 24 24"[39m
+                [33mwidth[39m=[32m"14"[39m
+                [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+              [36m>[39m
+                [36m<path[39m
+                  [33md[39m=[32m"M20 6 9 17l-5-5"[39m
+                [36m/>[39m
+              [36m</svg>[39m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mCohorts & retention[0m
+            [36m</span>[39m
+          [36m</button>[39m
+          [36m<button[39m
+            [33maria-current[39m=[32m"step"[39m
+            [33mclass[39m=[32m"nav-item active"[39m
+          [36m>[39m
+            [36m<span[39m
+              [33mclass[39m=[32m"nav-number"[39m
+            [36m>[39m
+              [0m04[0m
+            [36m</span>[39m
+            [36m<span>[39m
+              [0mSegmentation[0m
+            [36m</span>[39m
+            [36m<svg[39m
+              [33mclass[39m=[32m"lucide lucide-chevron-right"[39m
+              [33mfill[39m=[32m"none"[39m
+              [33mheight[39m=[32m"15"[39m
+              [33mstroke[39m=[32m"currentColor"[39m
+              [33mstroke-linecap[39m=[32m"round"[39m
+              [33mstroke-linejoin[39m=[32m"round"[39m
+              [33mstroke-width[39m=[32m"2"[39m
+              [33mviewBox[39m=[32m"0 0 24 24"[39m
+              [33mwidth[39m=[32m"15"[39m
+              [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+            [36m>[39m
+              [36m<path[39m
+     ...
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ getElementError node_modules/@testing-library/dom/dist/query-helpers.js:20:35
+ ❯ getMultipleElementsFoundError node_modules/@testing-library/dom/dist/query-helpers.js:23:10
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:55:13
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ tests/segmentation-app.test.tsx:12:398
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/2]⎯
+
+ Test Files  1 failed | 8 passed (9)
+      Tests  2 failed | 81 passed (83)
+   Start at  17:01:45
+   Duration  5.16s (transform 971ms, setup 3.37s, collect 2.92s, tests 6.68s, environment 11.92s, prepare 1.33s)
+

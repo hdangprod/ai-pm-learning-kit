@@ -1,0 +1,15 @@
+{
+  "authored_test_records_not_learner_data": true,
+  "correct_first_groups": 20,
+  "first_position_policy_completed_modules": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "reflection_x_wrong_attempt_reveal": true,
+  "contradictory_memo_structured_score": 10,
+  "memo_review_pending_label_present": false,
+  "assistance_metadata_present": false
+}

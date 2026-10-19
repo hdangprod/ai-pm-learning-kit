@@ -1,0 +1,251 @@
+{
+  "version": 1,
+  "data_type": "SYNTHETIC_AUTHORED",
+  "cutoff": "2026-10-19T00:00:00Z",
+  "users": [
+    {
+      "user_id": "C1U1",
+      "signup_ts": "2026-10-01T00:00:00Z",
+      "segment": "novice"
+    },
+    {
+      "user_id": "C1U2",
+      "signup_ts": "2026-10-01T00:00:00Z",
+      "segment": "novice"
+    },
+    {
+      "user_id": "C1U3",
+      "signup_ts": "2026-10-01T00:00:00Z",
+      "segment": "experienced"
+    },
+    {
+      "user_id": "C1U4",
+      "signup_ts": "2026-10-01T00:00:00Z",
+      "segment": "experienced"
+    },
+    {
+      "user_id": "C2U1",
+      "signup_ts": "2026-10-08T00:00:00Z",
+      "segment": "novice"
+    },
+    {
+      "user_id": "C2U2",
+      "signup_ts": "2026-10-08T00:00:00Z",
+      "segment": "novice"
+    },
+    {
+      "user_id": "C2U3",
+      "signup_ts": "2026-10-08T00:00:00Z",
+      "segment": "experienced"
+    },
+    {
+      "user_id": "C2U4",
+      "signup_ts": "2026-10-08T00:00:00Z",
+      "segment": "experienced"
+    },
+    {
+      "user_id": "C3U1",
+      "signup_ts": "2026-10-15T00:00:00Z",
+      "segment": "novice"
+    },
+    {
+      "user_id": "C3U2",
+      "signup_ts": "2026-10-15T00:00:00Z",
+      "segment": "novice"
+    },
+    {
+      "user_id": "C3U3",
+      "signup_ts": "2026-10-15T00:00:00Z",
+      "segment": "experienced"
+    },
+    {
+      "user_id": "C3U4",
+      "signup_ts": "2026-10-15T00:00:00Z",
+      "segment": "experienced"
+    }
+  ],
+  "events": [
+    {
+      "event_id": "C1P1",
+      "user_id": "C1U1",
+      "name": "practice",
+      "ts": "2026-10-02T00:00:00Z"
+    },
+    {
+      "event_id": "UPPER_BOUNDARY",
+      "user_id": "C1U1",
+      "name": "feedback",
+      "ts": "2026-10-08T00:00:00Z"
+    },
+    {
+      "event_id": "TIED_FEEDBACK",
+      "user_id": "C1U3",
+      "name": "feedback",
+      "ts": "2026-10-02T00:00:00Z"
+    },
+    {
+      "event_id": "EARLY_FEEDBACK",
+      "user_id": "C1U3",
+      "name": "feedback",
+      "ts": "2026-10-01T12:00:00Z"
+    },
+    {
+      "event_id": "BEFORE_SIGNUP",
+      "user_id": "C1U3",
+      "name": "practice",
+      "ts": "2026-09-30T23:00:00Z"
+    },
+    {
+      "event_id": "AT_SIGNUP",
+      "user_id": "C1U3",
+      "name": "practice",
+      "ts": "2026-10-01T00:00:00Z"
+    },
+    {
+      "event_id": "C3F4",
+      "user_id": "C3U4",
+      "name": "feedback",
+      "ts": "2026-10-16T00:00:00Z"
+    },
+    {
+      "event_id": "C3F2",
+      "user_id": "C3U2",
+      "name": "feedback",
+      "ts": "2026-10-17T00:00:00Z"
+    },
+    {
+      "event_id": "C3F1",
+      "user_id": "C3U1",
+      "name": "feedback",
+      "ts": "2026-10-17T00:00:00Z"
+    },
+    {
+      "event_id": "C3P3",
+      "user_id": "C3U3",
+      "name": "practice",
+      "ts": "2026-10-16T00:00:00Z"
+    },
+    {
+      "event_id": "C3P2",
+      "user_id": "C3U2",
+      "name": "practice",
+      "ts": "2026-10-16T00:00:00Z"
+    },
+    {
+      "event_id": "C3P1",
+      "user_id": "C3U1",
+      "name": "practice",
+      "ts": "2026-10-16T00:00:00Z"
+    },
+    {
+      "event_id": "C2RETURN1",
+      "user_id": "C2U1",
+      "name": "practice",
+      "ts": "2026-10-15T00:00:00Z"
+    },
+    {
+      "event_id": "C2F4",
+      "user_id": "C2U4",
+      "name": "feedback",
+      "ts": "2026-10-09T00:00:00Z"
+    },
+    {
+      "event_id": "C2F2",
+      "user_id": "C2U2",
+      "name": "feedback",
+      "ts": "2026-10-10T00:00:00Z"
+    },
+    {
+      "event_id": "C2F1",
+      "user_id": "C2U1",
+      "name": "feedback",
+      "ts": "2026-10-10T00:00:00Z"
+    },
+    {
+      "event_id": "C2P3",
+      "user_id": "C2U3",
+      "name": "practice",
+      "ts": "2026-10-09T00:00:00Z"
+    },
+    {
+      "event_id": "C2P2",
+      "user_id": "C2U2",
+      "name": "practice",
+      "ts": "2026-10-09T00:00:00Z"
+    },
+    {
+      "event_id": "C2P1",
+      "user_id": "C2U1",
+      "name": "practice",
+      "ts": "2026-10-09T00:00:00Z"
+    },
+    {
+      "event_id": "C1RETURN3",
+      "user_id": "C1U3",
+      "name": "practice",
+      "ts": "2026-10-09T00:00:00Z"
+    },
+    {
+      "event_id": "C1RETURN2",
+      "user_id": "C1U2",
+      "name": "practice",
+      "ts": "2026-10-08T00:00:00Z"
+    },
+    {
+      "event_id": "C1RETURN1",
+      "user_id": "C1U1",
+      "name": "practice",
+      "ts": "2026-10-08T00:00:00Z"
+    },
+    {
+      "event_id": "C1F4",
+      "user_id": "C1U4",
+      "name": "feedback",
+      "ts": "2026-10-02T00:00:00Z"
+    },
+    {
+      "event_id": "C1F2",
+      "user_id": "C1U2",
+      "name": "feedback",
+      "ts": "2026-10-03T00:00:00Z"
+    },
+    {
+      "event_id": "C1F1",
+      "user_id": "C1U1",
+      "name": "feedback",
+      "ts": "2026-10-03T00:00:00Z"
+    },
+    {
+      "event_id": "C1P3",
+      "user_id": "C1U3",
+      "name": "practice",
+      "ts": "2026-10-02T00:00:00Z"
+    },
+    {
+      "event_id": "C1P2",
+      "user_id": "C1U2",
+      "name": "practice",
+      "ts": "2026-10-02T00:00:00Z"
+    },
+    {
+      "event_id": "C1P1",
+      "user_id": "C1U1",
+      "name": "practice",
+      "ts": "2026-10-02T00:00:00Z"
+    }
+  ],
+  "dataset_id": "retention-events-v1",
+  "derived_from": {
+    "path": "events-v1.json",
+    "sha256": "20d3ac213f5ca3a7f550df691ea40a6aaa20f2a8f35d97d08a8db4bc741a215d",
+    "changes": [
+      {
+        "event_id": "UPPER_BOUNDARY",
+        "field": "user_id",
+        "from": "C1U3",
+        "to": "C1U1",
+        "reason": "Assign the D7 diagnostic event to an already returning user; preserve the locked two-user Oct1 retention count."
+      }
+    ]
+  }
+}

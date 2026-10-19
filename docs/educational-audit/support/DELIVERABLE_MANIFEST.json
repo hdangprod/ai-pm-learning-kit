@@ -1,0 +1,87 @@
+[
+  {
+    "path": "EDUCATIONAL_QUALITY_AUDIT.md",
+    "bytes": 17420,
+    "sha256": "336742bba22b0ab998fb94a78d14efe2e91e818cd1059e20d9690a931d806ebf"
+  },
+  {
+    "path": "MODULE_SCORECARD.xlsx",
+    "bytes": 13045,
+    "sha256": "4f5c2df6914244681f5d9c5a41ebaa8db111f4db71cde3d77053b840de486c81"
+  },
+  {
+    "path": "COMPETENCY_EVIDENCE_MATRIX.xlsx",
+    "bytes": 10705,
+    "sha256": "b53420e32d3ee37c07c57625113cdaf31c01b8fafbea228ac0dbe0dbf630a9b1"
+  },
+  {
+    "path": "ASSESSMENT_RED_TEAM_REPORT.md",
+    "bytes": 9272,
+    "sha256": "609f967cc25b960de5812714b3001709d1d461b5a617529fe0f5da0aa3ab6327"
+  },
+  {
+    "path": "UNSEEN_TRANSFER_EXERCISES.md",
+    "bytes": 17856,
+    "sha256": "188f866f6419198eb49a3369e05a7b59e82fd7ad05de57d5ffb0b929af02801d"
+  },
+  {
+    "path": "UNSEEN_TRANSFER_ANSWER_KEYS.md",
+    "bytes": 20503,
+    "sha256": "ff6bffe8edb4c9469d0f5ae35301aeca3624750ec3bd8acf66d0eac784bd3f87"
+  },
+  {
+    "path": "PEDAGOGICAL_REMEDIATION_BACKLOG.md",
+    "bytes": 14235,
+    "sha256": "8621396f9113e63069b06516e4d469c3e593cba2d805851efbe6482b6a7fa11e"
+  },
+  {
+    "path": "LEARNER_EVALUATION_PROTOCOL.md",
+    "bytes": 13175,
+    "sha256": "b9d46cb082e0fa1f05b2a535b88eccb07424e29ea0fc13298e3f2c4696a83ca2"
+  },
+  {
+    "path": "EXECUTIVE_AUDIT_SUMMARY.md",
+    "bytes": 3161,
+    "sha256": "947fc21ca59e7fe4fa1562fd0dd81804bd9e9aaee7d6cc16a592eb5098da16aa"
+  },
+  {
+    "path": "support/INDEPENDENT_CALCULATION_CHECKS.json",
+    "bytes": 4787,
+    "sha256": "8e715791543c9afb6f0a7ee6402f651e5e7771e0908fc6064d09439b96f6fab0"
+  },
+  {
+    "path": "support/README.md",
+    "bytes": 1510,
+    "sha256": "d22f72bdd9ad4cc1268692b7804206670012e81b375748ee6dba0210abe55828"
+  },
+  {
+    "path": "support/SUPPLIED_FILE_INVENTORY.json",
+    "bytes": 21987,
+    "sha256": "c5c82d1ca2cd74d1e900366496c059607af0318399bfb952c1f21f506ac33c38"
+  },
+  {
+    "path": "support/TRANSFER_KEY_CHECKS.json",
+    "bytes": 6613,
+    "sha256": "8615b7117cbf95358e57bd0b2ca278655894680c5a85edaff74f07027e2eb96a"
+  },
+  {
+    "path": "support/WORKBOOK_VERIFICATION.json",
+    "bytes": 1296,
+    "sha256": "8344fcaa5cb17c082c147ea26c242a9832c0245d4187090302dbf9e2ffc680f6"
+  },
+  {
+    "path": "support/audit_checks.py",
+    "bytes": 3909,
+    "sha256": "2cf750dafeda3bd9b3aa3704e8ca08ce34548b0a7451a23b08946d5470818c12"
+  },
+  {
+    "path": "support/audit_workbook_data.json",
+    "bytes": 44704,
+    "sha256": "9f5f354affdaca386bda1e1e2ee4ae977c7d872482d8008579ae961be8628a7b"
+  },
+  {
+    "path": "support/verify_transfer_keys.py",
+    "bytes": 3916,
+    "sha256": "e3ce1e2518b317cb307c6973e45184d996d0d46c4a150e31ef227ba2c9c0cc86"
+  }
+]

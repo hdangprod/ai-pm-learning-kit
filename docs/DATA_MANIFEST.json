@@ -1,0 +1,12 @@
+{
+  "public/data/case_b_weekly.csv": "ef1c902fddb834c87c4ed1ba04f384700524062a54bab6319083c489607709c6",
+  "src/data/weekly.json": "e3ebcf262e99c1f140d1573c9255538e2034fa610d8a72b3e939df215ab0b27c",
+  "src/data/events.json": "20d3ac213f5ca3a7f550df691ea40a6aaa20f2a8f35d97d08a8db4bc741a215d",
+  "public/data/events-v1.json": "20d3ac213f5ca3a7f550df691ea40a6aaa20f2a8f35d97d08a8db4bc741a215d",
+  "src/data/retention-events.json": "27d25fbfbe58e7d64ff8e9aa6860c7cfa0610cd80f9e1953801fb843bbf339af",
+  "public/data/retention-events-v1.json": "27d25fbfbe58e7d64ff8e9aa6860c7cfa0610cd80f9e1953801fb843bbf339af",
+  "src/data/strict-simpson.json": "667a632332cb6c9cfc7826cc98b7329dbbbc140adfc7328ebaa54ce3a4290f7c",
+  "public/data/strict-simpson-v1.json": "667a632332cb6c9cfc7826cc98b7329dbbbc140adfc7328ebaa54ce3a4290f7c",
+  "src/data/decision-scenario.json": "e98677ebe68d32b9dea27f68e20f88a41f8e3429fb5113a9ea824ac6d15b0204",
+  "public/data/decision-scenario-v1.json": "e98677ebe68d32b9dea27f68e20f88a41f8e3429fb5113a9ea824ac6d15b0204"
+}

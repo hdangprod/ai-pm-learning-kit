@@ -1,0 +1,29 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:44185) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:44214) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 16 tests using 6 workers
+
+  ✓   2 [desktop] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (6.0s)
+  ✓   4 [desktop] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (7.3s)
+  ✓   3 [mobile] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (8.1s)
+  ✓   7 [desktop] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (2.5s)
+  ✓   8 [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (1.8s)
+  ✓   1 [mobile] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (10.0s)
+  ✓   9 [mobile] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (1.9s)
+  ✓  10 [desktop] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.4s)
+  ✓  12 [mobile] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.2s)
+  ✓  11 [mobile] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (1.9s)
+  ✓   6 [mobile] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (20.3s)
+  ✓   5 [desktop] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (22.2s)
+  ✓  13 [mobile] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (3.2s)
+  ✓  15 [mobile] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (839ms)
+  ✓  14 [desktop] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (3.2s)
+  ✓  16 [desktop] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (1.3s)
+
+  16 passed (32.4s)

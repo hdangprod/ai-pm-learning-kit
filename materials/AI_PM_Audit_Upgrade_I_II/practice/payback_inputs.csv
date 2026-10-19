@@ -1,0 +1,2 @@
+﻿data_type,cac_vnd,contribution_vnd_per_month,churn_end_month,first_month_paid,horizon_months
+SIMULATED,600000,120000,0.1,1,7

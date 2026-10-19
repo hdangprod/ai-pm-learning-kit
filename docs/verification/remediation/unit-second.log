@@ -1,0 +1,55 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ❯ tests/segmentation.test.ts (0 test)
+ ❯ tests/funnel.test.ts (0 test)
+ ❯ tests/causal.test.ts (0 test)
+ ❯ tests/consistency.test.ts (0 test)
+ ❯ tests/decision.test.ts (0 test)
+ ❯ tests/decision-app.test.tsx (0 test)
+ ❯ tests/app.test.tsx (0 test)
+ ❯ tests/causal-app.test.tsx (0 test)
+ ❯ tests/retention.test.ts (0 test)
+ ❯ tests/retention-app.test.tsx (0 test)
+ ❯ tests/segmentation-app.test.tsx (0 test)
+ ❯ tests/storage.test.ts (0 test)
+ ❯ tests/funnel-app.test.tsx (0 test)
+ ❯ tests/metrics.test.ts (0 test)
+ ❯ tests/decision-consistency.test.ts (0 test)
+
+⎯⎯⎯⎯⎯⎯ Failed Suites 15 ⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/app.test.tsx [ tests/app.test.tsx ]
+ FAIL  tests/causal-app.test.tsx [ tests/causal-app.test.tsx ]
+ FAIL  tests/causal.test.ts [ tests/causal.test.ts ]
+ FAIL  tests/consistency.test.ts [ tests/consistency.test.ts ]
+ FAIL  tests/decision-app.test.tsx [ tests/decision-app.test.tsx ]
+ FAIL  tests/decision-consistency.test.ts [ tests/decision-consistency.test.ts ]
+ FAIL  tests/decision.test.ts [ tests/decision.test.ts ]
+ FAIL  tests/funnel-app.test.tsx [ tests/funnel-app.test.tsx ]
+ FAIL  tests/funnel.test.ts [ tests/funnel.test.ts ]
+ FAIL  tests/metrics.test.ts [ tests/metrics.test.ts ]
+ FAIL  tests/retention-app.test.tsx [ tests/retention-app.test.tsx ]
+ FAIL  tests/retention.test.ts [ tests/retention.test.ts ]
+ FAIL  tests/segmentation-app.test.tsx [ tests/segmentation-app.test.tsx ]
+ FAIL  tests/storage.test.ts [ tests/storage.test.ts ]
+Error: Failed to load url /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/setup.ts (resolved id: /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/setup.ts). Does the file exist?
+ ❯ loadAndTransform ../AI%20PM%20Learning%20Kit/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51969:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/15]⎯
+
+ FAIL  tests/segmentation.test.ts [ tests/segmentation.test.ts ]
+Error: Failed to load url /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/setup.ts (resolved id: /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/setup.ts). Does the file exist?
+ ❯ loadAndTransform ../AI%20PM%20Learning%20Kit/node_modules/vite/dist/node/chunks/dep-BK3b2jBa.js:51969:17
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/15]⎯
+
+ Test Files  15 failed (15)
+      Tests  no tests
+   Start at  23:07:30
+   Duration  4.04s (transform 41ms, setup 0ms, collect 0ms, tests 0ms, environment 21.33s, prepare 2.35s)
+

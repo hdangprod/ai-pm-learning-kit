@@ -1,0 +1,4 @@
+import {it,expect,vi} from 'vitest';import {freshWork,loadProgress,saveProgress,STORAGE_KEY} from '../src/lib/storage';
+it('preserves versioned work',()=>{expect(saveProgress({1:{...freshWork(),hypothesis:'coverage matters'}},localStorage.getItem(STORAGE_KEY))).toBe(true);expect(loadProgress().progress[1].hypothesis).toBe('coverage matters');});
+it('recovers from corrupted or mismatched stored data',()=>{for(const raw of ['broken','null','{"version":2,"modules":{}}','{"version":1,"modules":{"1":null}}']){localStorage.setItem(STORAGE_KEY,raw);expect(loadProgress().warning).toContain('could not be read');expect(loadProgress().progress).toEqual({});}});
+it('signals unavailable storage',()=>{const spy=vi.spyOn(Storage.prototype,'setItem').mockImplementation(()=>{throw Error('quota');});expect(saveProgress({},localStorage.getItem(STORAGE_KEY))).toBe(false);spy.mockRestore();});

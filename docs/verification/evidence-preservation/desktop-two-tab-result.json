@@ -1,0 +1,1636 @@
+{
+  "authored_probe_not_learner_data": true,
+  "browser": "155.0.8059.80",
+  "before": {
+    "version": 1,
+    "revision": "a4642e8f-8b43-441e-a4e5-6835b524ce97",
+    "modules": {
+      "1": {
+        "hypothesis": "",
+        "journal": "",
+        "attempts": [
+          {
+            "id": "f725ff4b-d748-48a8-ae2c-3edf51fd4902",
+            "assessmentVersion": 2,
+            "at": "2026-10-19T17:19:34.975Z",
+            "stage": "primary",
+            "input": "52",
+            "choice": -1,
+            "responseIds": [],
+            "presentation": [
+              [
+                "m1.primary.assessed-scope",
+                "m1.primary.eligible-generalization",
+                "m1.primary.causal-attribution"
+              ]
+            ],
+            "assistance": {
+              "kind": "initial_unaided",
+              "feedbackAvailable": false,
+              "solutionConsulted": false,
+              "reasoningChange": "",
+              "scope": "same_case_practice",
+              "note": "Recorded in-app exposure only; unaided does not verify absence of external help. Text presence is not semantic grading."
+            },
+            "result": {
+              "passed": false,
+              "numeric": false,
+              "reasoning": false,
+              "feedback": "52/100 measures observed passes among all eligible learners. This question asks about the 74 who were assessed. Choose an interpretation so we can check your reasoning."
+            }
+          }
+        ],
+        "revealed": false,
+        "primaryPassed": false,
+        "complete": false,
+        "practiceDrafts": {
+          "primary": {
+            "id": "f725ff4b-d748-48a8-ae2c-3edf51fd4902",
+            "input": "52",
+            "answers": [],
+            "order": [
+              [
+                "m1.primary.assessed-scope",
+                "m1.primary.eligible-generalization",
+                "m1.primary.causal-attribution"
+              ]
+            ],
+            "reasoningChange": ""
+          }
+        }
+      }
+    }
+  },
+  "after": {
+    "version": 1,
+    "revision": "79611efe-7fdb-484c-b182-5fda2fe644c4",
+    "modules": {
+      "1": {
+        "hypothesis": "",
+        "journal": "",
+        "attempts": [
+          {
+            "id": "f725ff4b-d748-48a8-ae2c-3edf51fd4902",
+            "assessmentVersion": 2,
+            "at": "2026-10-19T17:19:34.975Z",
+            "stage": "primary",
+            "input": "52",
+            "choice": -1,
+            "responseIds": [],
+            "presentation": [
+              [
+                "m1.primary.assessed-scope",
+                "m1.primary.eligible-generalization",
+                "m1.primary.causal-attribution"
+              ]
+            ],
+            "assistance": {
+              "kind": "initial_unaided",
+              "feedbackAvailable": false,
+              "solutionConsulted": false,
+              "reasoningChange": "",
+              "scope": "same_case_practice",
+              "note": "Recorded in-app exposure only; unaided does not verify absence of external help. Text presence is not semantic grading."
+            },
+            "result": {
+              "passed": false,
+              "numeric": false,
+              "reasoning": false,
+              "feedback": "52/100 measures observed passes among all eligible learners. This question asks about the 74 who were assessed. Choose an interpretation so we can check your reasoning."
+            }
+          }
+        ],
+        "revealed": false,
+        "primaryPassed": false,
+        "complete": false,
+        "practiceDrafts": {
+          "primary": {
+            "id": "f725ff4b-d748-48a8-ae2c-3edf51fd4902",
+            "input": "52",
+            "answers": [],
+            "order": [
+              [
+                "m1.primary.assessed-scope",
+                "m1.primary.eligible-generalization",
+                "m1.primary.causal-attribution"
+              ]
+            ],
+            "reasoningChange": ""
+          }
+        }
+      },
+      "2": {
+        "hypothesis": "Fresh M2 note after explicit reload",
+        "journal": "",
+        "attempts": [],
+        "revealed": false,
+        "primaryPassed": false,
+        "complete": false
+      }
+    }
+  },
+  "staleExport": {
+    "version": 1,
+    "exportedAt": "2026-10-19T17:19:37.758Z",
+    "modules": {
+      "2": {
+        "hypothesis": "AUTHORED stale second-tab note",
+        "journal": "",
+        "attempts": [],
+        "revealed": false,
+        "primaryPassed": false,
+        "complete": false
+      }
+    },
+    "definitionsVersion": 2,
+    "independentMemoReview": {
+      "status": "Pending independent review",
+      "policy": "External human review required; structured points do not grade memo semantics."
+    },
+    "evidence": [],
+    "legacyIndexDefinitions": [
+      {
+        "id": 1,
+        "title": "Every number needs a denominator.",
+        "dataset": {
+          "id": "case-b-weekly-source-v1",
+          "label": "Original weekly simulation",
+          "path": "/data/case_b_weekly.csv",
+          "sha256": "ef1c902fddb834c87c4ed1ba04f384700524062a54bab6319083c489607709c6"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "assessed_pass_rate",
+            "scope": "Week 1, all segments"
+          },
+          "transfer": {
+            "metricId": "assessment_coverage",
+            "scope": "Week 2, all segments"
+          }
+        },
+        "primary": {
+          "prompt": "In cohort week 1, across both segments, what percentage of assessed learners passed?",
+          "unit": "%",
+          "reasonPrompt": "What does this percentage let you conclude?",
+          "choices": [
+            "This is the share who passed among assessed learners; missing outcomes remain unknown.",
+            "This is the proportion of all eligible learners who learned successfully.",
+            "The AI tutor caused this learning success."
+          ],
+          "items": []
+        },
+        "transfer": {
+          "prompt": "Now use cohort week 2, both segments. What percentage of eligible learners were assessed?",
+          "unit": "%",
+          "reasonPrompt": "How should the unassessed learners be handled?",
+          "choices": [
+            "Keep their outcomes unknown and report coverage.",
+            "Count every unassessed learner as a failure.",
+            "Remove them from the eligible cohort."
+          ],
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "title": "A journey, not a pile of clicks.",
+        "dataset": {
+          "id": "events-v1",
+          "label": "Authored funnel event fixture",
+          "path": "/data/events-v1.json",
+          "sha256": "20d3ac213f5ca3a7f550df691ea40a6aaa20f2a8f35d97d08a8db4bc741a215d"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "ordered_feedback_step_conversion",
+            "scope": "All mature cohorts and segments"
+          },
+          "transfer": {
+            "metricId": "ordered_feedback_overall_conversion",
+            "scope": "All mature cohorts and segments"
+          }
+        },
+        "primary": {
+          "prompt": "Across both mature cohorts and both segments, what percentage of practitioners reached feedback after practice within seven days?",
+          "unit": "%",
+          "reasonPrompt": "Which interpretation and next step are defensible?",
+          "choices": [
+            "Count each eligible learner once in timestamp order; inspect tracking and friction before deciding what to change.",
+            "Divide feedback event rows by practice event rows; each row is a different learner.",
+            "Any feedback event counts, even before practice or exactly seven days after signup.",
+            "The conversion rate proves the tutor improved learning; invest immediately."
+          ],
+          "items": []
+        },
+        "transfer": {
+          "prompt": "Keep the same mature cohorts and segments. What is overall signup-to-feedback conversion?",
+          "unit": "%",
+          "reasonPrompt": "Which denominator and eligibility rule should the product memo use?",
+          "choices": [
+            "Use all 8 mature signups; count only unique users with ordered practice then feedback.",
+            "Use the 6 practitioners because every funnel rate uses the previous step.",
+            "Use all 12 signups and count the immature cohort as failures."
+          ],
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "title": "Who came back—and who could?",
+        "dataset": {
+          "id": "retention-events-v1",
+          "label": "Authored retention fork",
+          "path": "/data/retention-events-v1.json",
+          "sha256": "27d25fbfbe58e7d64ff8e9aa6860c7cfa0610cd80f9e1953801fb843bbf339af"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "exact_day7_retention",
+            "scope": "October 1 cohort, all segments"
+          },
+          "transfer": {
+            "metricId": "exact_day7_retention",
+            "scope": "October 8 cohort, all segments"
+          }
+        },
+        "primary": {
+          "prompt": "For the October 1 signup cohort, both segments, what is exact-day D7 retention?",
+          "unit": "%",
+          "reasonPrompt": "What can you conclude from comparing the two mature cohorts?",
+          "choices": [
+            "The cohorts differ in observed D7 activity; the available data does not identify why.",
+            "October 1 learners definitely learned more English.",
+            "The newer onboarding caused lower retention.",
+            "Count anyone with any activity after signup, including funnel feedback."
+          ],
+          "items": [
+            {
+              "prompt": "Which next investigation could help distinguish explanations?",
+              "choices": [
+                "Audit logging completeness, then compare acquisition channels and pre-use segments by cohort.",
+                "Interview only returning users and treat their reasons as the cause for everyone.",
+                "Ship a new feature immediately because lower retention proves a product defect."
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "Now use the October 8 signup cohort, both segments. What is exact-day D7 retention?",
+          "unit": "%",
+          "reasonPrompt": "How should the October 15 cohort appear in this comparison?",
+          "choices": [
+            "Unavailable until its entire D7 window ends; exclude it from the mature pooled denominator.",
+            "Display 0% because none has returned on Day 7 by the cutoff.",
+            "Use the seven-day funnel conversion as its retention estimate."
+          ],
+          "items": [
+            {
+              "prompt": "How should mature cohorts be pooled when their sizes differ?",
+              "choices": [
+                "Sum retained users and eligible signup users, then divide those totals.",
+                "Always average the cohort percentages equally.",
+                "Add all qualifying event rows and divide by returning users."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "title": "The mix changes the message.",
+        "dataset": {
+          "id": "strict-simpson-v1",
+          "label": "Authored strict reversal",
+          "path": "/data/strict-simpson-v1.json",
+          "sha256": "667a632332cb6c9cfc7826cc98b7329dbbbc140adfc7328ebaa54ce3a4290f7c"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "assessed_pass_rate",
+            "scope": "Product B, pooled segments"
+          },
+          "transfer": {
+            "metricId": "assessed_pass_rate",
+            "scope": "Product B, experienced segment"
+          }
+        },
+        "primary": {
+          "prompt": "What is Product B's pooled pass rate across both segments in the locked fixture?",
+          "unit": "%",
+          "reasonPrompt": "How can B be higher within both segments but lower overall?",
+          "choices": [
+            "B is higher within both groups; A’s experienced-heavy mix gives A the higher pooled rate.",
+            "A is universally superior because its pooled rate is 74% versus 36%.",
+            "B is universally superior because it wins in both segments; composition can be ignored.",
+            "Average each product’s two segment percentages equally."
+          ],
+          "items": [
+            {
+              "prompt": "What does the comparison establish about causality?",
+              "choices": [
+                "These are descriptive rates; neither product labels nor segment membership establishes random assignment.",
+                "Novice and experienced labels show that users were randomized to products.",
+                "A strict Simpson reversal proves the segment causally confounds the product effect."
+              ]
+            },
+            {
+              "prompt": "Which next investigation could support a product decision?",
+              "choices": [
+                "Audit assessment definitions and coverage, compare baselines and acquisition, then plan suitable randomized product assignment.",
+                "Roll out B to everyone using the subgroup advantage as causal proof.",
+                "Roll out A to everyone using only the pooled rate."
+              ]
+            },
+            {
+              "prompt": "How should the pooled B-minus-A difference be expressed?",
+              "choices": [
+                "−38 percentage points; the relative change from A is approximately −51.35%.",
+                "B is 38% lower, because percentage points and relative percent are interchangeable."
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "What is Product B's experienced-learner pass rate in the locked fixture?",
+          "unit": "%",
+          "reasonPrompt": "Which denominator and interpretation are appropriate?",
+          "choices": [
+            "Use 9/10 experienced assessed learners; this descriptive subgroup rate does not establish universal rollout.",
+            "Use 9/100 because the product-wide denominator belongs in every metric.",
+            "Use the 90% subgroup result as proof that B causes better learning for every individual."
+          ],
+          "items": [
+            {
+              "prompt": "At the same illustrative 50/50 mix, what would the weighted rates mean?",
+              "choices": [
+                "A is 50% and B is 60%; this is arithmetic reweighting of fixed rates, not observed trial results.",
+                "A stays 74% and B stays 36%, because segment composition cannot affect totals.",
+                "B’s reweighted advantage proves a causal improvement of 10 percentage points."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "title": "More practice. Better learning?",
+        "dataset": {
+          "id": "case-b-weekly-source-v1",
+          "label": "Original weekly simulation",
+          "path": "/data/case_b_weekly.csv",
+          "sha256": "ef1c902fddb834c87c4ed1ba04f384700524062a54bab6319083c489607709c6"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "session_count_relative_change",
+            "scope": "Week 1 reference → Week 2 comparison, all segments"
+          },
+          "transfer": {
+            "metricId": "assessment_coverage",
+            "scope": "Week 2, novice segment"
+          }
+        },
+        "primary": {
+          "prompt": "Across both segments, what is the relative difference in total sessions from Week 1 (reference) to Week 2?",
+          "unit": "%",
+          "reasonPrompt": "Does the larger session count prove improved English learning?",
+          "choices": [
+            "No. Activity differs from learning; the weekly groups and observed assessment coverage differ, with no suitable causal comparison.",
+            "Yes. More sessions prove that the AI tutor improved English.",
+            "Yes. The later week is automatically a randomized treatment group."
+          ],
+          "items": [
+            {
+              "prompt": "Which competing explanation is actually supported, and what remains unresolved?",
+              "choices": [
+                "The novice share increased; learning improvement, activity-only changes, outcome-related follow-up and acquisition or logging changes remain unresolved and can coexist.",
+                "Different acquisition is the confirmed unique cause.",
+                "Stable subgroup pass rates prove the product has no effect."
+              ]
+            },
+            {
+              "prompt": "Which next investigation could distinguish important explanations?",
+              "choices": [
+                "Plan delayed unaided performance, a pre-use baseline, a suitable configured incumbent, eligibility and follow-up windows, a missingness audit and appropriate randomized assignment.",
+                "Compare session counts before and after, calling the difference a randomized effect.",
+                "Report that the proposed study already proved the AI tutor wins.",
+                "If a future test is not statistically significant, conclude there is no effect."
+              ]
+            },
+            {
+              "prompt": "How should the primary calculation be described?",
+              "choices": [
+                "A 43.75% relative session-count increase using Week 1 as reference, across separate weekly groups.",
+                "A 43.75 percentage-point gain in English learning for each individual.",
+                "Week 1 is each Week 2 learner’s pre-use skill baseline."
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "In the original CSV, what is Week 2 novice assessment coverage (eligible learners as denominator)?",
+          "unit": "%",
+          "reasonPrompt": "How should the 45 missing novice assessments affect the decision?",
+          "choices": [
+            "Their outcomes are unknown; report 15/60 coverage separately from 6/15 pass rate and investigate selection into follow-up.",
+            "Treat all 45 missing assessments as failed learning.",
+            "The 6/15 pass rate describes all 60 eligible novices.",
+            "The novice-versus-experienced difference is the causal treatment effect."
+          ],
+          "items": [
+            {
+              "prompt": "What would be a defensible follow-up?",
+              "choices": [
+                "Audit response by pre-use baseline and exposure, improve follow-up for all eligible learners, then compare delayed unaided outcomes against a suitable workflow with predefined assignment and windows.",
+                "Follow up only the six successful novices to confirm the population effect.",
+                "Fill missing values with success because sessions increased."
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "title": "A decision you can defend.",
+        "dataset": {
+          "id": "decision-scenario-v1",
+          "label": "Authored decision scenario",
+          "path": "/data/decision-scenario-v1.json",
+          "sha256": "e98677ebe68d32b9dea27f68e20f88a41f8e3429fb5113a9ea824ac6d15b0204"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "structured_decision_score",
+            "scope": "decision-scenario-v1 initial decision; revision is an additional required stage"
+          },
+          "transfer": {
+            "metricId": "structured_decision_score",
+            "scope": "Separate incumbent-success-v1 transfer; residual-task scope and critical checks"
+          }
+        },
+        "primary": {
+          "prompt": "Choose and defend a bounded next investment in the initial scenario.",
+          "unit": "points",
+          "reasonPrompt": "Which strategy will you defend?",
+          "choices": [
+            "A — Bounded prototype",
+            "B — Incumbent workflow",
+            "C — Human-supported pilot",
+            "D — Targeted further research"
+          ],
+          "items": [
+            {
+              "prompt": "Bounded and proportionate action",
+              "choices": [
+                "Bound the chosen option to one invented task and its stated role limits; gate any participant work on permission.",
+                "Try the chosen option, leaving its scope and effort cap unspecified.",
+                "Use real work emails now; resolve data rights after the pilot.",
+                "Commit to a full product build because choosing a strategy is enough."
+              ]
+            },
+            {
+              "prompt": "Accurate scope of evidence",
+              "choices": [
+                "Trace corpus reports and source-audit units separately from simulated analytics; treat unmet need and learning benefit as unverified.",
+                "There is useful evidence, but leave the unit and source type unspecified.",
+                "The observational weekly session increase proves the tutor caused learning gains.",
+                "The simulated funnel and retention results validate real product-market fit.",
+                "Secondary research validated a unique unmet need for this dedicated product.",
+                "The proposed delayed assessment already showed the new product wins.",
+                "The 200 evidence IDs represent 200 independent, verified users."
+              ]
+            },
+            {
+              "prompt": "Appropriate comparator",
+              "choices": [
+                "Use a suitable configured incumbent on the same job, individual pre-use baseline, outcome window, effort and access conditions.",
+                "Compare feature lists, without checking the same task or effort.",
+                "Skip the incumbent because a dedicated AI product must be better."
+              ]
+            },
+            {
+              "prompt": "Missingness and uncertainty handling",
+              "choices": [
+                "Keep unobserved outcomes unknown; audit coverage, opportunities and alternative explanations before generalizing.",
+                "Ask for more data without specifying which uncertainty changes the decision.",
+                "Treat every missing assessment as a confirmed failure.",
+                "Treat missing assessments as successes because activity increased."
+              ]
+            },
+            {
+              "prompt": "Explicit revision rule",
+              "choices": [
+                "Set an owner, date and next check with measurable task/effort conditions that would stop, narrow or revise this decision.",
+                "Revisit later, with no deadline or testable condition.",
+                "Keep this investment regardless of what the next evidence shows.",
+                "Always change strategy when any new information arrives."
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "Reconsider bespoke investment when a configured incumbent meets the agreed outcome and effort budget.",
+          "unit": "points",
+          "reasonPrompt": "Which proportionate next action fits the residual question?",
+          "choices": [
+            "A — Bounded prototype",
+            "B — Incumbent workflow",
+            "C — Human-supported pilot",
+            "D — Targeted further research"
+          ],
+          "items": [
+            {
+              "prompt": "Bounded and proportionate action",
+              "choices": [
+                "Bound the chosen option to one invented task and its stated role limits; gate any participant work on permission.",
+                "Try the chosen option, leaving its scope and effort cap unspecified.",
+                "Use real work emails now; resolve data rights after the pilot.",
+                "Commit to a full product build because choosing a strategy is enough."
+              ]
+            },
+            {
+              "prompt": "Accurate scope of evidence",
+              "choices": [
+                "Trace corpus reports and source-audit units separately from simulated analytics; treat unmet need and learning benefit as unverified.",
+                "There is useful evidence, but leave the unit and source type unspecified.",
+                "The observational weekly session increase proves the tutor caused learning gains.",
+                "The simulated funnel and retention results validate real product-market fit.",
+                "Secondary research validated a unique unmet need for this dedicated product.",
+                "The proposed delayed assessment already showed the new product wins.",
+                "The 200 evidence IDs represent 200 independent, verified users."
+              ]
+            },
+            {
+              "prompt": "Appropriate comparator",
+              "choices": [
+                "Use a suitable configured incumbent on the same job, individual pre-use baseline, outcome window, effort and access conditions.",
+                "Compare feature lists, without checking the same task or effort.",
+                "Skip the incumbent because a dedicated AI product must be better."
+              ]
+            },
+            {
+              "prompt": "Missingness and uncertainty handling",
+              "choices": [
+                "Keep unobserved outcomes unknown; audit coverage, opportunities and alternative explanations before generalizing.",
+                "Ask for more data without specifying which uncertainty changes the decision.",
+                "Treat every missing assessment as a confirmed failure.",
+                "Treat missing assessments as successes because activity increased."
+              ]
+            },
+            {
+              "prompt": "Explicit revision rule",
+              "choices": [
+                "Set an owner, date and next check with measurable task/effort conditions that would stop, narrow or revise this decision.",
+                "Revisit later, with no deadline or testable condition.",
+                "Keep this investment regardless of what the next evidence shows.",
+                "Always change strategy when any new information arrives."
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "numericConvention": "Answers use percent units: 25 means 25%, not 0.25. Percentage-point differences are explicitly separate. No metric estimates a causal effect. Module 6 scores use points (0–10), not percent or the study-plan 0–8 rubric.",
+    "metricDefinitions": {
+      "structured_decision_score": {
+        "definition": "Sum of five structured rubric dimensions, each 0–2; stage gates and critical errors separately block completion. No points for A/B/C/D alone.",
+        "unit": "points",
+        "kind": "structured_practice_not_reviewer_assessment",
+        "denominator": "Maximum 10 points, not a percentage or the study-plan 0–8 rubric"
+      },
+      "assessed_pass_rate": {
+        "definition": "Passed / assessed × 100",
+        "unit": "percent",
+        "kind": "descriptive_rate",
+        "denominator": "Assessed learners in the specified group"
+      },
+      "assessment_coverage": {
+        "definition": "Assessed / eligible × 100",
+        "unit": "percent",
+        "kind": "descriptive_rate",
+        "denominator": "Eligible learners in the specified group"
+      },
+      "ordered_feedback_step_conversion": {
+        "definition": "Distinct mature users with ordered signup → practice → feedback / distinct mature practitioners × 100",
+        "unit": "percent",
+        "kind": "descriptive_rate",
+        "denominator": "Ordered mature practitioners; deduplicated IDs, strict time order, [signup, signup+7d)"
+      },
+      "ordered_feedback_overall_conversion": {
+        "definition": "Distinct mature users with ordered signup → practice → feedback / distinct mature signups × 100",
+        "unit": "percent",
+        "kind": "descriptive_rate",
+        "denominator": "All mature signups, same ordered half-open window"
+      },
+      "exact_day7_retention": {
+        "definition": "Distinct users active in [signup+7d, signup+8d) / all signups whose full interval is observed × 100",
+        "unit": "percent",
+        "kind": "descriptive_rate",
+        "denominator": "Mature signup users in the specified cohort"
+      },
+      "session_count_relative_change": {
+        "definition": "(Comparison sessions − reference sessions) / reference sessions × 100",
+        "unit": "percent",
+        "kind": "relative_change",
+        "denominator": "Reference-group session count; undefined when zero"
+      },
+      "coverage_difference_pp": {
+        "definition": "Comparison assessment coverage percent − reference coverage percent",
+        "unit": "percentage_points",
+        "kind": "rate_difference",
+        "denominator": "Each group uses its own eligible learners"
+      },
+      "assessed_pass_difference_pp": {
+        "definition": "Comparison assessed pass-rate percent − reference assessed pass-rate percent",
+        "unit": "percentage_points",
+        "kind": "rate_difference",
+        "denominator": "Each group uses its own assessed learners"
+      },
+      "illustrative_reweighted_pass_rate": {
+        "definition": "Sum of fixed subgroup pass rates × hypothetical subgroup weights × 100",
+        "unit": "percent",
+        "kind": "illustration_not_observed",
+        "denominator": "Hypothetical assessed-user mixture, not experiment outcomes"
+      }
+    },
+    "decisionContract": {
+      "version": 1,
+      "maximum": 10,
+      "unit": "points",
+      "dimensions": [
+        {
+          "id": "bounded",
+          "name": "Bounded and proportionate action"
+        },
+        {
+          "id": "evidence",
+          "name": "Accurate scope of evidence"
+        },
+        {
+          "id": "comparator",
+          "name": "Appropriate comparator"
+        },
+        {
+          "id": "unknowns",
+          "name": "Missingness and uncertainty handling"
+        },
+        {
+          "id": "revision",
+          "name": "Explicit revision rule"
+        }
+      ],
+      "contextChoices": {
+        "capacity": [
+          "Engineering is now 2 hours: use a plan that fits each role, including a reduced prototype if keeping A.",
+          "Keep the 8-hour prototype plan because total staff hours are enough.",
+          "Every strategy is now impossible, including a focused desk audit."
+        ],
+        "rights": [
+          "No participant contact or content this round: use invented prompts/local rehearsal and request a rights review before later participant work.",
+          "Use a volunteered work email anyway; consent removes every stated restriction.",
+          "All research must stop forever, including a local protocol sketch."
+        ],
+        "coverage": [
+          "Four of eight were assessed: keep four outcomes unknown and audit response selection before using the observed group to decide.",
+          "All four missing learners failed, so abandon the strategy immediately.",
+          "Four missing learners succeeded because they were active."
+        ],
+        "transfer": [
+          "Incumbent success weakens the underserved claim for this tested job; investigate a defined residual task before bespoke commitment.",
+          "A bespoke product is still validated because the corpus contains complaints.",
+          "No new product could ever help any learner or task.",
+          "This proves the original planned P1 experiment already succeeded."
+        ]
+      },
+      "stages": [
+        "initial",
+        "revision",
+        "transfer"
+      ],
+      "textPolicy": "Presence/date checks only; memo semantics require an independent reviewer."
+    },
+    "moduleDefinitions": [
+      {
+        "id": 1,
+        "title": "Every number needs a denominator.",
+        "dataset": {
+          "id": "case-b-weekly-source-v1",
+          "label": "Original weekly simulation",
+          "path": "/data/case_b_weekly.csv",
+          "sha256": "ef1c902fddb834c87c4ed1ba04f384700524062a54bab6319083c489607709c6"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "assessed_pass_rate",
+            "scope": "Week 1, all segments"
+          },
+          "transfer": {
+            "metricId": "assessment_coverage",
+            "scope": "Week 2, all segments"
+          }
+        },
+        "primary": {
+          "prompt": "In cohort week 1, across both segments, what percentage of assessed learners passed?",
+          "unit": "%",
+          "reasonPrompt": "What does this percentage let you conclude?",
+          "choices": [
+            "This is the share who passed among assessed learners; missing outcomes remain unknown.",
+            "This is the proportion of all eligible learners who learned successfully.",
+            "Because all assessed learners used the tutor, the pass rate estimates its contribution."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m1.primary.assessed-scope",
+              "label": "This is the share who passed among assessed learners; missing outcomes remain unknown."
+            },
+            {
+              "id": "m1.primary.eligible-generalization",
+              "label": "This is the proportion of all eligible learners who learned successfully."
+            },
+            {
+              "id": "m1.primary.causal-attribution",
+              "label": "Because all assessed learners used the tutor, the pass rate estimates its contribution."
+            }
+          ],
+          "items": []
+        },
+        "transfer": {
+          "prompt": "Now use cohort week 2, both segments. What percentage of eligible learners were assessed?",
+          "unit": "%",
+          "reasonPrompt": "How should the unassessed learners be handled?",
+          "choices": [
+            "Keep their outcomes unknown and report coverage.",
+            "Count every unassessed learner as a failure.",
+            "Remove them from the eligible cohort."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m1.transfer.unknown-outcomes",
+              "label": "Keep their outcomes unknown and report coverage."
+            },
+            {
+              "id": "m1.transfer.missing-failure",
+              "label": "Count every unassessed learner as a failure."
+            },
+            {
+              "id": "m1.transfer.remove-eligible",
+              "label": "Remove them from the eligible cohort."
+            }
+          ],
+          "items": []
+        }
+      },
+      {
+        "id": 2,
+        "title": "A journey, not a pile of clicks.",
+        "dataset": {
+          "id": "events-v1",
+          "label": "Authored funnel event fixture",
+          "path": "/data/events-v1.json",
+          "sha256": "20d3ac213f5ca3a7f550df691ea40a6aaa20f2a8f35d97d08a8db4bc741a215d"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "ordered_feedback_step_conversion",
+            "scope": "All mature cohorts and segments"
+          },
+          "transfer": {
+            "metricId": "ordered_feedback_overall_conversion",
+            "scope": "All mature cohorts and segments"
+          }
+        },
+        "primary": {
+          "prompt": "Across both mature cohorts and both segments, what percentage of practitioners reached feedback after practice within seven days?",
+          "unit": "%",
+          "reasonPrompt": "Which interpretation and next step are defensible?",
+          "choices": [
+            "Count each eligible learner once in timestamp order; inspect tracking and friction before deciding what to change.",
+            "Deduplicate event IDs, then divide feedback deliveries by practice deliveries.",
+            "Use feedback within the reporting period even when its practice step happened later.",
+            "Prioritize feedback-delivery investment because conversion is sufficient evidence of learning value."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m2.primary.ordered-users",
+              "label": "Count each eligible learner once in timestamp order; inspect tracking and friction before deciding what to change."
+            },
+            {
+              "id": "m2.primary.event-row-unit",
+              "label": "Deduplicate event IDs, then divide feedback deliveries by practice deliveries."
+            },
+            {
+              "id": "m2.primary.ignore-order-window",
+              "label": "Use feedback within the reporting period even when its practice step happened later."
+            },
+            {
+              "id": "m2.primary.activity-learning-effect",
+              "label": "Prioritize feedback-delivery investment because conversion is sufficient evidence of learning value."
+            }
+          ],
+          "items": []
+        },
+        "transfer": {
+          "prompt": "Keep the same mature cohorts and segments. What is overall signup-to-feedback conversion?",
+          "unit": "%",
+          "reasonPrompt": "Which denominator and eligibility rule should the product memo use?",
+          "choices": [
+            "Use all 8 mature signups; count only unique users with ordered practice then feedback.",
+            "Use the 6 practitioners because every funnel rate uses the previous step.",
+            "Use all 12 signups and count the immature cohort as failures."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m2.transfer.eligible-overall",
+              "label": "Use all 8 mature signups; count only unique users with ordered practice then feedback."
+            },
+            {
+              "id": "m2.transfer.step-denominator",
+              "label": "Use the 6 practitioners because every funnel rate uses the previous step."
+            },
+            {
+              "id": "m2.transfer.immature-failure",
+              "label": "Use all 12 signups and count the immature cohort as failures."
+            }
+          ],
+          "items": []
+        }
+      },
+      {
+        "id": 3,
+        "title": "Who came back—and who could?",
+        "dataset": {
+          "id": "retention-events-v1",
+          "label": "Authored retention fork",
+          "path": "/data/retention-events-v1.json",
+          "sha256": "27d25fbfbe58e7d64ff8e9aa6860c7cfa0610cd80f9e1953801fb843bbf339af"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "exact_day7_retention",
+            "scope": "October 1 cohort, all segments"
+          },
+          "transfer": {
+            "metricId": "exact_day7_retention",
+            "scope": "October 8 cohort, all segments"
+          }
+        },
+        "primary": {
+          "prompt": "For the October 1 signup cohort, both segments, what is exact-day D7 retention?",
+          "unit": "%",
+          "reasonPrompt": "What can you conclude from comparing the two mature cohorts?",
+          "choices": [
+            "The cohorts differ in observed D7 activity; the available data does not identify why.",
+            "Use the higher D7 return rate to identify the cohort with stronger English learning outcomes.",
+            "Attribute the decline to onboarding because it connects signup with later return.",
+            "Count anyone with any activity after signup, including funnel feedback."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m3.primary.descriptive-cohorts",
+              "label": "The cohorts differ in observed D7 activity; the available data does not identify why."
+            },
+            {
+              "id": "m3.primary.activity-learning",
+              "label": "Use the higher D7 return rate to identify the cohort with stronger English learning outcomes."
+            },
+            {
+              "id": "m3.primary.onboarding-cause",
+              "label": "Attribute the decline to onboarding because it connects signup with later return."
+            },
+            {
+              "id": "m3.primary.any-time-activity",
+              "label": "Count anyone with any activity after signup, including funnel feedback."
+            }
+          ],
+          "items": [
+            {
+              "prompt": "Which next investigation could help distinguish explanations?",
+              "choices": [
+                "Audit logging completeness, then compare acquisition channels and pre-use segments by cohort.",
+                "Interview only returning users and treat their reasons as the cause for everyone.",
+                "Prioritize onboarding changes because the lower cohort rate suggests onboarding friction."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m3.primary.audit-composition",
+                  "label": "Audit logging completeness, then compare acquisition channels and pre-use segments by cohort."
+                },
+                {
+                  "id": "m3.primary.returner-selection",
+                  "label": "Interview only returning users and treat their reasons as the cause for everyone."
+                },
+                {
+                  "id": "m3.primary.feature-from-rate",
+                  "label": "Prioritize onboarding changes because the lower cohort rate suggests onboarding friction."
+                }
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "Now use the October 8 signup cohort, both segments. What is exact-day D7 retention?",
+          "unit": "%",
+          "reasonPrompt": "How should the October 15 cohort appear in this comparison?",
+          "choices": [
+            "Unavailable until its entire D7 window ends; exclude it from the mature pooled denominator.",
+            "Display 0% because none has returned on Day 7 by the cutoff.",
+            "Use the seven-day funnel conversion as its retention estimate."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m3.transfer.right-censored",
+              "label": "Unavailable until its entire D7 window ends; exclude it from the mature pooled denominator."
+            },
+            {
+              "id": "m3.transfer.immature-zero",
+              "label": "Display 0% because none has returned on Day 7 by the cutoff."
+            },
+            {
+              "id": "m3.transfer.funnel-as-retention",
+              "label": "Use the seven-day funnel conversion as its retention estimate."
+            }
+          ],
+          "items": [
+            {
+              "prompt": "How should mature cohorts be pooled when their sizes differ?",
+              "choices": [
+                "Sum retained users and eligible signup users, then divide those totals.",
+                "Always average the cohort percentages equally.",
+                "Add all qualifying event rows and divide by returning users."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m3.transfer.pool-counts",
+                  "label": "Sum retained users and eligible signup users, then divide those totals."
+                },
+                {
+                  "id": "m3.transfer.mean-percentages",
+                  "label": "Always average the cohort percentages equally."
+                },
+                {
+                  "id": "m3.transfer.event-over-returner",
+                  "label": "Add all qualifying event rows and divide by returning users."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 4,
+        "title": "The mix changes the message.",
+        "dataset": {
+          "id": "strict-simpson-v1",
+          "label": "Authored strict reversal",
+          "path": "/data/strict-simpson-v1.json",
+          "sha256": "667a632332cb6c9cfc7826cc98b7329dbbbc140adfc7328ebaa54ce3a4290f7c"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "assessed_pass_rate",
+            "scope": "Product B, pooled segments"
+          },
+          "transfer": {
+            "metricId": "assessed_pass_rate",
+            "scope": "Product B, experienced segment"
+          }
+        },
+        "primary": {
+          "prompt": "What is Product B's pooled pass rate across both segments in the locked fixture?",
+          "unit": "%",
+          "reasonPrompt": "How can B be higher within both segments but lower overall?",
+          "choices": [
+            "B is higher within both groups; A’s experienced-heavy mix gives A the higher pooled rate.",
+            "A is universally superior because its pooled rate is 74% versus 36%.",
+            "B is universally superior because it wins in both segments; composition can be ignored.",
+            "Average each product’s two segment percentages equally."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m4.primary.weighted-reversal",
+              "label": "B is higher within both groups; A’s experienced-heavy mix gives A the higher pooled rate."
+            },
+            {
+              "id": "m4.primary.pooled-universal",
+              "label": "A is universally superior because its pooled rate is 74% versus 36%."
+            },
+            {
+              "id": "m4.primary.subgroup-universal",
+              "label": "B is universally superior because it wins in both segments; composition can be ignored."
+            },
+            {
+              "id": "m4.primary.equal-weight",
+              "label": "Average each product’s two segment percentages equally."
+            }
+          ],
+          "items": [
+            {
+              "prompt": "What does the comparison establish about causality?",
+              "choices": [
+                "These are descriptive rates; neither product labels nor segment membership establishes random assignment.",
+                "Treat pre-use segment membership as sufficient evidence of randomized product comparison.",
+                "A strict Simpson reversal proves the segment causally confounds the product effect."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m4.primary.descriptive-assignment",
+                  "label": "These are descriptive rates; neither product labels nor segment membership establishes random assignment."
+                },
+                {
+                  "id": "m4.primary.segment-randomization",
+                  "label": "Treat pre-use segment membership as sufficient evidence of randomized product comparison."
+                },
+                {
+                  "id": "m4.primary.reversal-confounding",
+                  "label": "A strict Simpson reversal proves the segment causally confounds the product effect."
+                }
+              ]
+            },
+            {
+              "prompt": "Which next investigation could support a product decision?",
+              "choices": [
+                "Audit assessment definitions and coverage, compare baselines and acquisition, then plan suitable randomized product assignment.",
+                "Roll out B to everyone using the subgroup advantage as causal proof.",
+                "Prioritize A for rollout because its pooled pass rate best represents total reach."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m4.primary.audit-and-compare",
+                  "label": "Audit assessment definitions and coverage, compare baselines and acquisition, then plan suitable randomized product assignment."
+                },
+                {
+                  "id": "m4.primary.subgroup-rollout",
+                  "label": "Roll out B to everyone using the subgroup advantage as causal proof."
+                },
+                {
+                  "id": "m4.primary.pooled-rollout",
+                  "label": "Prioritize A for rollout because its pooled pass rate best represents total reach."
+                }
+              ]
+            },
+            {
+              "prompt": "How should the pooled B-minus-A difference be expressed?",
+              "choices": [
+                "−38 percentage points; the relative change from A is approximately −51.35%.",
+                "B is 38% lower, because percentage points and relative percent are interchangeable."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m4.primary.points-vs-relative",
+                  "label": "−38 percentage points; the relative change from A is approximately −51.35%."
+                },
+                {
+                  "id": "m4.primary.points-as-percent",
+                  "label": "B is 38% lower, because percentage points and relative percent are interchangeable."
+                }
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "What is Product B's experienced-learner pass rate in the locked fixture?",
+          "unit": "%",
+          "reasonPrompt": "Which denominator and interpretation are appropriate?",
+          "choices": [
+            "Use 9/10 experienced assessed learners; this descriptive subgroup rate does not establish universal rollout.",
+            "Use 9/100 because the product-wide denominator belongs in every metric.",
+            "Use the 90% subgroup result as proof that B causes better learning for every individual."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m4.transfer.subgroup-scope",
+              "label": "Use 9/10 experienced assessed learners; this descriptive subgroup rate does not establish universal rollout."
+            },
+            {
+              "id": "m4.transfer.product-denominator",
+              "label": "Use 9/100 because the product-wide denominator belongs in every metric."
+            },
+            {
+              "id": "m4.transfer.individual-effect",
+              "label": "Use the 90% subgroup result as proof that B causes better learning for every individual."
+            }
+          ],
+          "items": [
+            {
+              "prompt": "At the same illustrative 50/50 mix, what would the weighted rates mean?",
+              "choices": [
+                "A is 50% and B is 60%; this is arithmetic reweighting of fixed rates, not observed trial results.",
+                "A stays 74% and B stays 36%, because segment composition cannot affect totals.",
+                "B’s reweighted advantage proves a causal improvement of 10 percentage points."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m4.transfer.illustrative-reweight",
+                  "label": "A is 50% and B is 60%; this is arithmetic reweighting of fixed rates, not observed trial results."
+                },
+                {
+                  "id": "m4.transfer.fixed-pooled",
+                  "label": "A stays 74% and B stays 36%, because segment composition cannot affect totals."
+                },
+                {
+                  "id": "m4.transfer.reweight-causal",
+                  "label": "B’s reweighted advantage proves a causal improvement of 10 percentage points."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 5,
+        "title": "More practice. Better learning?",
+        "dataset": {
+          "id": "case-b-weekly-source-v1",
+          "label": "Original weekly simulation",
+          "path": "/data/case_b_weekly.csv",
+          "sha256": "ef1c902fddb834c87c4ed1ba04f384700524062a54bab6319083c489607709c6"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "session_count_relative_change",
+            "scope": "Week 1 reference → Week 2 comparison, all segments"
+          },
+          "transfer": {
+            "metricId": "assessment_coverage",
+            "scope": "Week 2, novice segment"
+          }
+        },
+        "primary": {
+          "prompt": "Across both segments, what is the relative difference in total sessions from Week 1 (reference) to Week 2?",
+          "unit": "%",
+          "reasonPrompt": "Does the larger session count prove improved English learning?",
+          "choices": [
+            "No. Activity differs from learning; the weekly groups and observed assessment coverage differ, with no suitable causal comparison.",
+            "Yes. Session growth is a practical proxy for improved English when direct assessment coverage falls.",
+            "Yes. Treat the later signup week as the intervention arm and the earlier week as a comparable control."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m5.primary.activity-not-learning",
+              "label": "No. Activity differs from learning; the weekly groups and observed assessment coverage differ, with no suitable causal comparison."
+            },
+            {
+              "id": "m5.primary.activity-causal",
+              "label": "Yes. Session growth is a practical proxy for improved English when direct assessment coverage falls."
+            },
+            {
+              "id": "m5.primary.later-randomized",
+              "label": "Yes. Treat the later signup week as the intervention arm and the earlier week as a comparable control."
+            }
+          ],
+          "items": [
+            {
+              "prompt": "Which competing explanation is actually supported, and what remains unresolved?",
+              "choices": [
+                "The novice share increased; learning improvement, activity-only changes, outcome-related follow-up and acquisition or logging changes remain unresolved and can coexist.",
+                "Different acquisition is the confirmed unique cause.",
+                "Stable subgroup pass rates prove the product has no effect."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m5.primary.composition-observed",
+                  "label": "The novice share increased; learning improvement, activity-only changes, outcome-related follow-up and acquisition or logging changes remain unresolved and can coexist."
+                },
+                {
+                  "id": "m5.primary.acquisition-confirmed",
+                  "label": "Different acquisition is the confirmed unique cause."
+                },
+                {
+                  "id": "m5.primary.stable-no-effect",
+                  "label": "Stable subgroup pass rates prove the product has no effect."
+                }
+              ]
+            },
+            {
+              "prompt": "Which next investigation could distinguish important explanations?",
+              "choices": [
+                "Plan delayed unaided performance, a pre-use baseline, a suitable configured incumbent, eligibility and follow-up windows, a missingness audit and appropriate randomized assignment.",
+                "Compare session counts before and after, calling the difference a randomized effect.",
+                "Use the proposed study design as sufficient evidence to commit the rollout budget.",
+                "If a future test is nonsignificant, retain the assumption that the workflows are equivalent."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m5.primary.designed-followup",
+                  "label": "Plan delayed unaided performance, a pre-use baseline, a suitable configured incumbent, eligibility and follow-up windows, a missingness audit and appropriate randomized assignment."
+                },
+                {
+                  "id": "m5.primary.before-after-random",
+                  "label": "Compare session counts before and after, calling the difference a randomized effect."
+                },
+                {
+                  "id": "m5.primary.proposal-as-result",
+                  "label": "Use the proposed study design as sufficient evidence to commit the rollout budget."
+                },
+                {
+                  "id": "m5.primary.nonsignificant-no-effect",
+                  "label": "If a future test is nonsignificant, retain the assumption that the workflows are equivalent."
+                }
+              ]
+            },
+            {
+              "prompt": "How should the primary calculation be described?",
+              "choices": [
+                "A 43.75% relative session-count increase using Week 1 as reference, across separate weekly groups.",
+                "A 43.75 percentage-point gain in English learning for each individual.",
+                "Week 1 is each Week 2 learner’s pre-use skill baseline."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m5.primary.relative-reference",
+                  "label": "A 43.75% relative session-count increase using Week 1 as reference, across separate weekly groups."
+                },
+                {
+                  "id": "m5.primary.individual-points",
+                  "label": "A 43.75 percentage-point gain in English learning for each individual."
+                },
+                {
+                  "id": "m5.primary.separate-as-baseline",
+                  "label": "Week 1 is each Week 2 learner’s pre-use skill baseline."
+                }
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "In the original CSV, what is Week 2 novice assessment coverage (eligible learners as denominator)?",
+          "unit": "%",
+          "reasonPrompt": "How should the 45 missing novice assessments affect the decision?",
+          "choices": [
+            "Their outcomes are unknown; report 15/60 coverage separately from 6/15 pass rate and investigate selection into follow-up.",
+            "Treat all 45 missing assessments as failed learning.",
+            "The 6/15 pass rate describes all 60 eligible novices.",
+            "The novice-versus-experienced difference is the causal treatment effect."
+          ],
+          "optionDefinitions": [
+            {
+              "id": "m5.transfer.unknown-followup",
+              "label": "Their outcomes are unknown; report 15/60 coverage separately from 6/15 pass rate and investigate selection into follow-up."
+            },
+            {
+              "id": "m5.transfer.missing-failure",
+              "label": "Treat all 45 missing assessments as failed learning."
+            },
+            {
+              "id": "m5.transfer.complete-case-population",
+              "label": "The 6/15 pass rate describes all 60 eligible novices."
+            },
+            {
+              "id": "m5.transfer.segment-treatment",
+              "label": "The novice-versus-experienced difference is the causal treatment effect."
+            }
+          ],
+          "items": [
+            {
+              "prompt": "What would be a defensible follow-up?",
+              "choices": [
+                "Audit response by pre-use baseline and exposure, improve follow-up for all eligible learners, then compare delayed unaided outcomes against a suitable workflow with predefined assignment and windows.",
+                "Follow up only the six successful novices to confirm the population effect.",
+                "Fill missing values with success because sessions increased."
+              ],
+              "optionDefinitions": [
+                {
+                  "id": "m5.transfer.audit-and-followup",
+                  "label": "Audit response by pre-use baseline and exposure, improve follow-up for all eligible learners, then compare delayed unaided outcomes against a suitable workflow with predefined assignment and windows."
+                },
+                {
+                  "id": "m5.transfer.success-selection",
+                  "label": "Follow up only the six successful novices to confirm the population effect."
+                },
+                {
+                  "id": "m5.transfer.activity-imputation",
+                  "label": "Fill missing values with success because sessions increased."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": 6,
+        "title": "A decision you can defend.",
+        "dataset": {
+          "id": "decision-scenario-v1",
+          "label": "Authored decision scenario",
+          "path": "/data/decision-scenario-v1.json",
+          "sha256": "e98677ebe68d32b9dea27f68e20f88a41f8e3429fb5113a9ea824ac6d15b0204"
+        },
+        "assessments": {
+          "primary": {
+            "metricId": "structured_decision_score",
+            "scope": "decision-scenario-v1 initial decision; revision is an additional required stage"
+          },
+          "transfer": {
+            "metricId": "structured_decision_score",
+            "scope": "Separate incumbent-success-v1 transfer; residual-task scope and critical checks"
+          }
+        },
+        "primary": {
+          "prompt": "Choose and defend a bounded next investment in the initial scenario.",
+          "unit": "points",
+          "reasonPrompt": "Which strategy will you defend?",
+          "choices": [
+            "A — Bounded prototype",
+            "B — Incumbent workflow",
+            "C — Human-supported pilot",
+            "D — Targeted further research"
+          ],
+          "optionDefinitions": [
+            {
+              "label": "A — Bounded prototype"
+            },
+            {
+              "label": "B — Incumbent workflow"
+            },
+            {
+              "label": "C — Human-supported pilot"
+            },
+            {
+              "label": "D — Targeted further research"
+            }
+          ],
+          "items": [
+            {
+              "prompt": "Bounded and proportionate action",
+              "choices": [
+                "Bound the chosen option to one invented task and its stated role limits; gate any participant work on permission.",
+                "Try the chosen option, leaving its scope and effort cap unspecified.",
+                "Use real work emails now; resolve data rights after the pilot.",
+                "Commit to a full product build because choosing a strategy is enough."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Bound the chosen option to one invented task and its stated role limits; gate any participant work on permission."
+                },
+                {
+                  "label": "Try the chosen option, leaving its scope and effort cap unspecified."
+                },
+                {
+                  "label": "Use real work emails now; resolve data rights after the pilot."
+                },
+                {
+                  "label": "Commit to a full product build because choosing a strategy is enough."
+                }
+              ]
+            },
+            {
+              "prompt": "Accurate scope of evidence",
+              "choices": [
+                "Trace corpus reports and source-audit units separately from simulated analytics; treat unmet need and learning benefit as unverified.",
+                "There is useful evidence, but leave the unit and source type unspecified.",
+                "The observational weekly session increase proves the tutor caused learning gains.",
+                "The simulated funnel and retention results validate real product-market fit.",
+                "Secondary research validated a unique unmet need for this dedicated product.",
+                "The proposed delayed assessment already showed the new product wins.",
+                "The 200 evidence IDs represent 200 independent, verified users."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Trace corpus reports and source-audit units separately from simulated analytics; treat unmet need and learning benefit as unverified."
+                },
+                {
+                  "label": "There is useful evidence, but leave the unit and source type unspecified."
+                },
+                {
+                  "label": "The observational weekly session increase proves the tutor caused learning gains."
+                },
+                {
+                  "label": "The simulated funnel and retention results validate real product-market fit."
+                },
+                {
+                  "label": "Secondary research validated a unique unmet need for this dedicated product."
+                },
+                {
+                  "label": "The proposed delayed assessment already showed the new product wins."
+                },
+                {
+                  "label": "The 200 evidence IDs represent 200 independent, verified users."
+                }
+              ]
+            },
+            {
+              "prompt": "Appropriate comparator",
+              "choices": [
+                "Use a suitable configured incumbent on the same job, individual pre-use baseline, outcome window, effort and access conditions.",
+                "Compare feature lists, without checking the same task or effort.",
+                "Skip the incumbent because a dedicated AI product must be better."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Use a suitable configured incumbent on the same job, individual pre-use baseline, outcome window, effort and access conditions."
+                },
+                {
+                  "label": "Compare feature lists, without checking the same task or effort."
+                },
+                {
+                  "label": "Skip the incumbent because a dedicated AI product must be better."
+                }
+              ]
+            },
+            {
+              "prompt": "Missingness and uncertainty handling",
+              "choices": [
+                "Keep unobserved outcomes unknown; audit coverage, opportunities and alternative explanations before generalizing.",
+                "Ask for more data without specifying which uncertainty changes the decision.",
+                "Treat every missing assessment as a confirmed failure.",
+                "Treat missing assessments as successes because activity increased."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Keep unobserved outcomes unknown; audit coverage, opportunities and alternative explanations before generalizing."
+                },
+                {
+                  "label": "Ask for more data without specifying which uncertainty changes the decision."
+                },
+                {
+                  "label": "Treat every missing assessment as a confirmed failure."
+                },
+                {
+                  "label": "Treat missing assessments as successes because activity increased."
+                }
+              ]
+            },
+            {
+              "prompt": "Explicit revision rule",
+              "choices": [
+                "Set an owner, date and next check with measurable task/effort conditions that would stop, narrow or revise this decision.",
+                "Revisit later, with no deadline or testable condition.",
+                "Keep this investment regardless of what the next evidence shows.",
+                "Always change strategy when any new information arrives."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Set an owner, date and next check with measurable task/effort conditions that would stop, narrow or revise this decision."
+                },
+                {
+                  "label": "Revisit later, with no deadline or testable condition."
+                },
+                {
+                  "label": "Keep this investment regardless of what the next evidence shows."
+                },
+                {
+                  "label": "Always change strategy when any new information arrives."
+                }
+              ]
+            }
+          ]
+        },
+        "transfer": {
+          "prompt": "Reconsider bespoke investment when a configured incumbent meets the agreed outcome and effort budget.",
+          "unit": "points",
+          "reasonPrompt": "Which proportionate next action fits the residual question?",
+          "choices": [
+            "A — Bounded prototype",
+            "B — Incumbent workflow",
+            "C — Human-supported pilot",
+            "D — Targeted further research"
+          ],
+          "optionDefinitions": [
+            {
+              "label": "A — Bounded prototype"
+            },
+            {
+              "label": "B — Incumbent workflow"
+            },
+            {
+              "label": "C — Human-supported pilot"
+            },
+            {
+              "label": "D — Targeted further research"
+            }
+          ],
+          "items": [
+            {
+              "prompt": "Bounded and proportionate action",
+              "choices": [
+                "Bound the chosen option to one invented task and its stated role limits; gate any participant work on permission.",
+                "Try the chosen option, leaving its scope and effort cap unspecified.",
+                "Use real work emails now; resolve data rights after the pilot.",
+                "Commit to a full product build because choosing a strategy is enough."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Bound the chosen option to one invented task and its stated role limits; gate any participant work on permission."
+                },
+                {
+                  "label": "Try the chosen option, leaving its scope and effort cap unspecified."
+                },
+                {
+                  "label": "Use real work emails now; resolve data rights after the pilot."
+                },
+                {
+                  "label": "Commit to a full product build because choosing a strategy is enough."
+                }
+              ]
+            },
+            {
+              "prompt": "Accurate scope of evidence",
+              "choices": [
+                "Trace corpus reports and source-audit units separately from simulated analytics; treat unmet need and learning benefit as unverified.",
+                "There is useful evidence, but leave the unit and source type unspecified.",
+                "The observational weekly session increase proves the tutor caused learning gains.",
+                "The simulated funnel and retention results validate real product-market fit.",
+                "Secondary research validated a unique unmet need for this dedicated product.",
+                "The proposed delayed assessment already showed the new product wins.",
+                "The 200 evidence IDs represent 200 independent, verified users."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Trace corpus reports and source-audit units separately from simulated analytics; treat unmet need and learning benefit as unverified."
+                },
+                {
+                  "label": "There is useful evidence, but leave the unit and source type unspecified."
+                },
+                {
+                  "label": "The observational weekly session increase proves the tutor caused learning gains."
+                },
+                {
+                  "label": "The simulated funnel and retention results validate real product-market fit."
+                },
+                {
+                  "label": "Secondary research validated a unique unmet need for this dedicated product."
+                },
+                {
+                  "label": "The proposed delayed assessment already showed the new product wins."
+                },
+                {
+                  "label": "The 200 evidence IDs represent 200 independent, verified users."
+                }
+              ]
+            },
+            {
+              "prompt": "Appropriate comparator",
+              "choices": [
+                "Use a suitable configured incumbent on the same job, individual pre-use baseline, outcome window, effort and access conditions.",
+                "Compare feature lists, without checking the same task or effort.",
+                "Skip the incumbent because a dedicated AI product must be better."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Use a suitable configured incumbent on the same job, individual pre-use baseline, outcome window, effort and access conditions."
+                },
+                {
+                  "label": "Compare feature lists, without checking the same task or effort."
+                },
+                {
+                  "label": "Skip the incumbent because a dedicated AI product must be better."
+                }
+              ]
+            },
+            {
+              "prompt": "Missingness and uncertainty handling",
+              "choices": [
+                "Keep unobserved outcomes unknown; audit coverage, opportunities and alternative explanations before generalizing.",
+                "Ask for more data without specifying which uncertainty changes the decision.",
+                "Treat every missing assessment as a confirmed failure.",
+                "Treat missing assessments as successes because activity increased."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Keep unobserved outcomes unknown; audit coverage, opportunities and alternative explanations before generalizing."
+                },
+                {
+                  "label": "Ask for more data without specifying which uncertainty changes the decision."
+                },
+                {
+                  "label": "Treat every missing assessment as a confirmed failure."
+                },
+                {
+                  "label": "Treat missing assessments as successes because activity increased."
+                }
+              ]
+            },
+            {
+              "prompt": "Explicit revision rule",
+              "choices": [
+                "Set an owner, date and next check with measurable task/effort conditions that would stop, narrow or revise this decision.",
+                "Revisit later, with no deadline or testable condition.",
+                "Keep this investment regardless of what the next evidence shows.",
+                "Always change strategy when any new information arrives."
+              ],
+              "optionDefinitions": [
+                {
+                  "label": "Set an owner, date and next check with measurable task/effort conditions that would stop, narrow or revise this decision."
+                },
+                {
+                  "label": "Revisit later, with no deadline or testable condition."
+                },
+                {
+                  "label": "Keep this investment regardless of what the next evidence shows."
+                },
+                {
+                  "label": "Always change strategy when any new information arrives."
+                }
+              ]
+            }
+          ]
+        }
+      }
+    ],
+    "storageEvidence": {
+      "status": "conflict",
+      "pendingWrites": 0,
+      "note": "Session export may contain unsaved edits. This status does not certify independence or human review."
+    }
+  }
+}

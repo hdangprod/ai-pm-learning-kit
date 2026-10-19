@@ -1,0 +1,56 @@
+[
+  {
+    "command": "python scripts/verify_data.py",
+    "exit_code": 0,
+    "log": "verify_data.log",
+    "tail": "PASS M1: original CSV counts, bounds inputs and independent arithmetic\n"
+  },
+  {
+    "command": "python scripts/verify_funnel.py",
+    "exit_code": 0,
+    "log": "verify_funnel.log",
+    "tail": "PASS M2: 12 users / 28 rows / 27 IDs; mature8\u21926\u21924, novice4\u21924\u21924, experienced4\u21922\u21920, immature0\u21920\u21920; step66.6667%, overall50%.\n"
+  },
+  {
+    "command": "python scripts/verify_retention.py",
+    "exit_code": 0,
+    "log": "verify_retention.log",
+    "tail": "PASS M3: Oct1 2/4=50%, Oct8 1/4=25%, Oct15 unavailable, pooled3/8=37.5%; mature zero, D7/D8 edges, duplicate feedback without funnel; original fixture unchanged and declared fork verified.\n"
+  },
+  {
+    "command": "python scripts/verify_simpson.py",
+    "exit_code": 0,
+    "log": "verify_simpson.log",
+    "tail": "PASS M4: subgroup20/80 vs30/90%; pooled74% vs36%; B-A +10pp in both groups, -38pp pooled, -51.35135% relative; common50/50 ->50%/60%, all101 common weights ->+10pp; original weekly example is not strict reversal.\n"
+  },
+  {
+    "command": "python scripts/verify_causal.py",
+    "exit_code": 0,
+    "log": "verify_causal.log",
+    "tail": "PASS M5 original CSV: rows80/240/64/48,20/80/10/4,40/160/32/24,60/300/15/6; weekly100/320/74/52 and100/460/47/30; sessions+43.75%, coverage74%->47%=-27pp; assessed pass70.27%->63.83%; W2 novice15/60=25%,45 unknown; reverse relative=-30.43478%; source, public and typed copies agree.\n"
+  },
+  {
+    "command": "python scripts/verify_decision.py",
+    "exit_code": 0,
+    "log": "verify_decision.log",
+    "tail": "PASS M6 scenario: capacities12/8/4h; listed totals12/6/8/6h, reduced4/3/4/2h; capacity2h excludes listed A but permits reduced A and all reduced plans; coverage4/8=50%,4 unknown; 3 variants, 6 evidence origins, separate incumbent-success transfer; rubric5\u00d70\u20132=0\u201310 (243 combinations); source/download hashes match.\n"
+  },
+  {
+    "command": "python materials/AI_PM_Audit_Upgrade_I_II/instructor/verify_learning.py",
+    "exit_code": 0,
+    "log": "verify_learning.log",
+    "tail": ": 0.52,\n    \"upper_bound\": 0.78\n  },\n  \"cohort_week_2\": {\n    \"eligible\": 100,\n    \"sessions\": 460,\n    \"assessed\": 47,\n    \"passed\": 30,\n    \"sessions_per_eligible\": 4.6,\n    \"coverage\": 0.47,\n    \"observed_pass\": 0.6382978723404256,\n    \"lower_bound\": 0.3,\n    \"upper_bound\": 0.83\n  },\n  \"payback_vnd\": {\n    \"5\": 491412.0,\n    \"6\": 562270.8,\n    \"7\": 626043.72\n  },\n  \"limitation\": \"Synthetic arithmetic checks, not causal or market validation\"\n}\n"
+  },
+  {
+    "command": "python scripts/verify_assessment_workflow.py",
+    "exit_code": 0,
+    "log": "verify_assessment_workflow.log",
+    "tail": "erator.\nInitial memo archived and hashed. Assigned change card released; original memo remains separate from revision.\nCreated one assigned form. Deliver only the learner directory; retain session.json, worksheet and sealed card with the moderator.\nInitial memo archived and hashed. Assigned change card released; original memo remains separate from revision.\n{\"authored_test_records_not_learner_data\": true, \"workflow_checks\": 43, \"all_pass\": true}\n"
+  },
+  {
+    "command": "python scripts/verify_preservation.py",
+    "exit_code": 1,
+    "log": "verify_preservation.log",
+    "tail": "AI_PM_Audit_Upgrade_I_II.zip');count=0\n            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/opt/codex/runtimes/codex-primary-runtime/dependencies/python/lib/python3.12/zipfile/__init__.py\", line 1353, in __init__\n    self.fp = io.open(file, filemode)\n              ^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: '/Users/dangnguyen/Desktop/PM/AI_PM_Audit_Upgrade_I_II.zip'\n"
+  }
+]

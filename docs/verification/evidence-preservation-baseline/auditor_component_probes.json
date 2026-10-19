@@ -1,0 +1,165 @@
+[
+  {
+    "id": "AUD-P01",
+    "method": "executed pure TypeScript functions; fresh deterministic initial seed",
+    "rows": [
+      {
+        "module": 1,
+        "stage": "primary",
+        "correctPositions": [
+          1
+        ],
+        "firstPositionPass": true
+      },
+      {
+        "module": 1,
+        "stage": "transfer",
+        "correctPositions": [
+          1
+        ],
+        "firstPositionPass": true
+      },
+      {
+        "module": 2,
+        "stage": "primary",
+        "correctPositions": [
+          1
+        ],
+        "firstPositionPass": true
+      },
+      {
+        "module": 2,
+        "stage": "transfer",
+        "correctPositions": [
+          2
+        ],
+        "firstPositionPass": false
+      },
+      {
+        "module": 3,
+        "stage": "primary",
+        "correctPositions": [
+          2,
+          2
+        ],
+        "firstPositionPass": false
+      },
+      {
+        "module": 3,
+        "stage": "transfer",
+        "correctPositions": [
+          2,
+          2
+        ],
+        "firstPositionPass": false
+      },
+      {
+        "module": 4,
+        "stage": "primary",
+        "correctPositions": [
+          1,
+          1,
+          2,
+          1
+        ],
+        "firstPositionPass": false
+      },
+      {
+        "module": 4,
+        "stage": "transfer",
+        "correctPositions": [
+          1,
+          1
+        ],
+        "firstPositionPass": true
+      },
+      {
+        "module": 5,
+        "stage": "primary",
+        "correctPositions": [
+          2,
+          3,
+          4,
+          2
+        ],
+        "firstPositionPass": false
+      },
+      {
+        "module": 5,
+        "stage": "transfer",
+        "correctPositions": [
+          3,
+          1
+        ],
+        "firstPositionPass": false
+      }
+    ]
+  },
+  {
+    "id": "AUD-P02",
+    "method": "executed state transitions, authored placeholder fixture",
+    "stageScores": [
+      {
+        "stage": "initial",
+        "score": 10,
+        "passed": true
+      },
+      {
+        "stage": "revision",
+        "score": 10,
+        "passed": true
+      },
+      {
+        "stage": "transfer",
+        "score": 10,
+        "passed": true
+      }
+    ],
+    "reviewStatus": "Pending independent review",
+    "interpretation": "Structured checks remain gameable; separate human review is correctly pending, not a semantic pass."
+  },
+  {
+    "id": "AUD-P03",
+    "staleBindingBlocked": true,
+    "reenteredIdenticalTextAccepted": true,
+    "firstSnapshotUnchanged": true,
+    "interpretation": "Fresh record, not proof of new substantive reasoning; disclosed presence-only contract."
+  },
+  {
+    "id": "AUD-P04",
+    "method": "executed React/jsdom",
+    "newDraftNoteBlank": true,
+    "oldNoteNotAutomaticallyReused": true,
+    "firstSnapshotUnchanged": true
+  },
+  {
+    "id": "AUD-P05",
+    "method": "executed React/jsdom with two mounted stateful instances sharing storage; models stale two-tab save",
+    "beforeModules": [
+      "1"
+    ],
+    "afterModules": [
+      "2"
+    ],
+    "firstAttemptLost": true,
+    "source": "src/App.tsx:14-16; src/lib/storage.ts:17"
+  },
+  {
+    "id": "AUD-P06",
+    "method": "executed component with explicit saved-state fault injection, not a spontaneous corruption report",
+    "validOtherRecordsBefore": 5,
+    "storedModulesAfterEdit": [
+      "1"
+    ],
+    "unreadableRawStoreInitiallyPreserved": true,
+    "subsequentWriteDestructive": true
+  },
+  {
+    "id": "AUD-P07",
+    "method": "executed saved-state fault injection through actual load and React renderer",
+    "loaderWarning": false,
+    "renderThrows": true,
+    "source": "src/lib/storage.ts:12; src/Exercise.tsx:27",
+    "spontaneousOccurrenceObserved": false
+  }
+]

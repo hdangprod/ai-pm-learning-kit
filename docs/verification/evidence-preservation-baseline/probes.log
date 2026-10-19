@@ -1,0 +1,70 @@
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+stderr | docs/verification/evidence-preservation-baseline/probes/audit-probes.test.tsx > AUD-P07: optional practice draft bypasses validation and crashes Exercise rendering
+Error: Uncaught [TypeError: Cannot read properties of undefined (reading 'map')]
+    at reportException (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:353:9)
+    at invokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+    at invokeGuardedCallback (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+    at beginWork$1 (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:27490:7)
+    at performUnitOfWork (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:26599:12) TypeError: Cannot read properties of undefined (reading 'map')
+    at /Users/dangnguyen/Desktop/AI PM Learning Kit/src/Exercise.tsx:27:145
+    at Array.map (<anonymous>)
+    at QuestionForm (/Users/dangnguyen/Desktop/AI PM Learning Kit/src/Exercise.tsx:27:20)
+    at renderWithHooks (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+    at beginWork (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+    at innerInvokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:350:25)
+    at invokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+Error: Uncaught [TypeError: Cannot read properties of undefined (reading 'map')]
+    at reportException (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/helpers/runtime-script-errors.js:66:24)
+    at innerInvokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:353:9)
+    at invokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+    at HTMLUnknownElementImpl._dispatch (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:233:9)
+    at HTMLUnknownElementImpl.dispatchEvent (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:104:17)
+    at HTMLUnknownElement.dispatchEvent (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/generated/EventTarget.js:241:34)
+    at Object.invokeGuardedCallbackDev (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:4213:16)
+    at invokeGuardedCallback (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:4277:31)
+    at beginWork$1 (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:27490:7)
+    at performUnitOfWork (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:26599:12) TypeError: Cannot read properties of undefined (reading 'map')
+    at /Users/dangnguyen/Desktop/AI PM Learning Kit/src/Exercise.tsx:27:145
+    at Array.map (<anonymous>)
+    at QuestionForm (/Users/dangnguyen/Desktop/AI PM Learning Kit/src/Exercise.tsx:27:20)
+    at renderWithHooks (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:15486:18)
+    at mountIndeterminateComponent (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:20103:13)
+    at beginWork (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:21626:16)
+    at HTMLUnknownElement.callCallback (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/react-dom/cjs/react-dom.development.js:4164:14)
+    at HTMLUnknownElement.callTheUserObjectsOperation (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/generated/EventListener.js:26:30)
+    at innerInvokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:350:25)
+    at invokeEventListeners (/Users/dangnguyen/Desktop/AI PM Learning Kit/node_modules/jsdom/lib/jsdom/living/events/EventTarget-impl.js:286:3)
+The above error occurred in the <QuestionForm> component:
+
+    at QuestionForm (/Users/dangnguyen/Desktop/AI PM Learning Kit/src/Exercise.tsx:13:25)
+    at section
+    at Exercise (/Users/dangnguyen/Desktop/AI PM Learning Kit/src/Exercise.tsx:162:21)
+    at main
+    at div
+    at div
+    at App (/Users/dangnguyen/Desktop/AI PM Learning Kit/src/App.tsx:30:43)
+
+Consider adding an error boundary to your tree to customize error handling behavior.
+Visit https://reactjs.org/link/error-boundaries to learn more about error boundaries.
+
+ ✓ docs/verification/evidence-preservation-baseline/probes/audit-probes.test.tsx (7 tests) 4254ms
+   ✓ AUD-P04: M1 repeated failures require fresh draft note and retain first snapshot 2086ms
+   ✓ AUD-P05: two independent UI instances lose the first instance history on stale whole-map save 1009ms
+   ✓ AUD-P06: invalid optional M6 rejects whole store; next edit overwrites valid other modules 447ms
+   ✓ AUD-P07: optional practice draft bypasses validation and crashes Exercise rendering 674ms
+
+ Test Files  1 passed (1)
+      Tests  7 passed (7)
+   Start at  00:09:00
+   Duration  11.87s (transform 1.34s, setup 960ms, collect 1.91s, tests 4.25s, environment 3.79s, prepare 347ms)
+

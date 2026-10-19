@@ -1,0 +1,175 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:76750) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:76770) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 64 tests using 6 workers
+
+  ✓   3 [desktop] › tests/browser/consistency.spec.cjs:10:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (3.8s)
+  ✓   4 [desktop] › tests/browser/learning.spec.cjs:3:1 › denominator learning loop, persistence and responsive layout (5.5s)
+  ✓   1 [desktop] › tests/browser/evidence-preservation.spec.cjs:9:1 › AUD-P05 actual two Chrome tabs: stale M2 save preserves A first attempt and offers conflict export/reload (5.7s)
+  ✓   5 [desktop] › tests/browser/decision.spec.cjs:3:1 › M6 brief, evidence types, sensitivity, keyboard and source download (5.6s)
+  ✓   6 [desktop] › tests/browser/causal.spec.cjs:11:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (6.3s)
+  ✓   2 [desktop] › tests/browser/funnel.spec.cjs:4:1 › M2 ordered funnel, filters, learning loop and persisted reset (7.4s)
+  ✓   8 [desktop] › tests/browser/learning.spec.cjs:21:1 › source downloads, keyboard chart, solution history and reset (2.5s)
+  ✓   7 [desktop] › tests/browser/consistency.spec.cjs:15:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (4.6s)
+  ✓  13 [desktop] › tests/browser/learning.spec.cjs:34:1 › unavailable browser storage warns and preserves session work (1.7s)
+  ✓  12 [desktop] › tests/browser/funnel.spec.cjs:23:1 › M2 event audit and downloadable fixture preserve provenance (2.7s)
+  ✓  14 [desktop] › tests/browser/remediation.spec.cjs:4:1 › remediation: frozen ordering, retry evidence, saved semantic IDs and independent-review status (4.9s)
+  ✓  11 [desktop] › tests/browser/causal.spec.cjs:23:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (7.7s)
+  ✓  15 [desktop] › tests/browser/retention.spec.cjs:10:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (4.1s)
+  ✓   9 [desktop] › tests/browser/evidence-preservation.spec.cjs:18:1 › AUD-P06 malformed M6 draft: raw preserved through edits, readable export, explicit acknowledged recovery archives originals (8.5s)
+  ✓  16 [desktop] › tests/browser/segmentation.spec.cjs:11:1 › M4 observed rates, source separation and keyboard reweighting (5.0s)
+  ✓  18 [desktop] › tests/browser/causal.spec.cjs:32:1 › M5 unavailable storage warns and preserves session notes (3.2s)
+  ✓  20 [desktop] › tests/browser/evidence-preservation.spec.cjs:25:1 › AUD-P07 malformed order: explicit quarantine and no crash; valid submitted first evidence remains exportable (3.4s)
+  ✓  10 [desktop] › tests/browser/decision.spec.cjs:9:1 › M6 full decision loop, immutable snapshots, separate solution gates, persistence, export and reset (12.5s)
+  ✓  23 [desktop] › tests/browser/evidence-preservation.spec.cjs:29:1 › exclusive Web Lock serializes competing tabs: exactly one same-revision writer succeeds; no prior history lost (3.1s)
+  ✓  22 [desktop] › tests/browser/six-module-audit.spec.cjs:4:1 › six-module final integration: navigation, correct fixture, visible provenance and export units (3.7s)
+  ✓  19 [desktop] › tests/browser/retention.spec.cjs:23:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (7.4s)
+  ✓  21 [desktop] › tests/browser/segmentation.spec.cjs:27:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (8.2s)
+  ✓  25 [desktop] › tests/browser/evidence-preservation.spec.cjs:35:1 › recovery backup quota failure never replaces raw; unavailable Web Locks never fall back to overwrite (3.7s)
+  ✓  27 [desktop] › tests/browser/retention.spec.cjs:41:1 › M3 storage failure keeps session work and reports unsaved state (3.5s)
+  ✓  24 [desktop] › tests/browser/decision.spec.cjs:18:44 › M6 rights branch supports a justified strategy revision (7.2s)
+  ✓  28 [desktop] › tests/browser/segmentation.spec.cjs:41:1 › M4 unavailable storage reports unsaved work and keeps session reflection (2.2s)
+  ✓  29 [desktop] › tests/browser/decision.spec.cjs:18:44 › M6 coverage branch supports a justified strategy revision (3.6s)
+  ✓  30 [desktop] › tests/browser/decision.spec.cjs:19:1 › M6 partial out-of-order responses survive reload; failed storage warns; global reset clears only lab state (2.0s)
+  ✘  17 [desktop] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope (4.2s)
+  ✘  26 [desktop] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories (5.0s)
+  ✓  31 [desktop] › tests/browser/remediation.spec.cjs:25:1 › remediation: public deployment exposes no independent forms or answer keys (142ms)
+  ✓  32 [desktop] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload (4.8s)
+  ✓  33 [mobile] › tests/browser/consistency.spec.cjs:10:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (3.5s)
+  ✓  37 [mobile] › tests/browser/consistency.spec.cjs:15:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (4.6s)
+  ✓  35 [mobile] › tests/browser/evidence-preservation.spec.cjs:9:1 › AUD-P05 actual two Chrome tabs: stale M2 save preserves A first attempt and offers conflict export/reload (8.1s)
+  ✓  40 [mobile] › tests/browser/evidence-preservation.spec.cjs:18:1 › AUD-P06 malformed M6 draft: raw preserved through edits, readable export, explicit acknowledged recovery archives originals (2.5s)
+  ✓  34 [mobile] › tests/browser/funnel.spec.cjs:4:1 › M2 ordered funnel, filters, learning loop and persisted reset (10.7s)
+  ✓  36 [mobile] › tests/browser/decision.spec.cjs:3:1 › M6 brief, evidence types, sensitivity, keyboard and source download (7.3s)
+  ✓  38 [mobile] › tests/browser/causal.spec.cjs:11:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (7.8s)
+  ✓  43 [mobile] › tests/browser/funnel.spec.cjs:23:1 › M2 event audit and downloadable fixture preserve provenance (2.2s)
+  ✓  42 [mobile] › tests/browser/evidence-preservation.spec.cjs:25:1 › AUD-P07 malformed order: explicit quarantine and no crash; valid submitted first evidence remains exportable (2.5s)
+  ✓  47 [mobile] › tests/browser/evidence-preservation.spec.cjs:29:1 › exclusive Web Lock serializes competing tabs: exactly one same-revision writer succeeds; no prior history lost (2.2s)
+  ✓  46 [mobile] › tests/browser/retention.spec.cjs:10:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (4.4s)
+  ✓  48 [mobile] › tests/browser/evidence-preservation.spec.cjs:35:1 › recovery backup quota failure never replaces raw; unavailable Web Locks never fall back to overwrite (2.5s)
+  ✓  41 [mobile] › tests/browser/learning.spec.cjs:3:1 › denominator learning loop, persistence and responsive layout (8.1s)
+  ✓  51 [mobile] › tests/browser/learning.spec.cjs:21:1 › source downloads, keyboard chart, solution history and reset (2.3s)
+  ✓  45 [mobile] › tests/browser/causal.spec.cjs:23:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (8.2s)
+  ✓  52 [mobile] › tests/browser/learning.spec.cjs:34:1 › unavailable browser storage warns and preserves session work (1.3s)
+  ✓  53 [mobile] › tests/browser/causal.spec.cjs:32:1 › M5 unavailable storage warns and preserves session notes (1.8s)
+  ✓  50 [mobile] › tests/browser/segmentation.spec.cjs:11:1 › M4 observed rates, source separation and keyboard reweighting (4.5s)
+  ✓  49 [mobile] › tests/browser/retention.spec.cjs:23:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (5.8s)
+  ✓  44 [mobile] › tests/browser/decision.spec.cjs:9:1 › M6 full decision loop, immutable snapshots, separate solution gates, persistence, export and reset (12.7s)
+  ✓  54 [mobile] › tests/browser/six-module-audit.spec.cjs:4:1 › six-module final integration: navigation, correct fixture, visible provenance and export units (2.9s)
+  ✓  56 [mobile] › tests/browser/retention.spec.cjs:41:1 › M3 storage failure keeps session work and reports unsaved state (1.8s)
+  ✘  39 [mobile] › tests/browser/remediation.spec.cjs:4:1 › remediation: frozen ordering, retry evidence, saved semantic IDs and independent-review status (7.5s)
+  ✓  57 [mobile] › tests/browser/decision.spec.cjs:18:44 › M6 rights branch supports a justified strategy revision (4.6s)
+  ✓  55 [mobile] › tests/browser/segmentation.spec.cjs:27:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (5.8s)
+  ✘  58 [mobile] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories (2.6s)
+  ✓  61 [mobile] › tests/browser/segmentation.spec.cjs:41:1 › M4 unavailable storage reports unsaved work and keeps session reflection (1.5s)
+  ✘  59 [mobile] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope (1.9s)
+  ✓  60 [mobile] › tests/browser/decision.spec.cjs:18:44 › M6 coverage branch supports a justified strategy revision (3.8s)
+  ✓  63 [mobile] › tests/browser/remediation.spec.cjs:25:1 › remediation: public deployment exposes no independent forms or answer keys (81ms)
+  ✓  62 [mobile] › tests/browser/decision.spec.cjs:19:1 › M6 partial out-of-order responses survive reload; failed storage warns; global reset clears only lab state (1.3s)
+  ✓  64 [mobile] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload (2.2s)
+
+
+  1) [desktop] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope 
+
+    Error: expect(received).toBeUndefined()
+
+    Received: {"attempts": [], "complete": true, "decisionRoom": {"attempts": [Array], "challenge": [Object], "consulted": [Object], "drafts": [Object], "exploration": [Object], "initial": [Object], "revised": [Object], "transfer": [Object], "version": 1}, "hypothesis": "", "journal": "", "primaryPassed": true, "revealed": true}
+
+      20 |  const exportEvent=page.waitForEvent('download');await page.getByRole('button',{name:'Export my work'}).click();const output=JSON.parse(fs.readFileSync(await(await exportEvent).path(),'utf8'));for(let i=2;i<=6;i++)expect(output.modules[i]).toEqual(legacy.modules[i]);expect(output.evidence[0].label).toContain('timing unknown');
+      21 |  await page.getByRole('region',{name:'Decision attempt history'}).screenshot({path:`docs/verification/remediation/${info.project.name}-legacy-history.png`});
+    > 22 |  await page.getByRole('button',{name:'Reset this activity',exact:true}).click();await page.getByRole('button',{name:'Reset this activity only',exact:true}).click();const reset=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules);expect(reset[6]).toBeUndefined();for(let i=2;i<=5;i++)expect(reset[i]).toEqual(legacy.modules[i]);
+         |                                                                                                                                                                                                                                                                                    ^
+      23 |  await page.evaluate(()=>localStorage.setItem('unrelated','keep'));await page.getByRole('button',{name:'Reset progress',exact:true}).click();await page.getByRole('button',{name:'Yes, reset',exact:true}).click();expect(await page.evaluate(()=>localStorage.getItem('unrelated'))).toBe('keep');expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1'))?.modules[6])).toBeUndefined();
+      24 | });
+      25 | test('remediation: public deployment exposes no independent forms or answer keys',async({request})=>{
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/remediation.spec.cjs:22:276
+
+    Error Context: test-results/remediation-remediation-v1-ac323-able-export-and-reset-scope-desktop/error-context.md
+
+  2) [desktop] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories 
+
+    Error: expect(received).toBeUndefined()
+
+    Received: {"attempts": [{"at": "2026-10-19T00:00:00Z", "choice": 0, "input": "42", "result": {"feedback": "Historical record", "numeric": false, "passed": false, "reasoning": true}, "stage": "primary"}], "complete": false, "hypothesis": "Keep 4", "journal": "Journal 4", "primaryPassed": false, "revealed": true}
+
+      5 |  const downloading=page.waitForEvent('download');await page.getByRole('button',{name:'Export my work'}).click();const download=await downloading,exported=JSON.parse(fs.readFileSync(await download.path(),'utf8'));expect(exported.moduleDefinitions).toHaveLength(6);for(const module of exported.moduleDefinitions)for(const stage of ['primary','transfer']){const unit=module.id===6?'points':'percent';expect(exported.metricDefinitions[module.assessments[stage].metricId].unit).toBe(unit);expect(module[stage].expected).toBeUndefined();expect(module[stage].solution).toBeUndefined();}expect(exported.decisionContract).toMatchObject({maximum:10,unit:'points',stages:['initial','revision','transfer']});expect(errors).toEqual([]);
+      6 | });
+    > 7 | test('six-module final integration: every activity reset preserves the other five histories',async({page})=>{const legacy={};for(let id=1;id<=6;id++)legacy[id]={hypothesis:`Keep ${id}`,journal:`Journal ${id}`,attempts:[{at:'2026-10-19T00:00:00Z',stage:'primary',input:'42',choice:0,result:{passed:false,numeric:false,reasoning:true,feedback:'Historical record'}}],revealed:true,primaryPassed:false,complete:false};await page.goto('/');for(let id=1;id<=6;id++){await page.evaluate(modules=>{localStorage.setItem('ai-pm-lab:v1',JSON.stringify({version:1,modules}));localStorage.setItem('unrelated-audit','keep');},legacy);await page.reload();await page.getByRole('button',{name:new RegExp(cases[id-1][0])}).click();await expect(page.getByLabel('What do you expect to find?',{exact:true})).toHaveValue(`Keep ${id}`);await page.getByRole('button',{name:'Reset this activity',exact:true}).click();await page.getByRole('button',{name:'Reset this activity only'}).click();const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules);expect(saved[id]).toBeUndefined();for(let other=1;other<=6;other++)if(other!==id)expect(saved[other]).toEqual(legacy[other]);expect(await page.evaluate(()=>localStorage.getItem('unrelated-audit'))).toBe('keep');}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      8 |
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/six-module-audit.spec.cjs:7:1078
+
+    Error Context: test-results/six-module-audit-six-modul-9c3c4-es-the-other-five-histories-desktop/error-context.md
+
+  3) [mobile] › tests/browser/remediation.spec.cjs:4:1 › remediation: frozen ordering, retry evidence, saved semantic IDs and independent-review status 
+
+    Error: expect(locator).toContainText(expected) failed
+
+    Locator: getByRole('region', { name: 'Practice exercise' }).getByRole('status')
+    Expected substring: "Practice check passed"
+    Received string:    "Let’s revisit the evidenceCalculation checked. Choose an interpretation so we can check your reasoning."
+    Timeout: 5000ms
+
+    Call log:
+      - Expect "toContainText" getByRole('region', { name: 'Practice exercise' }).getByRole('status') with timeout 5000ms
+      - waiting for getByRole('region', { name: 'Practice exercise' }).getByRole('status')
+        14 × locator resolved to <div role="status" class="feedback retry">…</div>
+           - unexpected value "Let’s revisit the evidenceCalculation checked. Choose an interpretation so we can check your reasoning."
+
+
+       9 |  await page.getByRole('button',{name:'Check my reasoning',exact:true}).click();const first=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules[1].attempts[0]);
+      10 |  await expect(page.getByRole('button',{name:'Check my reasoning',exact:true})).toBeDisabled();await page.getByRole('button',{name:'Reveal solution after an attempt'}).click();await page.getByRole('button',{name:'Hide solution',exact:true}).click();await page.getByLabel('Primary calculation',{exact:true}).fill('70.27');await expect(page.getByRole('button',{name:'Check my reasoning',exact:true})).toBeDisabled();
+    > 11 |  await page.getByLabel('Primary reasoning change',{exact:true}).fill('I used eligible rather than assessed users; the requested denominator is74.');const nextOrder=await exercise.getByRole('radio').evaluateAll(nodes=>nodes.map(n=>n.value));expect(nextOrder).not.toEqual(order);await page.reload();expect(await exercise.getByRole('radio').evaluateAll(nodes=>nodes.map(n=>n.value))).toEqual(nextOrder);await page.getByRole('button',{name:'Check my reasoning',exact:true}).click();await expect(exercise.getByRole('status')).toContainText('Practice check passed');
+         |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                          ^
+      12 |  const work=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules[1]);expect(work.attempts[0]).toEqual(first);expect(work.attempts[1].assistance.kind).toBe('after_solution');expect(work.attempts[1].responseIds[0]).toBe('m1.primary.assessed-scope');
+      13 |  await page.getByText('Practice evidence · first responses and assistance',{exact:true}).click();await expect(page.getByText(/Initial unaided attempt/)).toBeVisible();await expect(page.getByText(/After instructor-solution reveal/)).toBeVisible();await page.getByRole('button',{name:'Try a different question'}).click();await expect(page.getByText(/Same-case transfer practice · this uses/)).toBeVisible();
+      14 |  await exercise.screenshot({path:`docs/verification/remediation/${info.project.name}-assistance.png`});await page.getByRole('button',{name:/Decision simulation/}).click();await expect(page.getByRole('heading',{name:'Pending independent review'})).toBeVisible();await page.getByRole('region',{name:'Independent memo review'}).screenshot({path:`docs/verification/remediation/${info.project.name}-review.png`});
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/remediation.spec.cjs:11:522
+
+    Error Context: test-results/remediation-remediation-fr-e2abb-d-independent-review-status-mobile/error-context.md
+
+  4) [mobile] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope 
+
+    Error: expect(received).toBeUndefined()
+
+    Received: {"attempts": [], "complete": true, "decisionRoom": {"attempts": [Array], "challenge": [Object], "consulted": [Object], "drafts": [Object], "exploration": [Object], "initial": [Object], "revised": [Object], "transfer": [Object], "version": 1}, "hypothesis": "", "journal": "", "primaryPassed": true, "revealed": true}
+
+      20 |  const exportEvent=page.waitForEvent('download');await page.getByRole('button',{name:'Export my work'}).click();const output=JSON.parse(fs.readFileSync(await(await exportEvent).path(),'utf8'));for(let i=2;i<=6;i++)expect(output.modules[i]).toEqual(legacy.modules[i]);expect(output.evidence[0].label).toContain('timing unknown');
+      21 |  await page.getByRole('region',{name:'Decision attempt history'}).screenshot({path:`docs/verification/remediation/${info.project.name}-legacy-history.png`});
+    > 22 |  await page.getByRole('button',{name:'Reset this activity',exact:true}).click();await page.getByRole('button',{name:'Reset this activity only',exact:true}).click();const reset=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules);expect(reset[6]).toBeUndefined();for(let i=2;i<=5;i++)expect(reset[i]).toEqual(legacy.modules[i]);
+         |                                                                                                                                                                                                                                                                                    ^
+      23 |  await page.evaluate(()=>localStorage.setItem('unrelated','keep'));await page.getByRole('button',{name:'Reset progress',exact:true}).click();await page.getByRole('button',{name:'Yes, reset',exact:true}).click();expect(await page.evaluate(()=>localStorage.getItem('unrelated'))).toBe('keep');expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1'))?.modules[6])).toBeUndefined();
+      24 | });
+      25 | test('remediation: public deployment exposes no independent forms or answer keys',async({request})=>{
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/remediation.spec.cjs:22:276
+
+    Error Context: test-results/remediation-remediation-v1-ac323-able-export-and-reset-scope-mobile/error-context.md
+
+  5) [mobile] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories 
+
+    Error: expect(received).toBeUndefined()
+
+    Received: {"attempts": [{"at": "2026-10-19T00:00:00Z", "choice": 0, "input": "42", "result": {"feedback": "Historical record", "numeric": false, "passed": false, "reasoning": true}, "stage": "primary"}], "complete": false, "hypothesis": "Keep 4", "journal": "Journal 4", "primaryPassed": false, "revealed": true}
+
+      5 |  const downloading=page.waitForEvent('download');await page.getByRole('button',{name:'Export my work'}).click();const download=await downloading,exported=JSON.parse(fs.readFileSync(await download.path(),'utf8'));expect(exported.moduleDefinitions).toHaveLength(6);for(const module of exported.moduleDefinitions)for(const stage of ['primary','transfer']){const unit=module.id===6?'points':'percent';expect(exported.metricDefinitions[module.assessments[stage].metricId].unit).toBe(unit);expect(module[stage].expected).toBeUndefined();expect(module[stage].solution).toBeUndefined();}expect(exported.decisionContract).toMatchObject({maximum:10,unit:'points',stages:['initial','revision','transfer']});expect(errors).toEqual([]);
+      6 | });
+    > 7 | test('six-module final integration: every activity reset preserves the other five histories',async({page})=>{const legacy={};for(let id=1;id<=6;id++)legacy[id]={hypothesis:`Keep ${id}`,journal:`Journal ${id}`,attempts:[{at:'2026-10-19T00:00:00Z',stage:'primary',input:'42',choice:0,result:{passed:false,numeric:false,reasoning:true,feedback:'Historical record'}}],revealed:true,primaryPassed:false,complete:false};await page.goto('/');for(let id=1;id<=6;id++){await page.evaluate(modules=>{localStorage.setItem('ai-pm-lab:v1',JSON.stringify({version:1,modules}));localStorage.setItem('unrelated-audit','keep');},legacy);await page.reload();await page.getByRole('button',{name:new RegExp(cases[id-1][0])}).click();await expect(page.getByLabel('What do you expect to find?',{exact:true})).toHaveValue(`Keep ${id}`);await page.getByRole('button',{name:'Reset this activity',exact:true}).click();await page.getByRole('button',{name:'Reset this activity only'}).click();const saved=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules);expect(saved[id]).toBeUndefined();for(let other=1;other<=6;other++)if(other!==id)expect(saved[other]).toEqual(legacy[other]);expect(await page.evaluate(()=>localStorage.getItem('unrelated-audit'))).toBe('keep');}});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                      ^
+      8 |
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/six-module-audit.spec.cjs:7:1078
+
+    Error Context: test-results/six-module-audit-six-modul-9c3c4-es-the-other-five-histories-mobile/error-context.md
+
+  5 failed
+    [desktop] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope 
+    [desktop] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories 
+    [mobile] › tests/browser/remediation.spec.cjs:4:1 › remediation: frozen ordering, retry evidence, saved semantic IDs and independent-review status 
+    [mobile] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope 
+    [mobile] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories 
+  59 passed (1.3m)

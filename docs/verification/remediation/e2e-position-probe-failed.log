@@ -1,0 +1,111 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:73312) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:73332) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 54 tests using 6 workers
+
+  ✓   1 [desktop] › tests/browser/consistency.spec.cjs:10:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (3.1s)
+  ✓   6 [desktop] › tests/browser/remediation.spec.cjs:4:1 › remediation: frozen ordering, retry evidence, saved semantic IDs and independent-review status (4.9s)
+  ✓   3 [desktop] › tests/browser/learning.spec.cjs:3:1 › denominator learning loop, persistence and responsive layout (5.4s)
+  ✓   2 [desktop] › tests/browser/decision.spec.cjs:3:1 › M6 brief, evidence types, sensitivity, keyboard and source download (5.5s)
+  ✓   4 [desktop] › tests/browser/funnel.spec.cjs:4:1 › M2 ordered funnel, filters, learning loop and persisted reset (6.5s)
+  ✓   5 [desktop] › tests/browser/causal.spec.cjs:11:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (7.0s)
+  ✓   8 [desktop] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope (3.1s)
+  ✓   7 [desktop] › tests/browser/consistency.spec.cjs:15:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (5.1s)
+  ✓  13 [desktop] › tests/browser/remediation.spec.cjs:25:1 › remediation: public deployment exposes no independent forms or answer keys (352ms)
+  ✓   9 [desktop] › tests/browser/learning.spec.cjs:21:1 › source downloads, keyboard chart, solution history and reset (3.2s)
+  ✓  11 [desktop] › tests/browser/funnel.spec.cjs:23:1 › M2 event audit and downloadable fixture preserve provenance (2.6s)
+  ✓  16 [desktop] › tests/browser/learning.spec.cjs:34:1 › unavailable browser storage warns and preserves session work (1.8s)
+  ✓  14 [desktop] › tests/browser/retention.spec.cjs:10:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (3.7s)
+  ✓  17 [desktop] › tests/browser/segmentation.spec.cjs:11:1 › M4 observed rates, source separation and keyboard reweighting (3.2s)
+  ✓  18 [desktop] › tests/browser/six-module-audit.spec.cjs:4:1 › six-module final integration: navigation, correct fixture, visible provenance and export units (2.6s)
+  ✓  12 [desktop] › tests/browser/causal.spec.cjs:23:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (6.4s)
+  ✓  22 [desktop] › tests/browser/causal.spec.cjs:32:1 › M5 unavailable storage warns and preserves session notes (1.5s)
+  ✓  10 [desktop] › tests/browser/decision.spec.cjs:9:1 › M6 full decision loop, immutable snapshots, separate solution gates, persistence, export and reset (10.0s)
+  ✓  19 [desktop] › tests/browser/retention.spec.cjs:23:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (4.5s)
+  ✓  21 [desktop] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories (4.4s)
+  ✓  20 [desktop] › tests/browser/segmentation.spec.cjs:27:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (4.7s)
+  ✓  24 [desktop] › tests/browser/retention.spec.cjs:41:1 › M3 storage failure keeps session work and reports unsaved state (1.3s)
+  ✓  25 [desktop] › tests/browser/segmentation.spec.cjs:41:1 › M4 unavailable storage reports unsaved work and keeps session reflection (1.0s)
+  ✓  23 [desktop] › tests/browser/decision.spec.cjs:18:44 › M6 rights branch supports a justified strategy revision (3.6s)
+  ✓  28 [mobile] › tests/browser/consistency.spec.cjs:10:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (2.0s)
+  ✓  27 [desktop] › tests/browser/decision.spec.cjs:18:44 › M6 coverage branch supports a justified strategy revision (3.6s)
+  ✓  31 [desktop] › tests/browser/decision.spec.cjs:19:1 › M6 partial out-of-order responses survive reload; failed storage warns; global reset clears only lab state (1.9s)
+  ✓  26 [mobile] › tests/browser/causal.spec.cjs:11:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (5.7s)
+  ✓  30 [mobile] › tests/browser/consistency.spec.cjs:15:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (2.8s)
+  ✓  29 [mobile] › tests/browser/decision.spec.cjs:3:1 › M6 brief, evidence types, sensitivity, keyboard and source download (5.0s)
+  ✓  33 [mobile] › tests/browser/remediation.spec.cjs:4:1 › remediation: frozen ordering, retry evidence, saved semantic IDs and independent-review status (3.0s)
+  ✓  32 [mobile] › tests/browser/causal.spec.cjs:23:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (5.0s)
+  ✓  35 [mobile] › tests/browser/remediation.spec.cjs:17:1 › remediation: v1 records, contradictory memo packet, immutable export and reset scope (2.5s)
+  ✓  38 [mobile] › tests/browser/remediation.spec.cjs:25:1 › remediation: public deployment exposes no independent forms or answer keys (74ms)
+  ✓  37 [mobile] › tests/browser/causal.spec.cjs:32:1 › M5 unavailable storage warns and preserves session notes (1.8s)
+  ✓  41 [mobile] › tests/browser/retention.spec.cjs:10:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (3.1s)
+  ✓  34 [mobile] › tests/browser/decision.spec.cjs:9:1 › M6 full decision loop, immutable snapshots, separate solution gates, persistence, export and reset (9.1s)
+  ✓  36 [mobile] › tests/browser/funnel.spec.cjs:4:1 › M2 ordered funnel, filters, learning loop and persisted reset (7.1s)
+  ✓  39 [mobile] › tests/browser/learning.spec.cjs:3:1 › denominator learning loop, persistence and responsive layout (4.9s)
+  ✓  44 [mobile] › tests/browser/funnel.spec.cjs:23:1 › M2 event audit and downloadable fixture preserve provenance (1.4s)
+  ✓  45 [mobile] › tests/browser/learning.spec.cjs:21:1 › source downloads, keyboard chart, solution history and reset (1.6s)
+  ✘  15 [desktop] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload (30.1s)
+  ✓  42 [mobile] › tests/browser/retention.spec.cjs:23:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (4.5s)
+  ✓  43 [mobile] › tests/browser/decision.spec.cjs:18:44 › M6 rights branch supports a justified strategy revision (3.9s)
+  ✓  47 [mobile] › tests/browser/learning.spec.cjs:34:1 › unavailable browser storage warns and preserves session work (1.0s)
+  ✓  48 [mobile] › tests/browser/retention.spec.cjs:41:1 › M3 storage failure keeps session work and reports unsaved state (1.4s)
+  ✓  46 [mobile] › tests/browser/segmentation.spec.cjs:11:1 › M4 observed rates, source separation and keyboard reweighting (3.5s)
+  ✓  49 [mobile] › tests/browser/decision.spec.cjs:18:44 › M6 coverage branch supports a justified strategy revision (3.6s)
+  ✓  50 [mobile] › tests/browser/six-module-audit.spec.cjs:4:1 › six-module final integration: navigation, correct fixture, visible provenance and export units (2.1s)
+  ✓  52 [mobile] › tests/browser/decision.spec.cjs:19:1 › M6 partial out-of-order responses survive reload; failed storage warns; global reset clears only lab state (1.4s)
+  ✓  53 [mobile] › tests/browser/six-module-audit.spec.cjs:7:1 › six-module final integration: every activity reset preserves the other five histories (2.1s)
+  ✓  51 [mobile] › tests/browser/segmentation.spec.cjs:27:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (4.9s)
+  ✓  54 [mobile] › tests/browser/segmentation.spec.cjs:41:1 › M4 unavailable storage reports unsaved work and keeps session reflection (579ms)
+  ✘  40 [mobile] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload (30.0s)
+
+
+  1) [desktop] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.check: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'Practice exercise' }).getByRole('group').nth(1).getByRole('radio').first()
+
+
+      31 |  for(let i=0;i<5;i++){
+      32 |   await page.getByRole('button',{name:names[i]}).click();const exercise=page.getByRole('region',{name:'Practice exercise'});await page.getByLabel('Primary calculation',{exact:true}).fill(numbers[i]);const reflection=exercise.locator('.reflection textarea');if(await reflection.count())await reflection.fill('AUTHORED positional-policy probe, not learner judgment.');
+    > 33 |   for(const group of await exercise.getByRole('group').all())await group.getByRole('radio').first().check();await page.getByRole('button',{name:'Check my reasoning',exact:true}).click();const work=await page.evaluate(id=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules[id],i+1);passed+=Number(work.primaryPassed);
+         |                                                                                                     ^
+      34 |  }
+      35 |  expect(passed).toBeLessThan(5);
+      36 |  await page.getByRole('button',{name:/Data literacy/}).click();const first=page.getByRole('region',{name:'Practice exercise'}).getByRole('radio').first();await first.focus();await page.keyboard.press('ArrowDown');const selected=await page.locator('input[type=radio]:checked').first().inputValue();await page.reload();await expect(page.locator(`input[type=radio][value="${selected}"]`)).toBeChecked();
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/remediation.spec.cjs:33:101
+
+    Error Context: test-results/remediation-remediation-fi-b9258-d-selection-survives-reload-desktop/error-context.md
+
+  2) [mobile] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload 
+
+    Test timeout of 30000ms exceeded.
+
+    Error: locator.check: Test timeout of 30000ms exceeded.
+    Call log:
+      - waiting for getByRole('region', { name: 'Practice exercise' }).getByRole('group').nth(1).getByRole('radio').first()
+
+
+      31 |  for(let i=0;i<5;i++){
+      32 |   await page.getByRole('button',{name:names[i]}).click();const exercise=page.getByRole('region',{name:'Practice exercise'});await page.getByLabel('Primary calculation',{exact:true}).fill(numbers[i]);const reflection=exercise.locator('.reflection textarea');if(await reflection.count())await reflection.fill('AUTHORED positional-policy probe, not learner judgment.');
+    > 33 |   for(const group of await exercise.getByRole('group').all())await group.getByRole('radio').first().check();await page.getByRole('button',{name:'Check my reasoning',exact:true}).click();const work=await page.evaluate(id=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules[id],i+1);passed+=Number(work.primaryPassed);
+         |                                                                                                     ^
+      34 |  }
+      35 |  expect(passed).toBeLessThan(5);
+      36 |  await page.getByRole('button',{name:/Data literacy/}).click();const first=page.getByRole('region',{name:'Practice exercise'}).getByRole('radio').first();await first.focus();await page.keyboard.press('ArrowDown');const selected=await page.locator('input[type=radio]:checked').first().inputValue();await page.reload();await expect(page.locator(`input[type=radio][value="${selected}"]`)).toBeChecked();
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/remediation.spec.cjs:33:101
+
+    Error Context: test-results/remediation-remediation-fi-b9258-d-selection-survives-reload-mobile/error-context.md
+
+  2 failed
+    [desktop] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload 
+    [mobile] › tests/browser/remediation.spec.cjs:29:1 › remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload 
+  52 passed (1.1m)

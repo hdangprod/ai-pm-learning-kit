@@ -1,0 +1,471 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/funnel.test.ts (17 tests) 16ms
+ ✓ tests/segmentation.test.ts (27 tests) 33ms
+ ✓ tests/retention.test.ts (25 tests) 37ms
+ ✓ tests/causal.test.ts (39 tests) 37ms
+ ✓ tests/decision.test.ts (67 tests) 82ms
+ ✓ tests/consistency.test.ts (9 tests) 113ms
+ ✓ tests/decision-consistency.test.ts (9 tests) 55ms
+ ✓ tests/metrics.test.ts (4 tests) 14ms
+ ❯ tests/evidence-preservation.test.tsx (37 tests | 1 failed) 2057ms
+   × AUD-P05 component: stale M2 edit cannot overwrite first M1 attempt; visible conflict and explicit reload 1231ms
+     → Found a label with the text of: What do you expect to find?, however the element associated with this label (<textarea />) is non-labellable [https://html.spec.whatwg.org/multipage/forms.html#category-label]. If you really need to label a <textarea />, you can use aria-label or aria-labelledby instead.
+
+Ignored nodes: comments, script, style
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"app-shell"[39m
+  [36m>[39m
+    [36m<aside[39m
+      [33mclass[39m=[32m"sidebar"[39m
+    [36m>[39m
+      [36m<a[39m
+        [33mclass[39m=[32m"brand"[39m
+        [33mhref[39m=[32m"#main"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"brand-mark"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"lucide lucide-flask-conical"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"23"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"23"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"[39m
+            [36m/>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M6.453 15h11.094"[39m
+            [36m/>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M8.5 2h7"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+        [36m</span>[39m
+        [36m<span>[39m
+          [0mAI PM[0m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-sub"[39m
+          [36m>[39m
+            [0mLEARNING LAB[0m
+          [36m</span>[39m
+        [36m</span>[39m
+      [36m</a>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"workspace-label"[39m
+      [36m>[39m
+        [0mYOUR LEARNING WORKSPACE[0m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"path-title"[39m
+      [36m>[39m
+        [36m<svg[39m
+          [33mclass[39m=[32m"lucide lucide-book-open"[39m
+          [33mfill[39m=[32m"none"[39m
+          [33mheight[39m=[32m"17"[39m
+          [33mstroke[39m=[32m"currentColor"[39m
+          [33mstroke-linecap[39m=[32m"round"[39m
+          [33mstroke-linejoin[39m=[32m"round"[39m
+          [33mstroke-width[39m=[32m"2"[39m
+          [33mviewBox[39m=[32m"0 0 24 24"[39m
+          [33mwidth[39m=[32m"17"[39m
+          [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+        [36m>[39m
+          [36m<path[39m
+            [33md[39m=[32m"M12 7v14"[39m
+          [36m/>[39m
+          [36m<path[39m
+            [33md[39m=[32m"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"[39m
+          [36m/>[39m
+        [36m</svg>[39m
+        [0m Product Analytics[0m
+      [36m</div>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"sidebar-description"[39m
+      [36m>[39m
+        [0mFrom numbers to better decisions.[0m
+      [36m</p>[39m
+      [36m<nav[39m
+        [33maria-label[39m=[32m"Learning modules"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m01[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mData literacy[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33maria-current[39m=[32m"step"[39m
+          [33mclass[39m=[32m"nav-item active"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m02[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mFunnel analysis[0m
+          [36m</span>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"lucide lucide-chevron-right"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"15"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"15"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<path[39m
+              [33md[39m=[32m"m9 18 6-6-6-6"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m03[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mCohorts & retention[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m04[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mSegmentation[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m05[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mCorrelation & causation[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m06[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mDecision simulation[0m
+          [36m</span>[39m
+        [36m</button>[39m
+      [36m</nav>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"sidebar-bottom"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"progress-top"[39m
+        [36m>[39m
+          [36m<span>[39m
+            [0mYour practice[0m
+          [36m</span>[39m
+          [36m<strong>[39m
+            [0m0[0m
+            [0m / 6[0m
+          [36m</strong>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"progress-track"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mstyle[39m=[32m"width: 0%;"[39m
+          [36m/>[39m
+        [36m</div>[39m
+        [36m<p>[39m
+          [0mBuild understanding, one question at a time.[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"local-badge"[39m
+        [36m>[39m
+          [36m<span />[39m
+          [0m Local-first · No AI API needed[0m
+...
+   ✓ AUD-P06 component: invalid M6 draft preserves all six histories and raw store during M1 edits 451ms
+ ✓ tests/storage.test.ts (3 tests) 16ms
+ ✓ tests/remediation.test.tsx (16 tests) 2756ms
+   ✓ draft ordering and selected semantic IDs survive reload; assisted retry requires a new reflection and never overwrites first evidence 1457ms
+   ✓ all-module legacy reset remains scoped and pending review is visible without completing Module6 972ms
+ ✓ tests/app.test.tsx (2 tests) 1305ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1074ms
+ ✓ tests/funnel-app.test.tsx (1 test) 2200ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 2199ms
+ ✓ tests/segmentation-app.test.tsx (2 tests) 5163ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 1796ms
+   ✓ M4 requires all reasoning, gates solutions, persists legacy histories and resets 3365ms
+ ✓ tests/retention-app.test.tsx (2 tests) 3264ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 3098ms
+ ✓ tests/causal-app.test.tsx (3 tests) 6300ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 1825ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 2482ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 1991ms
+ ✓ tests/decision-app.test.tsx (5 tests) 23892ms
+   ✓ M6 evidence classifications, source labels and what-if matrix are interactive and saved 3393ms
+   ✓ M6 preserves partial reasoning chosen out of order after reload without corrupting old work 575ms
+   ✓ M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists 12513ms
+   ✓ M6 reveals rights and rejects its critical misconception before a justified revision 3563ms
+   ✓ M6 reveals coverage and rejects its critical misconception before a justified revision 3844ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/evidence-preservation.test.tsx > AUD-P05 component: stale M2 edit cannot overwrite first M1 attempt; visible conflict and explicit reload
+TestingLibraryElementError: Found a label with the text of: What do you expect to find?, however the element associated with this label (<textarea />) is non-labellable [https://html.spec.whatwg.org/multipage/forms.html#category-label]. If you really need to label a <textarea />, you can use aria-label or aria-labelledby instead.
+
+Ignored nodes: comments, script, style
+[36m<div>[39m
+  [36m<div[39m
+    [33mclass[39m=[32m"app-shell"[39m
+  [36m>[39m
+    [36m<aside[39m
+      [33mclass[39m=[32m"sidebar"[39m
+    [36m>[39m
+      [36m<a[39m
+        [33mclass[39m=[32m"brand"[39m
+        [33mhref[39m=[32m"#main"[39m
+      [36m>[39m
+        [36m<span[39m
+          [33mclass[39m=[32m"brand-mark"[39m
+        [36m>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"lucide lucide-flask-conical"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"23"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"23"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M14 2v6a2 2 0 0 0 .245.96l5.51 10.08A2 2 0 0 1 18 22H6a2 2 0 0 1-1.755-2.96l5.51-10.08A2 2 0 0 0 10 8V2"[39m
+            [36m/>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M6.453 15h11.094"[39m
+            [36m/>[39m
+            [36m<path[39m
+              [33md[39m=[32m"M8.5 2h7"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+        [36m</span>[39m
+        [36m<span>[39m
+          [0mAI PM[0m
+          [36m<span[39m
+            [33mclass[39m=[32m"brand-sub"[39m
+          [36m>[39m
+            [0mLEARNING LAB[0m
+          [36m</span>[39m
+        [36m</span>[39m
+      [36m</a>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"workspace-label"[39m
+      [36m>[39m
+        [0mYOUR LEARNING WORKSPACE[0m
+      [36m</div>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"path-title"[39m
+      [36m>[39m
+        [36m<svg[39m
+          [33mclass[39m=[32m"lucide lucide-book-open"[39m
+          [33mfill[39m=[32m"none"[39m
+          [33mheight[39m=[32m"17"[39m
+          [33mstroke[39m=[32m"currentColor"[39m
+          [33mstroke-linecap[39m=[32m"round"[39m
+          [33mstroke-linejoin[39m=[32m"round"[39m
+          [33mstroke-width[39m=[32m"2"[39m
+          [33mviewBox[39m=[32m"0 0 24 24"[39m
+          [33mwidth[39m=[32m"17"[39m
+          [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+        [36m>[39m
+          [36m<path[39m
+            [33md[39m=[32m"M12 7v14"[39m
+          [36m/>[39m
+          [36m<path[39m
+            [33md[39m=[32m"M3 18a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h5a4 4 0 0 1 4 4 4 4 0 0 1 4-4h5a1 1 0 0 1 1 1v13a1 1 0 0 1-1 1h-6a3 3 0 0 0-3 3 3 3 0 0 0-3-3z"[39m
+          [36m/>[39m
+        [36m</svg>[39m
+        [0m Product Analytics[0m
+      [36m</div>[39m
+      [36m<p[39m
+        [33mclass[39m=[32m"sidebar-description"[39m
+      [36m>[39m
+        [0mFrom numbers to better decisions.[0m
+      [36m</p>[39m
+      [36m<nav[39m
+        [33maria-label[39m=[32m"Learning modules"[39m
+      [36m>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m01[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mData literacy[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33maria-current[39m=[32m"step"[39m
+          [33mclass[39m=[32m"nav-item active"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m02[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mFunnel analysis[0m
+          [36m</span>[39m
+          [36m<svg[39m
+            [33mclass[39m=[32m"lucide lucide-chevron-right"[39m
+            [33mfill[39m=[32m"none"[39m
+            [33mheight[39m=[32m"15"[39m
+            [33mstroke[39m=[32m"currentColor"[39m
+            [33mstroke-linecap[39m=[32m"round"[39m
+            [33mstroke-linejoin[39m=[32m"round"[39m
+            [33mstroke-width[39m=[32m"2"[39m
+            [33mviewBox[39m=[32m"0 0 24 24"[39m
+            [33mwidth[39m=[32m"15"[39m
+            [33mxmlns[39m=[32m"http://www.w3.org/2000/svg"[39m
+          [36m>[39m
+            [36m<path[39m
+              [33md[39m=[32m"m9 18 6-6-6-6"[39m
+            [36m/>[39m
+          [36m</svg>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m03[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mCohorts & retention[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m04[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mSegmentation[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m05[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mCorrelation & causation[0m
+          [36m</span>[39m
+        [36m</button>[39m
+        [36m<button[39m
+          [33mclass[39m=[32m"nav-item "[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mclass[39m=[32m"nav-number"[39m
+          [36m>[39m
+            [0m06[0m
+          [36m</span>[39m
+          [36m<span>[39m
+            [0mDecision simulation[0m
+          [36m</span>[39m
+        [36m</button>[39m
+      [36m</nav>[39m
+      [36m<div[39m
+        [33mclass[39m=[32m"sidebar-bottom"[39m
+      [36m>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"progress-top"[39m
+        [36m>[39m
+          [36m<span>[39m
+            [0mYour practice[0m
+          [36m</span>[39m
+          [36m<strong>[39m
+            [0m0[0m
+            [0m / 6[0m
+          [36m</strong>[39m
+        [36m</div>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"progress-track"[39m
+        [36m>[39m
+          [36m<span[39m
+            [33mstyle[39m=[32m"width: 0%;"[39m
+          [36m/>[39m
+        [36m</div>[39m
+        [36m<p>[39m
+          [0mBuild understanding, one question at a time.[0m
+        [36m</p>[39m
+        [36m<div[39m
+          [33mclass[39m=[32m"local-badge"[39m
+        [36m>[39m
+          [36m<span />[39m
+          [0m Local-first · No AI API needed[0m
+...
+ ❯ Object.getElementError node_modules/@testing-library/dom/dist/config.js:37:19
+ ❯ getAllByLabelText node_modules/@testing-library/dom/dist/queries/label-text.js:106:40
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:52:17
+ ❯ node_modules/@testing-library/dom/dist/query-helpers.js:95:19
+ ❯ tests/evidence-preservation.test.tsx:19:87
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+ Test Files  1 failed | 16 passed (17)
+      Tests  1 failed | 267 passed (268)
+   Start at  00:14:45
+   Duration  26.88s (transform 1.96s, setup 5.75s, collect 6.77s, tests 47.34s, environment 21.35s, prepare 2.82s)
+

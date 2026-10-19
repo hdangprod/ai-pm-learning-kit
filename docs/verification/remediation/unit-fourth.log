@@ -1,0 +1,155 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/funnel.test.ts (17 tests) 33ms
+ ✓ tests/segmentation.test.ts (27 tests) 43ms
+ ✓ tests/retention.test.ts (25 tests) 46ms
+ ✓ tests/causal.test.ts (39 tests) 52ms
+ ✓ tests/decision.test.ts (67 tests) 121ms
+ ✓ tests/consistency.test.ts (9 tests) 119ms
+ ✓ tests/decision-consistency.test.ts (9 tests) 57ms
+ ✓ tests/storage.test.ts (3 tests) 19ms
+ ✓ tests/metrics.test.ts (4 tests) 20ms
+ ✓ tests/remediation.test.tsx (13 tests) 3519ms
+   ✓ draft ordering and selected semantic IDs survive reload; assisted retry requires a new reflection and never overwrites first evidence 2031ms
+   ✓ all-module legacy reset remains scoped and pending review is visible without completing Module6 1396ms
+ ✓ tests/app.test.tsx (2 tests) 1695ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1371ms
+   ✓ reset clears exercise feedback, answers and revealed solution without deleting unrelated storage 323ms
+ ❯ tests/retention-app.test.tsx (2 tests | 1 failed) 5590ms
+   × M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 5322ms
+     → expected { hypothesis: 'Original M1', …(6) } to deeply equal { hypothesis: 'Original M1', …(5) }
+ ✓ tests/funnel-app.test.tsx (1 test) 2899ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 2897ms
+ ❯ tests/segmentation-app.test.tsx (2 tests | 1 failed) 6234ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 2465ms
+   × M4 requires all reasoning, gates solutions, persists legacy histories and resets 3767ms
+     → expected { hypothesis: 'M1', journal: '', …(5) } to deeply equal { hypothesis: 'M1', journal: '', …(4) }
+ ✓ tests/causal-app.test.tsx (3 tests) 7990ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 2632ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 3186ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 2170ms
+ ❯ tests/decision-app.test.tsx (5 tests | 1 failed) 30504ms
+   ✓ M6 evidence classifications, source labels and what-if matrix are interactive and saved 4702ms
+   ✓ M6 preserves partial reasoning chosen out of order after reload without corrupting old work 728ms
+   × M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists 15751ms
+     → expected { hypothesis: '', …(6) } to deeply equal { hypothesis: '', …(5) }
+   ✓ M6 reveals rights and rejects its critical misconception before a justified revision 4907ms
+   ✓ M6 reveals coverage and rejects its critical misconception before a justified revision 4414ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 3 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  tests/decision-app.test.tsx > M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists
+AssertionError: expected { hypothesis: '', …(6) } to deeply equal { hypothesis: '', …(5) }
+
+- Expected
++ Received
+
+  Object {
+    "attempts": Array [],
+    "complete": false,
+    "hypothesis": "",
+    "journal": "Keep 1",
++   "practiceDrafts": Object {
++     "primary": Object {
++       "answers": Array [],
++       "id": "7a7880cf-4473-4bb7-8ecb-36e5b0415575",
++       "input": "",
++       "order": Array [
++         Array [
++           "m1.primary.eligible-generalization",
++           "m1.primary.causal-attribution",
++           "m1.primary.assessed-scope",
++         ],
++       ],
++       "reasoningChange": "",
++     },
++   },
+    "primaryPassed": false,
+    "revealed": false,
+  }
+
+ ❯ tests/decision-app.test.tsx:15:427
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/3]⎯
+
+ FAIL  tests/retention-app.test.tsx > M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work
+AssertionError: expected { hypothesis: 'Original M1', …(6) } to deeply equal { hypothesis: 'Original M1', …(5) }
+
+- Expected
++ Received
+
+  Object {
+    "attempts": Array [],
+    "complete": true,
+    "hypothesis": "Original M1",
+    "journal": "",
++   "practiceDrafts": Object {
++     "primary": Object {
++       "answers": Array [],
++       "id": "7d6adb70-553a-438c-affc-a92758a0feaa",
++       "input": "",
++       "order": Array [
++         Array [
++           "m1.primary.eligible-generalization",
++           "m1.primary.causal-attribution",
++           "m1.primary.assessed-scope",
++         ],
++       ],
++       "reasoningChange": "",
++     },
++   },
+    "primaryPassed": false,
+    "revealed": false,
+  }
+
+ ❯ tests/retention-app.test.tsx:17:116
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[2/3]⎯
+
+ FAIL  tests/segmentation-app.test.tsx > M4 requires all reasoning, gates solutions, persists legacy histories and resets
+AssertionError: expected { hypothesis: 'M1', journal: '', …(5) } to deeply equal { hypothesis: 'M1', journal: '', …(4) }
+
+- Expected
++ Received
+
+  Object {
+    "attempts": Array [],
+    "complete": false,
+    "hypothesis": "M1",
+    "journal": "",
++   "practiceDrafts": Object {
++     "primary": Object {
++       "answers": Array [],
++       "id": "50834163-6e6d-400d-b59f-1a8a41dcc76c",
++       "input": "",
++       "order": Array [
++         Array [
++           "m1.primary.assessed-scope",
++           "m1.primary.eligible-generalization",
++           "m1.primary.causal-attribution",
++         ],
++       ],
++       "reasoningChange": "",
++     },
++   },
+    "primaryPassed": false,
+    "revealed": false,
+  }
+
+ ❯ tests/segmentation-app.test.tsx:15:282
+
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[3/3]⎯
+
+ Test Files  3 failed | 13 passed (16)
+      Tests  3 failed | 225 passed (228)
+   Start at  23:08:51
+   Duration  35.18s (transform 2.49s, setup 7.84s, collect 9.12s, tests 58.94s, environment 31.42s, prepare 3.82s)
+

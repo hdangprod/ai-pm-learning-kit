@@ -1,0 +1,194 @@
+{
+  "method": "Independent arithmetic from supplied printed tables; no app execution or dataset-byte verification",
+  "checks": [
+    {
+      "check": "M1 Week1 assessed pass %",
+      "value": 70.27027027027027,
+      "expected": 70.27027027027027,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M1 Week2 coverage %",
+      "value": 47.0,
+      "expected": 47,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M1 Week1 eligible pass lower %",
+      "value": 52.0,
+      "expected": 52,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M1 Week1 eligible pass upper %",
+      "value": 78.0,
+      "expected": 78,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M1 Week2 eligible pass lower %",
+      "value": 30.0,
+      "expected": 30,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M1 Week2 eligible pass upper %",
+      "value": 83.0,
+      "expected": 83,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M2 step conversion %",
+      "value": 66.66666666666667,
+      "expected": 66.66666666666667,
+      "scope": "Documented stage counts, not raw events",
+      "status": "PASS"
+    },
+    {
+      "check": "M2 overall conversion %",
+      "value": 50.0,
+      "expected": 50,
+      "scope": "Documented stage counts, not raw events",
+      "status": "PASS"
+    },
+    {
+      "check": "M3 pooled retention %",
+      "value": 37.5,
+      "expected": 37.5,
+      "scope": "Documented retained/eligible counts",
+      "status": "PASS"
+    },
+    {
+      "check": "M3 unequal-cohort pooled %",
+      "value": 20.0,
+      "expected": 20,
+      "scope": "Authored toy example in document",
+      "status": "PASS"
+    },
+    {
+      "check": "M3 original-event counterexample %",
+      "value": 75.0,
+      "expected": 75,
+      "scope": "Documented event narrative; bytes unavailable",
+      "status": "PASS"
+    },
+    {
+      "check": "M4 A pooled %",
+      "value": 74.0,
+      "expected": 74,
+      "scope": "Printed strict Simpson rows",
+      "status": "PASS"
+    },
+    {
+      "check": "M4 B pooled %",
+      "value": 36.0,
+      "expected": 36,
+      "scope": "Printed strict Simpson rows",
+      "status": "PASS"
+    },
+    {
+      "check": "M4 B-A pp",
+      "value": -38.0,
+      "expected": -38,
+      "scope": "Printed strict Simpson rows",
+      "status": "PASS"
+    },
+    {
+      "check": "M4 B relative %",
+      "value": -51.351351351351354,
+      "expected": -51.35135135135135,
+      "scope": "Printed strict Simpson rows",
+      "status": "PASS"
+    },
+    {
+      "check": "M4 common-mix A %",
+      "value": 50.0,
+      "expected": 50,
+      "scope": "Arithmetic reweighting, not causal effect",
+      "status": "PASS"
+    },
+    {
+      "check": "M4 common-mix B %",
+      "value": 60.0,
+      "expected": 60,
+      "scope": "Arithmetic reweighting, not causal effect",
+      "status": "PASS"
+    },
+    {
+      "check": "M5 sessions relative %",
+      "value": 43.75,
+      "expected": 43.75,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M5 coverage difference pp",
+      "value": -27.0,
+      "expected": -27,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M5 novice coverage %",
+      "value": 25.0,
+      "expected": 25,
+      "scope": "Printed weekly table",
+      "status": "PASS"
+    },
+    {
+      "check": "M6 coverage %",
+      "value": 50.0,
+      "expected": 50,
+      "scope": "Scenario, not participant data",
+      "status": "PASS"
+    },
+    {
+      "check": "M6 listed A total hours",
+      "value": 12.0,
+      "expected": 12,
+      "scope": "Role caps remain separate",
+      "status": "PASS"
+    },
+    {
+      "check": "M6 reduced A engineering hours",
+      "value": 2.0,
+      "expected": 2,
+      "scope": "At engineering cap 2h, reduced A fits",
+      "status": "PASS"
+    },
+    {
+      "check": "Transfer M1B group1 upper %",
+      "value": 85.0,
+      "expected": 85,
+      "scope": "New audit exercise",
+      "status": "PASS"
+    },
+    {
+      "check": "Transfer M4B assigned difference pp",
+      "value": -2.5,
+      "expected": -2.5,
+      "scope": "Randomized complete-followup stipulated",
+      "status": "PASS"
+    },
+    {
+      "check": "Transfer M5B lower difference pp",
+      "value": -27.0,
+      "expected": -27,
+      "scope": "Worst-case missingness bound",
+      "status": "PASS"
+    },
+    {
+      "check": "Transfer M5B upper difference pp",
+      "value": 43.0,
+      "expected": 43,
+      "scope": "Worst-case missingness bound",
+      "status": "PASS"
+    }
+  ]
+}

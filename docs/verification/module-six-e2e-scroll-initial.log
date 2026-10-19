@@ -1,0 +1,83 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:58642) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:58663) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 46 tests using 6 workers
+
+  ✓   5 [desktop] › tests/browser/consistency.spec.cjs:9:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (4.1s)
+  ✓   6 [desktop] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (5.1s)
+  ✓   2 [desktop] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (6.0s)
+  ✓   4 [desktop] › tests/browser/decision.spec.cjs:2:1 › M6 brief, evidence types, sensitivity, keyboard and source download (6.3s)
+  ✓   1 [desktop] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (8.4s)
+  ✓   3 [desktop] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (8.3s)
+  ✓   9 [desktop] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (3.8s)
+  ✓   7 [desktop] › tests/browser/consistency.spec.cjs:14:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (5.2s)
+  ✓  12 [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (3.0s)
+  ✓  13 [desktop] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.6s)
+  ✓   8 [desktop] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (6.4s)
+  ✓  16 [desktop] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (1.5s)
+  ✓  14 [desktop] › tests/browser/segmentation.spec.cjs:10:1 › M4 observed rates, source separation and keyboard reweighting (3.7s)
+  ✓  15 [desktop] › tests/browser/six-module-audit.spec.cjs:3:1 › six-module final integration: navigation, correct fixture, visible provenance and export units (2.7s)
+  ✓  11 [desktop] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (6.0s)
+  ✓  19 [desktop] › tests/browser/causal.spec.cjs:31:1 › M5 unavailable storage warns and preserves session notes (1.8s)
+  ✓  17 [desktop] › tests/browser/segmentation.spec.cjs:26:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (4.6s)
+  ✓  18 [desktop] › tests/browser/six-module-audit.spec.cjs:6:1 › six-module final integration: every activity reset preserves the other five histories (4.9s)
+  ✓  10 [desktop] › tests/browser/decision.spec.cjs:8:1 › M6 full decision loop, immutable snapshots, separate solution gates, persistence, export and reset (13.4s)
+  ✓  21 [desktop] › tests/browser/segmentation.spec.cjs:40:1 › M4 unavailable storage reports unsaved work and keeps session reflection (2.2s)
+  ✓  22 [desktop] › tests/browser/decision.spec.cjs:17:44 › M6 rights branch supports a justified strategy revision (4.9s)
+  ✓  23 [mobile] › tests/browser/consistency.spec.cjs:9:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (3.1s)
+  ✓  20 [mobile] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (8.6s)
+  ✓  26 [mobile] › tests/browser/consistency.spec.cjs:14:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (4.3s)
+  ✓  25 [desktop] › tests/browser/decision.spec.cjs:17:44 › M6 coverage branch supports a justified strategy revision (4.8s)
+  ✓  30 [desktop] › tests/browser/decision.spec.cjs:18:1 › M6 partial out-of-order responses survive reload; failed storage warns; global reset clears only lab state (2.7s)
+  ✓  28 [mobile] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (6.4s)
+  ✓  29 [mobile] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (3.8s)
+  ✓  27 [mobile] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (6.5s)
+  ✓  31 [mobile] › tests/browser/causal.spec.cjs:31:1 › M5 unavailable storage warns and preserves session notes (1.4s)
+  ✘  24 [mobile] › tests/browser/decision.spec.cjs:2:1 › M6 brief, evidence types, sensitivity, keyboard and source download (9.5s)
+  ✓  34 [mobile] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (2.7s)
+  ✓  35 [mobile] › tests/browser/six-module-audit.spec.cjs:3:1 › six-module final integration: navigation, correct fixture, visible provenance and export units (3.1s)
+  ✓  36 [mobile] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.4s)
+  ✓  33 [mobile] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (6.1s)
+  ✓  39 [mobile] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (1.5s)
+  ✓  38 [mobile] › tests/browser/six-module-audit.spec.cjs:6:1 › six-module final integration: every activity reset preserves the other five histories (4.2s)
+  ✓  32 [mobile] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (8.3s)
+  ✓  40 [mobile] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (1.4s)
+  ✓  37 [mobile] › tests/browser/decision.spec.cjs:8:1 › M6 full decision loop, immutable snapshots, separate solution gates, persistence, export and reset (8.3s)
+  ✓  42 [mobile] › tests/browser/decision.spec.cjs:17:44 › M6 rights branch supports a justified strategy revision (3.1s)
+  ✓  41 [mobile] › tests/browser/segmentation.spec.cjs:10:1 › M4 observed rates, source separation and keyboard reweighting (3.4s)
+  ✓  43 [mobile] › tests/browser/decision.spec.cjs:17:44 › M6 coverage branch supports a justified strategy revision (3.1s)
+  ✓  44 [mobile] › tests/browser/segmentation.spec.cjs:26:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (3.7s)
+  ✓  45 [mobile] › tests/browser/decision.spec.cjs:18:1 › M6 partial out-of-order responses survive reload; failed storage warns; global reset clears only lab state (1.5s)
+  ✓  46 [mobile] › tests/browser/segmentation.spec.cjs:40:1 › M4 unavailable storage reports unsaved work and keeps session reflection (1.3s)
+
+
+  1) [mobile] › tests/browser/decision.spec.cjs:2:1 › M6 brief, evidence types, sensitivity, keyboard and source download 
+
+    Error: expect(received).toBe(expected) // Object.is equality
+
+    Expected: 0
+    Received: 5
+
+    Call Log:
+    - Timeout 5000ms exceeded while waiting on the predicate
+
+      2 | test('M6 brief, evidence types, sensitivity, keyboard and source download',async({page,request},info)=>{
+      3 |  const errors=[];page.on('pageerror',e=>errors.push(e.message));await h.open(page);await page.screenshot({path:`docs/verification/module-six-${info.project.name}-viewport.png`});const brief=page.getByRole('region',{name:'Decision brief',exact:true});await expect(brief).toContainText('12 engineering + 8 research + 4 coaching = 24');await brief.screenshot({path:`docs/verification/module-six-${info.project.name}-brief.png`});const board=page.getByRole('region',{name:'Decision evidence board',exact:true});await page.getByRole('button',{name:'Check evidence classifications'}).click();await expect(board.getByText(/Choose an evidence type/)).toHaveCount(7);for(const [id,category] of [['E-AUDIT','Directly observed'],['E-REPORT','Reported by a source'],['E-INFERENCE','Inferred'],['E-ASSUMPTION','Assumed'],['E-SIM','Simulated'],['E-MISSING','Missing or unknown'],['E-ACTIVITY','Simulated']])await board.getByLabel(`Classify ${id}`,{exact:true}).selectOption(category);await page.getByRole('button',{name:'Check evidence classifications'}).click();await expect(board.getByText(/Classification checked/)).toHaveCount(7);await board.screenshot({path:`docs/verification/module-six-${info.project.name}-evidence.png`});
+    > 4 |  const matrix=page.getByRole('region',{name:'Strategy trade-off matrix',exact:true});const slider=page.getByLabel('What-if engineering capacity (hours)',{exact:true});await slider.focus();await page.keyboard.press('Home');await expect(slider).toHaveValue('0');await expect(matrix.getByRole('table')).toContainText('Exceeds engineering cap');await page.keyboard.press('ArrowRight');await page.keyboard.press('ArrowRight');await expect(slider).toHaveValue('2');await expect(matrix).toContainText('Exploratory engineering cap: 2h');const table=page.getByRole('region',{name:'Scrollable decision comparison'});await table.focus();await expect(table).toBeFocused();if(await table.evaluate(el=>el.scrollWidth>el.clientWidth)){await page.keyboard.press('ArrowRight');await expect.poll(()=>table.evaluate(el=>el.scrollLeft)).toBeGreaterThan(0);}await table.evaluate(el=>el.scrollTo({left:0,behavior:'instant'}));await expect.poll(()=>table.evaluate(el=>el.scrollLeft)).toBe(0);await matrix.screenshot({path:`docs/verification/module-six-${info.project.name}-matrix.png`});
+        |                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                  ^
+      5 |  for(const box of await matrix.getByRole('checkbox').all())await box.uncheck();await expect(matrix.getByText(/No options selected/)).toBeVisible();await page.getByRole('button',{name:'Reset trade-off exploration'}).click();await expect(slider).toHaveValue('12');await expect(matrix.getByRole('columnheader',{name:'A — Bounded prototype'})).toBeVisible();await expect(page.getByRole('button',{name:'Reveal initial instructor guidance'})).toBeDisabled();await expect(page.getByRole('heading',{name:'Initial instructor guidance',exact:true})).toHaveCount(0);await expect(page.getByRole('region',{name:'Separate decision transfer'})).toHaveCount(0);
+      6 |  const response=await request.get('/data/decision-scenario-v1.json');expect(response.ok()).toBe(true);const bytes=await response.body(),fixture=JSON.parse(bytes.toString()),manifest=JSON.parse(fs.readFileSync('docs/DATA_MANIFEST.json','utf8'));expect(crypto.createHash('sha256').update(bytes).digest('hex')).toBe(manifest['public/data/decision-scenario-v1.json']);expect(fixture.data_type).toBe('SIMULATED_DECISION_SCENARIO');expect(fixture.options.map(o=>Object.values(o.effort).reduce((a,b)=>a+b,0))).toEqual([12,6,8,6]);expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
+      7 | });
+        at /Users/dangnguyen/Desktop/AI PM Learning Kit/tests/browser/decision.spec.cjs:4:962
+
+    Error Context: test-results/decision-M6-brief-evidence-452ba-eyboard-and-source-download-mobile/error-context.md
+
+  1 failed
+    [mobile] › tests/browser/decision.spec.cjs:2:1 › M6 brief, evidence types, sensitivity, keyboard and source download 
+  45 passed (1.0m)

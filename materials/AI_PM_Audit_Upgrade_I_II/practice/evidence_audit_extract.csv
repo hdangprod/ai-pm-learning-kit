@@ -1,0 +1,201 @@
+﻿evidence_id,source_id,platform,english_confirmed,ai_status,quote_verified,account_cluster,missing_segment,missing_proficiency,missing_quote,missing_behavior,missing_trigger,missing_outcome,missing_workaround,missing_discontinuation,missing_payment
+E001,S01,Trustpilot,1,active user,0,unknown,1,1,1,0,1,0,1,1,1
+E002,S01,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,0
+E003,S01,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,0,0
+E004,S01,Trustpilot,1,unknown,0,unknown,1,1,1,0,1,0,1,1,1
+E005,S01,Trustpilot,1,unknown,0,unknown,1,1,1,0,1,1,1,1,0
+E006,S01,Trustpilot,1,unknown,0,unknown,1,1,1,0,1,1,1,0,0
+E007,S01,Trustpilot,1,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E008,S01,Trustpilot,1,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E009,S02,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E010,S02,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E011,S02,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E012,S02,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E013,S02,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E014,S02,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,0,1,1
+E015,S02,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E016,S02,Trustpilot,1,unknown,0,unknown,1,1,1,1,1,1,1,1,0
+E017,S03,Trustpilot,0,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E018,S03,Trustpilot,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E019,S03,Trustpilot,0,active user,0,unknown,0,1,1,1,1,1,1,1,1
+E020,S03,Trustpilot,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E021,S03,Trustpilot,0,active user,0,unknown,1,1,1,0,1,1,0,1,0
+E022,S03,Trustpilot,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E023,S03,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,0
+E024,S04,Trustpilot,1,active user,0,unknown,1,0,1,0,1,1,1,1,0
+E025,S04,Trustpilot,0,active user,0,unknown,1,1,1,1,1,1,1,1,0
+E026,S04,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E027,S04,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E028,S04,Trustpilot,0,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E029,S04,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E030,S05,Apple App Store,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E031,S05,Apple App Store,0,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E032,S05,Apple App Store,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E033,S06,Google Play,1,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E034,S06,Google Play,1,unknown,0,unknown,1,1,1,1,1,1,1,1,0
+E035,S07,VOZ,1,unknown,0,unknown,0,1,1,0,1,1,1,1,1
+E036,S07,VOZ,1,unknown,1,unknown,1,1,1,0,1,1,1,1,0
+E037,S08,VOZ,1,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E038,S09,VOZ,1,unknown,0,unknown,0,1,1,0,1,1,1,1,1
+E039,S09,VOZ,1,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E040,S09,VOZ,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E041,S10,VOZ,1,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E042,S10,VOZ,1,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E043,S11,VOZ,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E044,S12,Reddit,1,active user,0,unknown,0,1,1,1,1,1,1,1,1
+E045,S12,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E046,S12,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E047,S12,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E048,S13,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E049,S14,Reddit,1,active user,0,unknown,0,0,1,0,1,1,1,1,1
+E050,S15,Reddit,1,active user,0,unknown,0,0,1,0,1,1,1,1,1
+E051,S15,Reddit,1,unknown,0,unknown,1,0,1,1,1,1,1,1,1
+E052,S16,Reddit,1,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E053,S17,Reddit,1,unknown,0,unknown,1,0,1,1,1,1,1,1,1
+E054,S18,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,0
+E055,S19,Reddit,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E056,S20,Reddit,1,unknown,0,unknown,0,1,1,1,1,1,1,1,1
+E057,S20,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E058,S21,Reddit,1,active user,0,unknown,0,1,1,1,1,1,1,1,1
+E059,S22,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E060,S22,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E061,S22,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E062,S23,Reddit,1,active user,0,unknown,0,1,1,1,1,1,1,1,1
+E063,S23,Reddit,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E064,S24,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E065,S24,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E066,S24,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,1,0
+E067,S24,Trustpilot,1,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E068,S24,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E069,S24,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E070,S25,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E071,S25,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E072,S25,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E073,S25,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E074,S25,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E075,S25,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E076,S26,Trustpilot,1,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E077,S26,Trustpilot,1,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E078,S26,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,0,1,1
+E079,S26,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,0
+E080,S27,Trustpilot,0,unknown,0,unknown,1,0,1,0,1,1,1,0,1
+E081,S27,Trustpilot,0,unknown,0,unknown,0,1,1,1,1,1,1,0,1
+E082,S27,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E083,S27,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E084,S27,Trustpilot,0,active user,0,unknown,1,1,1,1,1,1,1,1,0
+E085,S27,Trustpilot,0,active user,0,unknown,1,1,1,1,1,1,1,0,1
+E086,S28,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E087,S28,Trustpilot,0,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E088,S28,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,0,1
+E089,S28,Trustpilot,0,unknown,0,unknown,1,1,1,0,1,1,1,0,0
+E090,S29,Trustpilot,1,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E091,S30,Reddit,1,active user,0,unknown,1,1,1,1,1,1,0,1,1
+E092,S31,Reddit,1,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E093,S32,Reddit,1,active user,0,unknown,1,1,1,1,1,1,1,0,1
+E094,S33,Reddit,1,active user,0,unknown,1,1,1,0,1,1,1,1,0
+E095,S34,Reddit,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E096,S35,Reddit,1,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E097,S35,Reddit,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E098,S36,Reddit,1,unknown,1,unknown,1,1,1,1,1,1,1,1,1
+E099,S37,Reddit,1,unknown,0,unknown,0,1,1,1,1,0,1,1,1
+E100,S37,Reddit,1,active user,0,unknown,1,1,1,0,1,0,1,1,1
+E101,S38,Reddit,1,unknown,0,unknown,0,0,1,1,1,1,1,1,1
+E102,S38,Reddit,1,unknown,0,unknown,1,1,1,0,1,1,1,1,1
+E103,S39,Reddit,0,former user,1,unknown,1,1,1,1,1,1,1,0,1
+E104,S39,Reddit,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E105,S39,Reddit,0,active user,0,unknown,0,1,1,0,1,1,1,0,1
+E106,S39,Reddit,0,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E107,S39,Reddit,0,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E108,S40,Reddit,0,unknown,0,unknown,1,1,1,1,1,1,1,0,1
+E109,S40,Reddit,1,unknown,0,unknown,1,1,1,1,1,1,1,1,1
+E110,S40,Reddit,1,unknown,0,unknown,1,1,1,0,1,1,1,0,0
+E111,S41,Reddit,0,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E112,S41,Reddit,0,active user,0,unknown,1,1,1,0,1,1,1,0,0
+E113,S42,Reddit,1,unknown,0,unknown,0,1,1,0,1,1,1,1,1
+E114,S43,Reddit,0,unknown,0,unknown,1,0,1,0,1,1,1,0,1
+E115,S44,Reddit,0,unknown,0,unknown,0,1,1,0,1,1,1,0,1
+E116,S45,Reddit,0,unknown,0,unknown,1,0,1,1,1,1,1,0,1
+E117,S46,Reddit,0,unknown,0,unknown,1,1,1,0,1,1,1,1,0
+E118,S47,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E119,S47,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E120,S47,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E121,S47,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E122,S47,Trustpilot,1,active user,0,unknown,0,1,1,0,1,1,1,1,1
+E123,S47,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E124,S47,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E125,S47,Trustpilot,1,active user,0,unknown,1,1,1,1,1,1,1,1,1
+E126,S48,VOZ,1,unknown,0,unknown,1,0,1,1,1,1,1,1,0
+E127,S48,VOZ,1,unknown,1,unknown,0,1,1,0,0,1,1,1,1
+E128,S49,VOZ,1,unknown,0,unknown,0,0,1,0,0,1,1,1,0
+E129,S50,VOZ,1,unknown,0,unknown,0,1,1,0,1,1,1,1,1
+E130,S50,VOZ,1,unknown,0,unknown,1,0,1,0,1,1,1,1,1
+E131,S51,VOZ,1,active user,1,unknown,1,1,1,0,1,1,1,1,1
+E132,S51,VOZ,1,active user,0,unknown,1,1,1,0,1,1,0,0,0
+E133,S51,VOZ,1,active user,1,VOZ1489290,1,1,1,0,0,0,1,1,1
+E134,S51,VOZ,1,active user,0,unknown,1,1,1,0,1,1,1,0,1
+E135,S51,VOZ,1,active user,0,unknown,1,1,1,0,1,0,1,1,0
+E136,S51,VOZ,1,active user,0,unknown,1,1,1,0,0,0,1,1,1
+E137,S52,Reddit,1,active user,1,unknown,0,0,1,0,0,0,0,0,0
+E138,S92,Personal blog,1,active user,0,unknown,0,1,1,0,0,0,0,0,1
+E139,S54,Reddit,1,active user,0,unknown,1,1,1,0,0,0,1,1,1
+E140,S55,VOZ,1,active user,0,unknown,1,1,1,0,1,1,1,1,0
+E141,S55,VOZ,1,active user,0,unknown,1,1,1,0,0,0,1,1,1
+E142,S56,VOZ,1,active user,0,unknown,0,1,1,0,0,0,0,0,0
+E143,S56,VOZ,1,active user,0,unknown,0,1,1,0,0,0,0,1,0
+E144,S57,VOZ,1,active user,0,unknown,1,1,1,0,1,1,0,1,1
+E145,S57,VOZ,1,active user,0,unknown,1,0,1,0,1,1,1,1,1
+E146,S58,VOZ,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E147,S59,Spiderum,1,active user,0,unknown,0,0,1,0,0,0,0,0,0
+E148,S60,note,1,former user,1,unknown,1,0,1,0,0,0,0,0,0
+E149,S61,note,1,active user,1,unknown,1,0,1,0,0,0,0,0,0
+E150,S62,Medium,1,former user,1,unknown,0,1,1,0,0,0,0,0,1
+E151,S63,note,1,active user,0,unknown,0,0,1,0,0,0,0,0,0
+E152,S64,Apple App Store,1,active user,0,unknown,1,1,1,0,0,0,1,0,0
+E153,S64,Apple App Store,1,active user,0,unknown,1,1,1,0,0,0,1,0,0
+E154,S65,Apple App Store,1,active user,0,unknown,1,1,1,0,0,0,1,1,0
+E155,S65,Apple App Store,1,active user,0,unknown,1,1,1,0,0,0,0,0,0
+E156,S66,Google Play,1,former user,0,unknown,1,1,1,0,0,0,1,0,0
+E157,S66,Google Play,1,active user,0,unknown,1,1,1,0,0,0,1,1,0
+E158,S94,Substack,1,active user,0,unknown,0,1,1,0,0,0,0,0,0
+E159,S67,Trustpilot,1,active user,0,unknown,1,1,1,0,1,1,1,1,1
+E160,S67,Trustpilot,1,active user,0,unknown,0,1,1,0,0,0,1,1,1
+E161,S67,Trustpilot,1,active user,0,unknown,1,1,1,0,0,0,1,1,0
+E162,S67,Trustpilot,1,active user,0,unknown,0,1,1,0,1,0,1,1,1
+E163,S68,Google Play,1,active user,0,unknown,1,1,1,0,0,0,1,0,0
+E164,S69,Apple App Store,1,active user,0,unknown,1,1,1,0,0,0,1,1,1
+E165,S70,Reddit,1,active user,0,unknown,1,0,1,0,0,0,0,1,1
+E166,S71,Reddit,1,active user,1,unknown,1,1,1,0,0,0,0,1,1
+E167,S71,Reddit,1,active user,0,unknown,1,1,1,0,0,1,0,0,1
+E168,S71,Reddit,1,active user,0,unknown,1,1,1,0,0,0,0,1,1
+E169,S72,note,1,active user,0,unknown,0,0,1,0,0,0,0,1,0
+E170,S73,Reddit,1,active user,0,unknown,1,1,1,0,0,0,0,1,0
+E171,S74,Reddit,1,active user,0,unknown,1,0,1,0,0,1,0,1,0
+E172,S75,note,1,active user,1,unknown,1,0,1,0,0,0,0,1,0
+E173,S76,note,1,active user,0,unknown,1,0,1,0,0,0,0,1,0
+E174,S77,note,1,active user,0,unknown,0,1,1,0,0,0,0,0,0
+E175,S78,Reddit,1,active user,0,unknown,1,0,1,0,1,0,1,1,0
+E176,S78,Reddit,1,active user,0,unknown,1,1,1,0,0,0,0,1,1
+E177,S78,Reddit,1,active user,0,unknown,1,1,1,0,1,0,1,1,1
+E178,S79,Reddit,1,active user,0,unknown,1,0,1,0,0,0,0,0,1
+E179,S80,Reddit,1,active user,0,unknown,1,1,1,0,0,1,0,1,1
+E180,S81,Reddit,1,active user,0,unknown,0,1,1,0,1,0,1,0,0
+E181,S82,Reddit,1,active user,0,unknown,0,1,1,0,0,0,1,0,0
+E182,S83,Reddit,1,active user,0,unknown,1,1,1,0,0,0,0,1,0
+E183,S84,note,1,active user,0,unknown,0,1,1,0,1,0,1,1,0
+E184,S85,note,1,active user,0,unknown,1,1,1,0,0,0,0,0,0
+E185,S86,Personal blog,1,former user,1,unknown,0,1,1,0,0,0,0,0,0
+E186,S87,note,1,active user,0,unknown,0,0,1,0,0,0,0,1,0
+E187,S88,Apple App Store,1,active user,0,unknown,1,1,1,0,0,0,1,1,0
+E188,S89,Reddit,1,active user,0,unknown,1,1,1,0,0,0,0,1,0
+E189,S90,Reddit,1,active user,0,unknown,1,1,1,0,0,0,0,1,1
+E190,S93,note,1,active user,0,unknown,0,1,1,0,0,0,0,0,0
+E191,S95,VOZ,1,active user,1,unknown,1,1,0,0,0,1,0,1,0
+E192,S96,Medium,1,active user,1,unknown,0,0,0,0,0,0,0,0,0
+E193,S97,Personal blog,1,active user,1,unknown,0,1,0,0,0,0,0,0,1
+E194,S98,Personal blog,1,active user,1,unknown,0,1,0,0,0,0,0,0,0
+E195,S99,note,1,active user,1,unknown,0,0,0,0,0,0,0,0,0
+E196,S100,note,1,active user,1,unknown,0,1,0,0,0,0,0,0,0
+E197,S101,note,1,active user,1,unknown,0,0,0,0,0,0,0,0,0
+E198,S102,Reddit,1,former user,1,unknown,1,1,0,0,0,0,1,0,0
+E199,S102,Reddit,1,active user,1,unknown,0,1,0,0,1,0,0,0,0
+E200,S103,VOZ,1,active user,1,VOZ1489290,1,1,0,0,1,1,1,0,1

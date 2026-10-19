@@ -1,0 +1,5 @@
+﻿data_type,week,segment,eligible,sessions,assessed,passed
+SIMULATED,cohort_week_1,experienced,80,240,64,48
+SIMULATED,cohort_week_1,novice,20,80,10,4
+SIMULATED,cohort_week_2,experienced,40,160,32,24
+SIMULATED,cohort_week_2,novice,60,300,15,6

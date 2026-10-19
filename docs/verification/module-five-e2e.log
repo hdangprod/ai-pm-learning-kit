@@ -1,0 +1,45 @@
+
+> ai-pm-learning-lab@1.0.0 test:e2e
+> playwright test
+
+[WebServer] (node:53731) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+[WebServer] (node:53751) Warning: The 'NO_COLOR' env is ignored due to the 'FORCE_COLOR' env being set.
+[WebServer] (Use `node --trace-warnings ...` to show where the warning was created)
+
+Running 32 tests using 6 workers
+
+  ✓   5 [desktop] › tests/browser/consistency.spec.cjs:9:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (4.0s)
+  ✓   4 [desktop] › tests/browser/segmentation.spec.cjs:10:1 › M4 observed rates, source separation and keyboard reweighting (5.0s)
+  ✓   2 [desktop] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (5.8s)
+  ✓   6 [desktop] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (7.7s)
+  ✓   3 [desktop] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (7.6s)
+  ✓   1 [desktop] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (7.7s)
+  ✓   9 [desktop] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (3.8s)
+  ✓   7 [desktop] › tests/browser/consistency.spec.cjs:14:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (5.6s)
+  ✓  12 [desktop] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (2.8s)
+  ✓  13 [desktop] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.5s)
+  ✓   8 [desktop] › tests/browser/segmentation.spec.cjs:26:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (6.5s)
+  ✓  10 [desktop] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (5.0s)
+  ✓  14 [desktop] › tests/browser/segmentation.spec.cjs:40:1 › M4 unavailable storage reports unsaved work and keeps session reflection (1.8s)
+  ✓  11 [desktop] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (5.8s)
+  ✓  15 [desktop] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (1.5s)
+  ✓  16 [desktop] › tests/browser/causal.spec.cjs:31:1 › M5 unavailable storage warns and preserves session notes (1.3s)
+  ✓  18 [mobile] › tests/browser/consistency.spec.cjs:9:1 › M1–M5 provenance, versioned downloads, live display and fixture separation audit (2.9s)
+  ✓  19 [mobile] › tests/browser/retention.spec.cjs:9:1 › M3 timeline, filters, observed zero, immature null and audit keyboard access (5.9s)
+  ✓  23 [mobile] › tests/browser/consistency.spec.cjs:14:1 › M1–M5 legacy history, export definitions and per-activity reset isolation audit (6.0s)
+  ✓  17 [mobile] › tests/browser/funnel.spec.cjs:3:1 › M2 ordered funnel, filters, learning loop and persisted reset (10.3s)
+  ✓  20 [mobile] › tests/browser/segmentation.spec.cjs:10:1 › M4 observed rates, source separation and keyboard reweighting (6.8s)
+  ✓  25 [mobile] › tests/browser/funnel.spec.cjs:22:1 › M2 event audit and downloadable fixture preserve provenance (2.6s)
+  ✓  22 [mobile] › tests/browser/learning.spec.cjs:2:1 › denominator learning loop, persistence and responsive layout (8.8s)
+  ✓  24 [mobile] › tests/browser/retention.spec.cjs:22:1 › M3 reflection gate, misconception feedback, transfer, legacy persistence, export and reset (6.2s)
+  ✓  27 [mobile] › tests/browser/learning.spec.cjs:20:1 › source downloads, keyboard chart, solution history and reset (2.1s)
+  ✓  28 [mobile] › tests/browser/retention.spec.cjs:40:1 › M3 storage failure keeps session work and reports unsaved state (1.8s)
+  ✓  29 [mobile] › tests/browser/learning.spec.cjs:33:1 › unavailable browser storage warns and preserves session work (1.3s)
+  ✓  21 [mobile] › tests/browser/causal.spec.cjs:10:1 › M5 observed arithmetic, explanatory controls, study design and keyboard access (13.0s)
+  ✓  26 [mobile] › tests/browser/segmentation.spec.cjs:26:1 › M4 all reasoning gates, fixed scope, legacy history, export and reset (8.2s)
+  ✓  31 [mobile] › tests/browser/segmentation.spec.cjs:40:1 › M4 unavailable storage reports unsaved work and keeps session reflection (1.0s)
+  ✓  30 [mobile] › tests/browser/causal.spec.cjs:22:1 › M5 fixed-scope practice, solution gate, transfer, saved snapshots and scoped reset (3.8s)
+  ✓  32 [mobile] › tests/browser/causal.spec.cjs:31:1 › M5 unavailable storage warns and preserves session notes (1.2s)
+
+  32 passed (44.9s)

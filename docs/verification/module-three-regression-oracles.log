@@ -1,0 +1,32 @@
+PASS M1: original CSV counts, bounds inputs and independent arithmetic
+PASS M2: 12 users / 28 rows / 27 IDs; mature8→6→4, novice4→4→4, experienced4→2→0, immature0→0→0; step66.6667%, overall50%.
+{
+  "cohort_week_1": {
+    "eligible": 100,
+    "sessions": 320,
+    "assessed": 74,
+    "passed": 52,
+    "sessions_per_eligible": 3.2,
+    "coverage": 0.74,
+    "observed_pass": 0.7027027027027027,
+    "lower_bound": 0.52,
+    "upper_bound": 0.78
+  },
+  "cohort_week_2": {
+    "eligible": 100,
+    "sessions": 460,
+    "assessed": 47,
+    "passed": 30,
+    "sessions_per_eligible": 4.6,
+    "coverage": 0.47,
+    "observed_pass": 0.6382978723404256,
+    "lower_bound": 0.3,
+    "upper_bound": 0.83
+  },
+  "payback_vnd": {
+    "5": 491412.0,
+    "6": 562270.8,
+    "7": 626043.7200000001
+  },
+  "limitation": "Synthetic arithmetic checks, not causal or market validation"
+}

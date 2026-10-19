@@ -1,0 +1,5 @@
+PASS unchanged package.json 86c69842a148a6053a24f1776d63308889fc5b4f72d21a5d61570c5b5246d5e5
+PASS unchanged package-lock.json 0677cf4316a4770e4b4c7e31d67aae41f29f0742b298a41852a6eda9bf7a36a1
+PASS all 10 data-manifest hashes; all42 mapped dates retained.
+UNVERIFIED external curriculum ZIP: not supplied; use --original-materials or --curriculum-zip
+UNVERIFIED external study plan: not supplied; use --original-materials or --study-plan

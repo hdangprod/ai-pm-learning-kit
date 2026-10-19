@@ -1,0 +1,33 @@
+{
+  "dataset_id": "strict-simpson-v1",
+  "version": 1,
+  "data_type": "SYNTHETIC_AUTHORED",
+  "grain": "product x pre-use segment",
+  "provenance": "Authored teaching fixture from the locked Module 4 specification; not research or randomized treatment evidence.",
+  "rows": [
+    {
+      "product": "A",
+      "segment": "novice",
+      "passed": 2,
+      "assessed": 10
+    },
+    {
+      "product": "A",
+      "segment": "experienced",
+      "passed": 72,
+      "assessed": 90
+    },
+    {
+      "product": "B",
+      "segment": "novice",
+      "passed": 27,
+      "assessed": 90
+    },
+    {
+      "product": "B",
+      "segment": "experienced",
+      "passed": 9,
+      "assessed": 10
+    }
+  ]
+}

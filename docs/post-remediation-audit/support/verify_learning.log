@@ -1,0 +1,30 @@
+{
+  "cohort_week_1": {
+    "eligible": 100,
+    "sessions": 320,
+    "assessed": 74,
+    "passed": 52,
+    "sessions_per_eligible": 3.2,
+    "coverage": 0.74,
+    "observed_pass": 0.7027027027027027,
+    "lower_bound": 0.52,
+    "upper_bound": 0.78
+  },
+  "cohort_week_2": {
+    "eligible": 100,
+    "sessions": 460,
+    "assessed": 47,
+    "passed": 30,
+    "sessions_per_eligible": 4.6,
+    "coverage": 0.47,
+    "observed_pass": 0.6382978723404256,
+    "lower_bound": 0.3,
+    "upper_bound": 0.83
+  },
+  "payback_vnd": {
+    "5": 491412.0,
+    "6": 562270.8,
+    "7": 626043.72
+  },
+  "limitation": "Synthetic arithmetic checks, not causal or market validation"
+}

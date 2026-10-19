@@ -1,0 +1,6 @@
+{"path": "/", "status": 200, "pass": true}
+{"path": "/docs/educational-audit/UNSEEN_TRANSFER_ANSWER_KEYS.md", "status": 403, "pass": true}
+{"path": "/docs/AI_PM_EDUCATIONAL_AUDIT_20261019.zip", "status": 403, "pass": true}
+{"path": "/assessment/reviewer-only/form-A-keys.md", "status": 403, "pass": true}
+{"path": "/materials/educational-audit-20261019/UNSEEN_TRANSFER_ANSWER_KEYS.md", "status": 403, "pass": true}
+{"path": "/@fs/Users/dangnguyen/Desktop/AI%20PM%20Learning%20Kit/docs/educational-audit/UNSEEN_TRANSFER_ANSWER_KEYS.md", "status": 403, "pass": true}

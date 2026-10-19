@@ -1,0 +1,1 @@
+PASS M6 scenario: capacities12/8/4h; listed totals12/6/8/6h, reduced4/3/4/2h; capacity2h excludes listed A but permits reduced A and all reduced plans; coverage4/8=50%,4 unknown; 3 variants, 6 evidence origins, separate incumbent-success transfer; rubric5×0–2=0–10 (243 combinations); source/download hashes match.

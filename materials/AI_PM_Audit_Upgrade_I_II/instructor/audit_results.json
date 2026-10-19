@@ -1,0 +1,72 @@
+{
+  "label": "Observed workbook metadata, not population prevalence",
+  "unit": "retained account-thread/review evidence record",
+  "rows": 200,
+  "unique_evidence_ids": 200,
+  "english_confirmed": 149,
+  "english_ai_status": {
+    "active user": 107,
+    "unknown": 37,
+    "former user": 5
+  },
+  "english_active_ai": 107,
+  "retained_source_ids": 101,
+  "platform_counts": {
+    "Trustpilot": 68,
+    "Apple App Store": 9,
+    "Google Play": 5,
+    "VOZ": 29,
+    "Reddit": 67,
+    "Personal blog": 4,
+    "Spiderum": 1,
+    "note": 14,
+    "Medium": 2,
+    "Substack": 1
+  },
+  "reddit_trustpilot": 135,
+  "missing_raw_among_english_active_ai": {
+    "segment": {
+      "numerator": 68,
+      "denominator": 107
+    },
+    "proficiency": {
+      "numerator": 88,
+      "denominator": 107
+    },
+    "quote": {
+      "numerator": 98,
+      "denominator": 107
+    },
+    "behavior": {
+      "numerator": 15,
+      "denominator": 107
+    },
+    "trigger": {
+      "numerator": 58,
+      "denominator": 107
+    },
+    "outcome": {
+      "numerator": 53,
+      "denominator": 107
+    },
+    "workaround": {
+      "numerator": 67,
+      "denominator": 107
+    },
+    "discontinuation": {
+      "numerator": 77,
+      "denominator": 107
+    },
+    "payment": {
+      "numerator": 62,
+      "denominator": 107
+    }
+  },
+  "quote_verified_all_records": 23,
+  "known_account_cluster": [
+    "E133",
+    "E200"
+  ],
+  "identity_resolution": "Incomplete; no verified unique-person total",
+  "source_verification": "Not re-performed by this script"
+}

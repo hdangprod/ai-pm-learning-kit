@@ -1,0 +1,38 @@
+const {settleEvidence}=require('./persistence.helpers.cjs');
+const {test,expect}=require('@playwright/test');
+const fs=require('node:fs');
+const legacy=JSON.parse(fs.readFileSync('docs/verification/remediation-baseline/progress-v1.json','utf8'));
+test('remediation: frozen ordering, retry evidence, saved semantic IDs and independent-review status',async({page},info)=>{
+ const errors=[];page.on('pageerror',e=>errors.push(e.message));await page.goto('/');
+ const exercise=page.getByRole('region',{name:'Practice exercise'});
+ const order=await exercise.getByRole('radio').evaluateAll(nodes=>nodes.map(n=>n.value));
+ await page.getByLabel('Primary calculation',{exact:true}).fill('52');await page.getByLabel('This is the share who passed among assessed learners; missing outcomes remain unknown.',{exact:true}).check();await settleEvidence(page);await page.reload();expect(await exercise.getByRole('radio').evaluateAll(nodes=>nodes.map(n=>n.value))).toEqual(order);
+ await page.getByRole('button',{name:'Check my reasoning',exact:true}).click();const first=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules[1].attempts[0]);
+ await expect(page.getByRole('button',{name:'Check my reasoning',exact:true})).toBeDisabled();await page.getByRole('button',{name:'Reveal solution after an attempt'}).click();await page.getByRole('button',{name:'Hide solution',exact:true}).click();await page.getByLabel('Primary calculation',{exact:true}).fill('70.27');await expect(page.getByRole('button',{name:'Check my reasoning',exact:true})).toBeDisabled();
+ await page.getByLabel('Primary reasoning change',{exact:true}).fill('I used eligible rather than assessed users; the requested denominator is74.');const nextOrder=await exercise.getByRole('radio').evaluateAll(nodes=>nodes.map(n=>n.value));expect(nextOrder).not.toEqual(order);await settleEvidence(page);await page.reload();expect(await exercise.getByRole('radio').evaluateAll(nodes=>nodes.map(n=>n.value))).toEqual(nextOrder);await page.getByRole('button',{name:'Check my reasoning',exact:true}).click();await expect(exercise.getByRole('status')).toContainText('Practice check passed');
+ const work=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules[1]);expect(work.attempts[0]).toEqual(first);expect(work.attempts[1].assistance.kind).toBe('after_solution');expect(work.attempts[1].responseIds[0]).toBe('m1.primary.assessed-scope');
+ await page.getByText('Practice evidence · first responses and assistance',{exact:true}).click();await expect(page.getByText(/Initial unaided attempt/)).toBeVisible();await expect(page.getByText(/After instructor-solution reveal/)).toBeVisible();await page.getByRole('button',{name:'Try a different question'}).click();await expect(page.getByText(/Same-case transfer practice · this uses/)).toBeVisible();
+ await exercise.screenshot({path:`docs/verification/remediation/${info.project.name}-assistance.png`});await page.getByRole('button',{name:/Decision simulation/}).click();await expect(page.getByRole('heading',{name:'Pending independent review'})).toBeVisible();await page.getByRole('region',{name:'Independent memo review'}).screenshot({path:`docs/verification/remediation/${info.project.name}-review.png`});
+ await page.evaluate(()=>window.scrollTo(0,0));await page.screenshot({path:`docs/verification/remediation/${info.project.name}-viewport.png`});expect(await page.evaluate(()=>document.documentElement.scrollWidth<=innerWidth)).toBe(true);expect(errors).toEqual([]);
+});
+test('remediation: v1 records, contradictory memo packet, immutable export and reset scope',async({page},info)=>{
+ await page.addInitScript(data=>localStorage.setItem('ai-pm-lab:v1',JSON.stringify(data)),legacy);await page.goto('/');await page.getByRole('button',{name:/Decision simulation/}).click();await expect(page.getByRole('heading',{name:'Pending independent review'})).toBeVisible();
+ const event=page.waitForEvent('download');await page.getByRole('button',{name:'Export independent memo review packet'}).click();const download=await event;const packet=fs.readFileSync(await download.path(),'utf8');expect(packet).toContain('Pending independent review');expect(packet).toContain(legacy.modules[6].decisionRoom.initial.draft.memo.decision);expect(packet).toContain('Critical errors');expect(packet).toContain('10/10');
+ const exportEvent=page.waitForEvent('download');await page.getByRole('button',{name:'Export my work'}).click();const output=JSON.parse(fs.readFileSync(await(await exportEvent).path(),'utf8'));for(let i=2;i<=6;i++)expect(output.modules[i]).toEqual(legacy.modules[i]);expect(output.evidence[0].label).toContain('timing unknown');
+ await page.getByRole('region',{name:'Decision attempt history'}).screenshot({path:`docs/verification/remediation/${info.project.name}-legacy-history.png`});
+ await page.getByRole('button',{name:'Reset this activity',exact:true}).click();await page.getByRole('button',{name:'Reset this activity only',exact:true}).click();await settleEvidence(page);const reset=await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules);expect(reset[6]).toBeUndefined();for(let i=2;i<=5;i++)expect(reset[i]).toEqual(legacy.modules[i]);
+ await page.evaluate(()=>localStorage.setItem('unrelated','keep'));await page.getByRole('button',{name:'Reset progress',exact:true}).click();await page.getByRole('button',{name:'Yes, reset',exact:true}).click();expect(await page.evaluate(()=>localStorage.getItem('unrelated'))).toBe('keep');expect(await page.evaluate(()=>JSON.parse(localStorage.getItem('ai-pm-lab:v1'))?.modules[6])).toBeUndefined();
+});
+test('remediation: public deployment exposes no independent forms or answer keys',async({request})=>{
+ for(const path of ['/materials/educational-audit-20261019/UNSEEN_TRANSFER_ANSWER_KEYS.md','/assessment/reviewer-only/form-A-keys.md','/scripts/assessment_session.py']){const res=await request.get(path);const body=await res.text();expect(body).not.toContain('M1A');expect(body).not.toContain('account positive');expect(body).not.toContain('def forms(');}
+ const html=await(await request.get('/')).text();expect(html).not.toContain('UNSEEN_TRANSFER');
+});
+test('remediation: first-position policy no longer completes the five practice modules; native keyboard selection survives reload',async({page})=>{
+ await page.goto('/');const numbers=['70.27','66.67','50','36','43.75'];const names=[/Data literacy/,/Funnel analysis/,/Cohorts & retention/,/Segmentation/,/Correlation & causation/];let passed=0;
+ for(let i=0;i<5;i++){
+  await page.getByRole('button',{name:names[i]}).click();const exercise=page.getByRole('region',{name:'Practice exercise'});await page.getByLabel('Primary calculation',{exact:true}).fill(numbers[i]);const reflection=exercise.locator('.reflection textarea');if(await reflection.count())await reflection.fill('AUTHORED positional-policy probe, not learner judgment.');
+  for(const group of await exercise.locator('form fieldset').all())await group.getByRole('radio').first().check();await page.getByRole('button',{name:'Check my reasoning',exact:true}).click();const work=await page.evaluate(id=>JSON.parse(localStorage.getItem('ai-pm-lab:v1')).modules[id],i+1);passed+=Number(work.primaryPassed);
+ }
+ expect(passed).toBeLessThan(5);
+ await page.getByRole('button',{name:/Data literacy/}).click();const first=page.getByRole('region',{name:'Practice exercise'}).getByRole('radio').first();await first.focus();await page.keyboard.press('ArrowDown');const selected=await page.locator('input[type=radio]:checked').first().inputValue();await settleEvidence(page);await page.reload();await expect(page.locator(`input[type=radio][value="${selected}"]`)).toBeChecked();
+});

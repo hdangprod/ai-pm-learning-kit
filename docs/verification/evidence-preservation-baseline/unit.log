@@ -1,0 +1,46 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/funnel.test.ts (17 tests) 29ms
+ ✓ tests/segmentation.test.ts (27 tests) 39ms
+ ✓ tests/retention.test.ts (25 tests) 43ms
+ ✓ tests/causal.test.ts (39 tests) 44ms
+ ✓ tests/decision.test.ts (67 tests) 107ms
+ ✓ tests/consistency.test.ts (9 tests) 52ms
+ ✓ tests/storage.test.ts (3 tests) 12ms
+ ✓ tests/metrics.test.ts (4 tests) 14ms
+ ✓ tests/decision-consistency.test.ts (9 tests) 55ms
+ ✓ tests/remediation.test.tsx (16 tests) 3420ms
+   ✓ draft ordering and selected semantic IDs survive reload; assisted retry requires a new reflection and never overwrites first evidence 1983ms
+   ✓ all-module legacy reset remains scoped and pending review is visible without completing Module6 1039ms
+   ✓ ordinary feedback retry remains distinguishable from solution-assisted retry 317ms
+ ✓ tests/app.test.tsx (2 tests) 1633ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 1316ms
+   ✓ reset clears exercise feedback, answers and revealed solution without deleting unrelated storage 315ms
+ ✓ tests/retention-app.test.tsx (2 tests) 5662ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 5388ms
+ ✓ tests/funnel-app.test.tsx (1 test) 2955ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 2953ms
+ ✓ tests/segmentation-app.test.tsx (2 tests) 6537ms
+   ✓ M4 filters and reweights the explorer without altering locked assessments 2359ms
+   ✓ M4 requires all reasoning, gates solutions, persists legacy histories and resets 4175ms
+ ✓ tests/causal-app.test.tsx (3 tests) 8031ms
+   ✓ M5 filters observed counts, rates, missingness and reference without moving the fixed exercise 2359ms
+   ✓ M5 explanation, map, design and checklist controls have real state changes 3160ms
+   ✓ M5 gates full reasoning and instructor reveal; snapshots attempts, retries and transfer persist 2509ms
+ ✓ tests/decision-app.test.tsx (5 tests) 79601ms
+   ✓ M6 evidence classifications, source labels and what-if matrix are interactive and saved 4306ms
+   ✓ M6 preserves partial reasoning chosen out of order after reload without corrupting old work 786ms
+   ✓ M6 requires memo/reasoning, reveals explicitly, retries capacity while keeping A, transfers and persists 65641ms
+   ✓ M6 reveals rights and rejects its critical misconception before a justified revision 4375ms
+   ✓ M6 reveals coverage and rejects its critical misconception before a justified revision 4488ms
+
+ Test Files  16 passed (16)
+      Tests  231 passed (231)
+   Start at  00:08:18
+   Duration  84.64s (transform 2.77s, setup 8.28s, collect 9.01s, tests 108.23s, environment 34.76s, prepare 4.16s)
+

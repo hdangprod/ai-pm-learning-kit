@@ -1,0 +1,38 @@
+[
+  {
+    "data_type": "SIMULATED",
+    "week": "cohort_week_1",
+    "segment": "experienced",
+    "eligible": 80,
+    "sessions": 240,
+    "assessed": 64,
+    "passed": 48
+  },
+  {
+    "data_type": "SIMULATED",
+    "week": "cohort_week_1",
+    "segment": "novice",
+    "eligible": 20,
+    "sessions": 80,
+    "assessed": 10,
+    "passed": 4
+  },
+  {
+    "data_type": "SIMULATED",
+    "week": "cohort_week_2",
+    "segment": "experienced",
+    "eligible": 40,
+    "sessions": 160,
+    "assessed": 32,
+    "passed": 24
+  },
+  {
+    "data_type": "SIMULATED",
+    "week": "cohort_week_2",
+    "segment": "novice",
+    "eligible": 60,
+    "sessions": 300,
+    "assessed": 15,
+    "passed": 6
+  }
+]

@@ -1,0 +1,23 @@
+
+> ai-pm-learning-lab@1.0.0 test
+> vitest run
+
+
+ RUN  v2.1.9 /Users/dangnguyen/Desktop/AI PM Learning Kit
+
+ ✓ tests/storage.test.ts (3 tests) 9ms
+ ✓ tests/metrics.test.ts (4 tests) 13ms
+ ✓ tests/funnel.test.ts (17 tests) 30ms
+ ✓ tests/retention.test.ts (25 tests) 44ms
+ ✓ tests/app.test.tsx (2 tests) 989ms
+   ✓ M1 filters, grades, reveals, transfers and persists work 765ms
+ ✓ tests/funnel-app.test.tsx (1 test) 1870ms
+   ✓ M2 filters, retries reasoning, reveals, transfers, persists separately and resets 1868ms
+ ✓ tests/retention-app.test.tsx (2 tests) 2459ms
+   ✓ M3 requires interpretation and investigation before solution, keeps fixed scope and persists legacy work 2314ms
+
+ Test Files  7 passed (7)
+      Tests  54 passed (54)
+   Start at  16:34:45
+   Duration  5.46s (transform 798ms, setup 2.49s, collect 2.33s, tests 5.41s, environment 9.52s, prepare 1.08s)
+
